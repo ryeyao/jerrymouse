@@ -1,0 +1,67 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<wshare xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance"
+	xsd:noNamespaceSchemaLocation="F:\wshareData.xsd">
+	<device seq="1">
+		<check>abcd</check>
+		<key>257</key>
+		<LocalID>cam_9</LocalID>
+		<localaddr>192.168.119.220</localaddr>
+		<localport>7000</localport>
+		<streamurl>rtmp://192.168.119.193/live/stream119220</streamurl>
+		<gateway>192.168.119.254</gateway>
+		<description>camera</description>
+		<location id="1">
+			<name>Beijing</name>
+			<x>116.40741300000002</x>
+			<y>39.904214</y>
+			<h>1</h>
+		</location>
+		
+		<devicetype name="视频">
+			<type>视频</type>
+			<description>视频类设备</description>
+			<icon>gif/deviceicon/sxt.gif</icon>
+			<property name="manufacture">IIECAS</property>
+		</devicetype>
+
+		<datatype name="视频流地址">
+			<description>视频流的RTMP地址</description>
+			<icon>gif/deviceicon/sp.gif</icon>
+			<valuetype>rtmp</valuetype>
+			<max_value>0</max_value>
+			<min_value>0</min_value>
+			<unit>byte</unit>
+			<stream>视频流1</stream>
+			<command name="reboot" dataid="1">
+				<description>reboot</description>
+			</command>
+			<command name="startVideo" dataid="1">
+				<description>start remote video</description>
+			</command>
+			<command name="stopVideo" dataid="1">
+				<description>stop remote video</description>
+			</command>
+			<command name="left" dataid="1">
+				<description>tilt left</description>
+			</command>
+			<command name="right" dataid="1">
+				<description>tilt right</description>
+			</command>
+			<command name="up" dataid="1">
+				<description>tilt up</description>
+			</command>
+			<command name="down" dataid="1">
+				<description>tilt down</description>
+			</command>
+			<command name="stop" dataid="1">
+				<description>stop tilt</description>
+			</command>
+			<command name="zoomin" dataid="1">
+				<description>zoom in</description>
+			</command>
+			<command name="zoomout" dataid="1">
+				<description>zoom out</description>
+			</command>
+		</datatype>
+	</device>
+</wshare>

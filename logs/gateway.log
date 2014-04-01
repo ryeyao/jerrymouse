@@ -1,0 +1,203 @@
+2014-03-28 09:10:42,540 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 09:10:42,545 ERROR w.g.Gateway [main] property [client.commandhandler] must be specified correctly.
+2014-03-28 09:10:42,545 ERROR w.g.Gateway [main] Initialization failed.
+2014-03-28 14:22:51,950 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 14:22:51,953 ERROR w.g.Gateway [main] Initialization failed.
+2014-03-28 15:56:08,357 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 15:56:08,362 INFO w.g.Gateway [main] Initializing resources...
+2014-03-28 15:56:08,363 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-28 15:56:08,367 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:56:10,434 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8]
+ ip: 192.168.111.241, port: 7000
+2014-03-28 15:56:31,325 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 15:56:31,330 INFO w.g.Gateway [main] Initializing resources...
+2014-03-28 15:56:31,330 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-28 15:56:31,335 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:56:33,305 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8]
+ ip: 192.168.111.241, port: 7000
+2014-03-28 15:57:15,528 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 15:57:15,533 INFO w.g.Gateway [main] Initializing resources...
+2014-03-28 15:57:15,533 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-28 15:57:15,540 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:57:17,504 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8]
+ ip: 192.168.111.241, port: 7000
+2014-03-28 15:58:11,799 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 15:58:11,808 INFO w.g.Gateway [main] Initializing resources...
+2014-03-28 15:58:11,808 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-28 15:58:11,817 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:58:13,733 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8]
+ ip: 192.168.111.241, port: 7000
+2014-03-28 15:58:54,237 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 15:58:54,247 INFO w.g.Gateway [main] Initializing resources...
+2014-03-28 15:58:54,247 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-28 15:58:54,258 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:59:04,108 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 15:59:04,113 INFO w.g.Gateway [main] Initializing resources...
+2014-03-28 15:59:04,113 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-28 15:59:04,120 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:59:06,090 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8]
+ ip: 192.168.111.241, port: 7000
+2014-03-28 15:59:31,197 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 15:59:31,210 INFO w.g.Gateway [main] Initializing resources...
+2014-03-28 15:59:31,210 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-28 15:59:31,220 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:59:33,346 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8]
+ ip: 192.168.111.241, port: 7000
+2014-03-28 15:59:50,181 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 16:00:06,058 INFO w.g.Gateway [main] Initializing resources...
+2014-03-28 16:00:07,609 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-28 16:00:24,453 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 16:00:51,627 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8]
+ ip: 192.168.111.241, port: 7000
+2014-03-28 16:04:51,696 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 16:04:51,700 INFO w.g.Gateway [main] Initializing resources...
+2014-03-28 16:04:51,701 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-28 16:04:51,701 INFO w.g.Gateway [main] IDMap not found, register all resources and creating a new map file...
+2014-03-28 16:04:51,734 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 16:05:12,527 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 16:05:12,533 INFO w.g.Gateway [main] Initializing resources...
+2014-03-28 16:05:12,533 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-28 16:05:12,533 INFO w.g.Gateway [main] IDMap not found, register all resources and creating a new map file...
+2014-03-28 16:05:12,550 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 16:05:15,282 INFO w.g.u.ConfigurationFile [main] Updating configuration in file idmap.ini
+2014-03-28 16:05:15,297 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 16:05:15,974 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8]
+ ip: 192.168.111.241, port: 7000
+2014-03-28 16:05:21,083 INFO w.g.Gateway [main] Loading preprocessor...
+2014-03-28 16:05:21,084 INFO w.g.Gateway [main] Started.
+2014-03-28 16:07:53,310 INFO w.g.CameraDataHandler [pool-5-thread-3] Camera [/192.168.111.241:7000][cam_8]: Command [up]
+2014-03-28 16:12:37,098 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 16:12:37,103 INFO w.g.Gateway [main] Initializing resources...
+2014-03-28 16:12:37,103 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-28 16:12:37,109 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 16:12:38,947 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8]
+ ip: 192.168.111.241, port: 7000
+2014-03-28 16:12:46,401 INFO w.g.Gateway [main] Loading preprocessor...
+2014-03-28 16:12:46,402 INFO w.g.Gateway [main] Started.
+2014-03-28 16:13:00,258 INFO w.g.CameraDataHandler [pool-5-thread-2] Camera [/192.168.111.241:7000][cam_8]: Command [down]
+2014-03-28 16:13:18,288 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 16:13:18,295 INFO w.g.Gateway [main] Initializing resources...
+2014-03-28 16:13:18,296 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-28 16:13:18,302 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 16:13:20,424 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8]
+ ip: 192.168.111.241, port: 7000
+2014-03-28 16:13:27,833 INFO w.g.Gateway [main] Loading preprocessor...
+2014-03-28 16:13:27,834 INFO w.g.Gateway [main] Started.
+2014-03-28 16:13:35,712 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 16:13:35,717 INFO w.g.Gateway [main] Initializing resources...
+2014-03-28 16:13:35,718 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-28 16:13:35,722 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 16:13:37,415 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8]
+ ip: 192.168.111.241, port: 7000
+2014-03-28 16:13:44,302 INFO w.g.Gateway [main] Loading preprocessor...
+2014-03-28 16:13:44,303 INFO w.g.Gateway [main] Started.
+2014-03-28 16:13:45,578 INFO w.g.CameraDataHandler [pool-5-thread-2] Camera [/192.168.111.241:7000][cam_8]: Command [left]
+2014-03-28 16:13:51,016 INFO w.g.CameraDataHandler [pool-5-thread-2] Camera [/192.168.111.241:7000][cam_8]: Command [down]
+2014-03-28 16:13:51,975 INFO w.g.CameraDataHandler [pool-5-thread-2] Camera [/192.168.111.241:7000][cam_8]: Command [right]
+2014-03-28 16:13:52,922 INFO w.g.CameraDataHandler [pool-5-thread-2] Camera [/192.168.111.241:7000][cam_8]: Command [zoomin]
+2014-03-28 16:13:54,109 INFO w.g.CameraDataHandler [pool-5-thread-2] Camera [/192.168.111.241:7000][cam_8]: Command [zoomout]
+2014-03-28 16:14:14,099 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 16:14:14,105 INFO w.g.Gateway [main] Initializing resources...
+2014-03-28 16:14:14,105 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-28 16:14:14,111 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 16:14:15,711 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8]
+ ip: 192.168.111.241, port: 7000
+2014-03-28 16:14:22,505 INFO w.g.Gateway [main] Loading preprocessor...
+2014-03-28 16:14:22,506 INFO w.g.Gateway [main] Started.
+2014-03-28 16:15:40,134 INFO w.g.CameraDataHandler [pool-5-thread-4] Camera [/192.168.111.241:7000][cam_8]: Command [left]
+2014-03-28 16:15:58,960 INFO w.g.CameraDataHandler [pool-5-thread-5] Camera [/192.168.111.241:7000][cam_8]: Command [down]
+2014-03-28 16:16:09,763 INFO w.g.CameraDataHandler [pool-5-thread-5] Camera [/192.168.111.241:7000][cam_8]: Command [up]
+2014-03-28 16:17:18,261 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 16:17:18,266 INFO w.g.Gateway [main] Initializing resources...
+2014-03-28 16:17:18,266 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-28 16:17:18,270 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 16:17:19,892 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8]
+ ip: 192.168.111.241, port: 7000
+2014-03-28 16:17:26,430 INFO w.g.Gateway [main] Loading preprocessor...
+2014-03-28 16:17:26,431 INFO w.g.Gateway [main] Started.
+2014-03-28 17:19:40,527 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 17:19:40,531 INFO w.g.Gateway [main] Initializing resources...
+2014-03-28 17:19:40,531 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-28 17:19:40,535 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 17:19:42,401 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8]
+ ip: 192.168.111.241, port: 7000
+2014-03-28 17:19:50,336 INFO w.g.Gateway [main] Loading preprocessor...
+2014-03-28 17:19:50,337 INFO w.g.Gateway [main] Started.
+2014-03-28 17:20:25,923 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 17:20:25,926 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-28 17:20:25,932 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 17:20:31,432 INFO w.g.CameraDataHandler [pool-5-thread-2] Camera [/192.168.111.241:7000][cam_8]: Command [left]
+2014-03-28 17:20:32,317 INFO w.g.CameraDataHandler [pool-5-thread-2] Camera [/192.168.111.241:7000][cam_8]: Command [startVideo]
+2014-03-28 17:20:33,062 INFO w.g.CameraDataHandler [pool-5-thread-2] Camera [/192.168.111.241:7000][cam_8]: Command [reboot]
+2014-03-28 17:20:33,821 INFO w.g.CameraDataHandler [pool-5-thread-2] Camera [/192.168.111.241:7000][cam_8]: Command [right]
+2014-03-28 17:20:34,481 INFO w.g.CameraDataHandler [pool-5-thread-2] Camera [/192.168.111.241:7000][cam_8]: Command [down]
+2014-03-28 17:20:35,128 INFO w.g.CameraDataHandler [pool-5-thread-2] Camera [/192.168.111.241:7000][cam_8]: Command [zoomin]
+2014-03-28 17:20:35,793 INFO w.g.CameraDataHandler [pool-5-thread-2] Camera [/192.168.111.241:7000][cam_8]: Command [zoomout]
+2014-03-28 17:20:36,475 INFO w.g.CameraDataHandler [pool-5-thread-2] Camera [/192.168.111.241:7000][cam_8]: Command [up]
+2014-03-28 17:20:37,137 INFO w.g.CameraDataHandler [pool-5-thread-2] Camera [/192.168.111.241:7000][cam_8]: Command [stopVideo]
+2014-03-28 17:20:37,832 INFO w.g.CameraDataHandler [pool-5-thread-2] Camera [/192.168.111.241:7000][cam_8]: Command [stop]
+2014-03-28 17:20:38,548 INFO w.g.CameraDataHandler [pool-5-thread-2] Camera [/192.168.111.241:7000][cam_8]: Command [left]
+2014-03-28 17:20:40,475 INFO w.g.CameraDataHandler [pool-5-thread-2] Camera [/192.168.111.241:7000][cam_8]: Command [right]
+2014-03-28 17:20:41,129 INFO w.g.CameraDataHandler [pool-5-thread-2] Camera [/192.168.111.241:7000][cam_8]: Command [down]
+2014-03-28 17:20:41,784 INFO w.g.CameraDataHandler [pool-5-thread-2] Camera [/192.168.111.241:7000][cam_8]: Command [zoomin]
+2014-03-28 17:20:42,429 INFO w.g.CameraDataHandler [pool-5-thread-2] Camera [/192.168.111.241:7000][cam_8]: Command [zoomout]
+2014-03-28 17:20:43,042 INFO w.g.CameraDataHandler [pool-5-thread-2] Camera [/192.168.111.241:7000][cam_8]: Command [up]
+2014-03-28 17:20:44,294 INFO w.g.CameraDataHandler [pool-5-thread-2] Camera [/192.168.111.241:7000][cam_8]: Command [stop]
+2014-03-28 17:20:44,934 INFO w.g.CameraDataHandler [pool-5-thread-2] Camera [/192.168.111.241:7000][cam_8]: Command [left]
+2014-03-28 17:20:46,771 INFO w.g.CameraDataHandler [pool-5-thread-2] Camera [/192.168.111.241:7000][cam_8]: Command [right]
+2014-03-28 17:20:47,414 INFO w.g.CameraDataHandler [pool-5-thread-2] Camera [/192.168.111.241:7000][cam_8]: Command [down]
+2014-03-28 17:20:48,023 INFO w.g.CameraDataHandler [pool-5-thread-2] Camera [/192.168.111.241:7000][cam_8]: Command [zoomin]
+2014-03-28 17:20:48,647 INFO w.g.CameraDataHandler [pool-5-thread-2] Camera [/192.168.111.241:7000][cam_8]: Command [zoomout]
+2014-03-31 13:41:22,030 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-31 13:41:22,031 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-31 13:41:22,037 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:44:48,978 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-31 13:44:48,980 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-31 13:44:48,984 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:45:48,707 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-31 13:45:48,709 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-31 13:45:48,714 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:50:25,567 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-31 13:50:25,569 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-31 13:50:25,574 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:57:04,416 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-31 13:57:04,418 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-31 13:57:04,423 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 14:00:15,867 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-31 14:00:15,869 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-31 14:00:15,875 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 14:03:22,644 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-31 14:03:22,646 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-31 14:03:22,651 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 17:19:57,369 ERROR r.t.b.PacketReceiver [rpc.term.byval.ValTerminal@10ac169c.daemon] catching
+rpc.io.FatalIOException: java.io.EOFException
+	at rpc.io.jdk.JdkSerializer.readObject(JdkSerializer.java:57) ~[rpc-io-serial-jdk.jar:?]
+	at rpc.term.byval.PacketReceiver.run(PacketReceiver.java:42) [rpc-core.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [?:1.7.0_21]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) [?:1.7.0_21]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166) [?:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [?:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [?:1.7.0_21]
+	at java.lang.Thread.run(Thread.java:722) [?:1.7.0_21]
+Caused by: java.io.EOFException
+	at java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:2596) ~[?:1.7.0_21]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1316) ~[?:1.7.0_21]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:370) ~[?:1.7.0_21]
+	at rpc.io.jdk.JdkSerializer.readObject(JdkSerializer.java:49) ~[rpc-io-serial-jdk.jar:?]
+	... 7 more
+2014-03-31 17:19:57,368 ERROR r.t.b.PacketReceiver [rpc.term.byval.ValTerminal@75d129d1.daemon] catching
+rpc.io.FatalIOException: java.io.EOFException
+	at rpc.io.jdk.JdkSerializer.readObject(JdkSerializer.java:57) ~[rpc-io-serial-jdk.jar:?]
+	at rpc.term.byval.PacketReceiver.run(PacketReceiver.java:42) [rpc-core.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [?:1.7.0_21]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) [?:1.7.0_21]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166) [?:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [?:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [?:1.7.0_21]
+	at java.lang.Thread.run(Thread.java:722) [?:1.7.0_21]
+Caused by: java.io.EOFException
+	at java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:2596) ~[?:1.7.0_21]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1316) ~[?:1.7.0_21]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:370) ~[?:1.7.0_21]
+	at rpc.io.jdk.JdkSerializer.readObject(JdkSerializer.java:49) ~[rpc-io-serial-jdk.jar:?]
+	... 7 more

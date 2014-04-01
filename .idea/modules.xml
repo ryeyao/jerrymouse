@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/camera-gateway/camera-gateway.iml" filepath="$PROJECT_DIR$/camera-gateway/camera-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/device-api/device-api.iml" filepath="$PROJECT_DIR$/device-api/device-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sensor-gateway/sensor-gateway.iml" filepath="$PROJECT_DIR$/sensor-gateway/sensor-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wshare-2.0-gateway-1.0.iml" filepath="$PROJECT_DIR$/wshare-2.0-gateway-1.0.iml" />
+    </modules>
+  </component>
+</project>
+

@@ -1,0 +1,1754 @@
+2014-03-28 09:23:49,657 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 09:23:49,659 INFO w.g.Gateway [main] Configuration file not found, recreating...
+2014-03-28 09:23:49,659 INFO w.g.u.ConfigurationFile [main] Updating configuration in file config.properties
+2014-03-28 09:23:49,676 ERROR w.g.Gateway [main] property [client.commandhandler] must be specified correctly.
+2014-03-28 09:23:49,677 ERROR w.g.Gateway [main] Initialization failed.
+2014-03-28 09:26:57,852 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 09:26:57,855 ERROR w.g.Gateway [main] property [client.commandhandler] must be specified correctly.
+2014-03-28 09:26:57,855 ERROR w.g.Gateway [main] Initialization failed.
+2014-03-28 09:48:12,101 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 09:48:12,104 ERROR w.g.Gateway [main] property [client.commandhandler] must be specified correctly.
+2014-03-28 09:48:12,104 ERROR w.g.Gateway [main] Initialization failed.
+2014-03-28 09:49:17,502 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 09:49:17,505 ERROR w.g.Gateway [main] property [client.commandhandler] must be specified correctly.
+2014-03-28 09:49:17,506 ERROR w.g.Gateway [main] Initialization failed.
+2014-03-28 09:50:33,178 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 09:50:33,193 ERROR w.g.Gateway [main] property [client.commandhandler] must be specified correctly.
+2014-03-28 09:50:33,193 ERROR w.g.Gateway [main] Initialization failed.
+2014-03-28 09:52:21,140 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 09:52:21,143 ERROR w.g.Gateway [main] [Ljava.lang.StackTraceElement;@1e7ec6c1
+2014-03-28 09:52:21,144 ERROR w.g.Gateway [main] Initialization failed.
+2014-03-28 09:52:52,101 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 09:52:52,125 ERROR w.g.Gateway [main] Initialization failed.
+2014-03-28 09:53:49,893 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 09:53:49,897 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-28 09:53:49,897 INFO w.g.Gateway [main] IDMap not found, register all resources and creating a new map file...
+2014-03-28 09:53:49,918 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 09:53:52,189 INFO w.g.u.ConfigurationFile [main] Updating configuration in file idmap.ini
+2014-03-28 09:53:52,203 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:13:35,868 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 10:13:35,872 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-28 10:13:35,878 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:14:12,871 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 10:14:12,876 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-28 10:14:12,902 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:14:44,542 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 10:14:44,546 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-28 10:14:44,550 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:16:19,986 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 10:16:20,007 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-28 10:16:20,008 INFO w.g.Gateway [main] IDMap not found, register all resources and creating a new map file...
+2014-03-28 10:16:20,019 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:16:22,056 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:16:23,055 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:16:24,098 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:16:25,180 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:16:26,175 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:16:27,183 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:16:28,165 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:16:29,199 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:16:30,193 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:16:31,179 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:16:32,188 INFO w.g.u.ConfigurationFile [main] Updating configuration in file idmap.ini
+2014-03-28 10:16:32,194 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:16:38,240 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:16:44,344 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:16:50,134 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:16:56,312 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:17:02,333 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:17:08,906 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:17:15,073 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:17:21,045 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:17:27,018 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:17:32,947 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:33:59,541 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:05,638 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:06,262 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:06,462 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:06,630 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:06,805 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:08,653 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:08,877 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:09,069 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:09,253 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:09,437 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:09,605 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:09,773 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:09,934 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:10,134 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:11,070 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:11,569 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:11,602 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:11,635 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:11,668 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:11,701 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:11,734 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:11,767 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:11,800 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:11,833 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:11,866 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:11,899 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:11,932 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:11,965 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:11,998 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:12,031 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:12,064 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:12,097 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:12,130 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:12,163 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:12,196 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:12,229 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:12,262 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:12,295 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:12,328 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:12,361 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:12,394 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:34:12,427 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 10:37:19,496 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 10:37:19,500 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-28 10:37:19,500 INFO w.g.Gateway [main] IDMap not found, register all resources and creating a new map file...
+2014-03-28 10:37:19,510 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:37:21,553 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:37:22,564 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:37:23,626 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:37:24,796 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:37:25,865 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:37:26,969 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:37:27,961 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:37:28,953 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:37:29,957 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:37:30,952 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:37:31,974 INFO w.g.u.ConfigurationFile [main] Updating configuration in file idmap.ini
+2014-03-28 10:37:31,980 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:37:38,580 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:37:44,938 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:37:50,834 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:37:56,770 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:38:02,701 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:38:09,000 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:38:15,311 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:38:21,194 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:38:27,336 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 10:38:33,705 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:22:26,243 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:24:57,357 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 14:24:57,361 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-28 14:24:57,365 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:24:59,106 INFO w.g.CameraDataHandler [main] Initialize camera [cam_10]
+ ip: 192.168.119.224, port: 7000
+2014-03-28 14:25:05,183 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:25:05,775 INFO w.g.CameraDataHandler [main] Initialize camera [cam_9]
+ ip: 192.168.119.220, port: 7000
+2014-03-28 14:25:11,190 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:25:11,784 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8]
+ ip: 192.168.111.241, port: 7000
+2014-03-28 14:25:17,187 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:25:17,778 INFO w.g.CameraDataHandler [main] Initialize camera [cam_7]
+ ip: 192.168.110.221, port: 7000
+2014-03-28 14:25:23,001 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:25:23,568 INFO w.g.CameraDataHandler [main] Initialize camera [cam_6]
+ ip: 192.168.119.225, port: 7000
+2014-03-28 14:25:28,969 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:25:29,587 INFO w.g.CameraDataHandler [main] Initialize camera [cam_5]
+ ip: 192.168.119.223, port: 7000
+2014-03-28 14:25:34,682 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:25:35,277 INFO w.g.CameraDataHandler [main] Initialize camera [cam_4]
+ ip: 192.168.119.221, port: 7000
+2014-03-28 14:25:40,281 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:25:40,923 INFO w.g.CameraDataHandler [main] Initialize camera [cam_3]
+ ip: 192.168.111.242, port: 7000
+2014-03-28 14:25:46,592 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:25:47,340 INFO w.g.CameraDataHandler [main] Initialize camera [cam_2]
+ ip: 192.168.111.240, port: 7000
+2014-03-28 14:25:52,665 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:25:53,361 INFO w.g.CameraDataHandler [main] Initialize camera [cam_1]
+ ip: 159.226.94.34, port: 7000
+2014-03-28 14:25:58,797 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:25:59,380 INFO w.g.CameraDataHandler [main] Initialize camera [cam_11]
+ ip: 192.168.119.224, port: 7000
+2014-03-28 14:31:12,231 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:31:23,319 INFO w.g.Gateway [Thread-4] Clean and exit.
+2014-03-28 14:32:41,982 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:32:44,302 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:34:19,130 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 14:34:19,134 INFO w.g.Gateway [main] Initializing resources...
+2014-03-28 14:34:19,135 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-28 14:34:19,139 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:34:20,755 INFO w.g.CameraDataHandler [main] Initialize camera [cam_10]
+ ip: 192.168.119.224, port: 7000
+2014-03-28 14:34:27,465 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:34:28,101 INFO w.g.CameraDataHandler [main] Initialize camera [cam_9]
+ ip: 192.168.119.220, port: 7000
+2014-03-28 14:34:34,055 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:34:34,703 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8]
+ ip: 192.168.111.241, port: 7000
+2014-03-28 14:34:39,547 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:34:40,124 INFO w.g.CameraDataHandler [main] Initialize camera [cam_7]
+ ip: 192.168.110.221, port: 7000
+2014-03-28 14:35:05,712 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:35:06,347 INFO w.g.CameraDataHandler [main] Initialize camera [cam_6]
+ ip: 192.168.119.225, port: 7000
+2014-03-28 14:35:11,962 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:35:12,548 INFO w.g.CameraDataHandler [main] Initialize camera [cam_5]
+ ip: 192.168.119.223, port: 7000
+2014-03-28 14:35:18,387 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:35:18,939 INFO w.g.CameraDataHandler [main] Initialize camera [cam_4]
+ ip: 192.168.119.221, port: 7000
+2014-03-28 14:35:24,723 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:35:25,371 INFO w.g.CameraDataHandler [main] Initialize camera [cam_3]
+ ip: 192.168.111.242, port: 7000
+2014-03-28 14:35:51,137 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:35:51,796 INFO w.g.CameraDataHandler [main] Initialize camera [cam_2]
+ ip: 192.168.111.240, port: 7000
+2014-03-28 14:35:56,492 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:35:57,096 INFO w.g.CameraDataHandler [main] Initialize camera [cam_1]
+ ip: 159.226.94.34, port: 7000
+2014-03-28 14:36:02,840 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:36:03,505 INFO w.g.CameraDataHandler [main] Initialize camera [cam_11]
+ ip: 192.168.119.224, port: 7000
+2014-03-28 14:36:09,114 INFO w.g.Gateway [main] Loading preprocessor...
+2014-03-28 14:36:09,116 INFO w.g.Gateway [main] Started.
+2014-03-28 14:45:57,818 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:01,090 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:01,530 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:01,690 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:01,858 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:01,881 INFO w.g.Gateway [Thread-4] Clean and exit.
+2014-03-28 14:46:06,402 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:07,370 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:07,594 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:07,762 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:07,930 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:08,090 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:08,250 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:08,410 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:08,569 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:08,729 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:08,898 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:09,121 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:09,621 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:09,654 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:09,687 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:09,720 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:09,753 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:09,786 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:09,819 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:09,853 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:09,885 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:09,918 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:09,951 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:09,984 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:10,017 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:10,050 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:10,083 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:10,116 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:10,149 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:10,182 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:10,215 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:10,248 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:10,281 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:10,314 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:10,347 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:10,380 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:10,414 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:10,447 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:10,480 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:10,513 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:10,546 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:10,579 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:10,612 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:10,646 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:10,678 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:10,711 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:10,744 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:10,777 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:10,810 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:10,843 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:10,876 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:10,910 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:10,943 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:10,975 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:11,008 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:11,042 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:11,074 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:11,107 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:11,140 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:11,173 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:11,206 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:11,240 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:11,272 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:11,305 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:11,338 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:11,371 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:11,404 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:11,437 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:11,470 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:11,503 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:11,536 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:11,569 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:11,602 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:11,635 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:11,668 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:11,701 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:11,734 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:11,767 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:11,800 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:11,833 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:11,866 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:11,900 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:11,932 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:11,965 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:11,998 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:12,031 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:12,064 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:12,097 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:12,131 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:12,163 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:12,196 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:12,229 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:12,262 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:12,295 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:12,328 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:12,361 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:12,395 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:12,427 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:12,460 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:12,493 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:12,526 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:12,560 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:12,592 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:12,625 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:12,658 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:12,691 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:12,724 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:12,757 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:12,790 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:12,823 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:12,856 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:12,889 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:12,922 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:12,955 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:12,988 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:13,021 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:13,054 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:13,087 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:13,120 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:13,153 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:13,186 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:13,219 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:13,252 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:13,286 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:13,318 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:13,351 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:13,384 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:13,417 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:46:13,450 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:47:29,761 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 14:47:29,765 INFO w.g.Gateway [main] Initializing resources...
+2014-03-28 14:47:29,766 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-28 14:47:29,770 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:47:31,568 INFO w.g.CameraDataHandler [main] Initialize camera [cam_10]
+ ip: 192.168.119.224, port: 7000
+2014-03-28 14:47:32,580 ERROR w.g.CameraDataHandler [main] Client [/192.168.119.224:7000] unreachable.
+2014-03-28 14:47:38,124 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:47:38,761 INFO w.g.CameraDataHandler [main] Initialize camera [cam_9]
+ ip: 192.168.119.220, port: 7000
+2014-03-28 14:47:39,763 ERROR w.g.CameraDataHandler [main] Client [/192.168.119.220:7000] unreachable.
+2014-03-28 14:47:44,554 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:47:45,181 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8]
+ ip: 192.168.111.241, port: 7000
+2014-03-28 14:47:49,863 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:47:50,437 INFO w.g.CameraDataHandler [main] Initialize camera [cam_7]
+ ip: 192.168.110.221, port: 7000
+2014-03-28 14:48:11,438 ERROR w.g.CameraDataHandler [main] Client [/192.168.110.221:7000] unreachable.
+2014-03-28 14:48:16,287 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:48:16,861 INFO w.g.CameraDataHandler [main] Initialize camera [cam_6]
+ ip: 192.168.119.225, port: 7000
+2014-03-28 14:48:17,867 ERROR w.g.CameraDataHandler [main] Client [/192.168.119.225:7000] unreachable.
+2014-03-28 14:48:22,727 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:48:23,323 INFO w.g.CameraDataHandler [main] Initialize camera [cam_5]
+ ip: 192.168.119.223, port: 7000
+2014-03-28 14:48:24,343 ERROR w.g.CameraDataHandler [main] Client [/192.168.119.223:7000] unreachable.
+2014-03-28 14:48:29,244 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:48:29,852 INFO w.g.CameraDataHandler [main] Initialize camera [cam_4]
+ ip: 192.168.119.221, port: 7000
+2014-03-28 14:48:36,355 ERROR w.g.CameraDataHandler [main] Client [/192.168.119.221:7000] unreachable.
+2014-03-28 14:48:41,157 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:48:41,745 INFO w.g.CameraDataHandler [main] Initialize camera [cam_3]
+ ip: 192.168.111.242, port: 7000
+2014-03-28 14:49:02,764 ERROR w.g.CameraDataHandler [main] Client [/192.168.111.242:7000] unreachable.
+2014-03-28 14:49:07,522 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:49:08,108 INFO w.g.CameraDataHandler [main] Initialize camera [cam_2]
+ ip: 192.168.111.240, port: 7000
+2014-03-28 14:49:12,847 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:49:13,478 INFO w.g.CameraDataHandler [main] Initialize camera [cam_1]
+ ip: 159.226.94.34, port: 7000
+2014-03-28 14:49:14,482 ERROR w.g.CameraDataHandler [main] Client [/159.226.94.34:7000] unreachable.
+2014-03-28 14:49:19,310 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:49:20,001 INFO w.g.CameraDataHandler [main] Initialize camera [cam_11]
+ ip: 192.168.119.224, port: 7000
+2014-03-28 14:49:20,999 ERROR w.g.CameraDataHandler [main] Client [/192.168.119.224:7000] unreachable.
+2014-03-28 14:49:25,901 INFO w.g.Gateway [main] Loading preprocessor...
+2014-03-28 14:49:25,903 INFO w.g.Gateway [main] Started.
+2014-03-28 14:49:52,214 INFO w.g.CameraDataHandler [pool-5-thread-2] Command [null]
+2014-03-28 14:52:20,584 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:52:22,335 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:52:22,954 INFO w.g.Gateway [Thread-4] Clean and exit.
+2014-03-28 14:52:25,023 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:52:27,263 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:52:27,928 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:52:28,304 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:52:28,736 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:52:29,128 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:52:29,536 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:52:29,920 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:52:30,247 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:52:30,583 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:52:30,983 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:52:31,367 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:52:51,601 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:52:51,784 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:53:29,656 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:53:29,896 INFO w.g.Gateway [SIGINT handler] Clean and exit.
+2014-03-28 14:53:47,960 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 14:53:47,964 INFO w.g.Gateway [main] Initializing resources...
+2014-03-28 14:53:47,964 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-28 14:53:47,968 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:53:49,639 INFO w.g.CameraDataHandler [main] Initialize camera [cam_10]
+ ip: 192.168.119.224, port: 7000
+2014-03-28 14:53:50,643 ERROR w.g.CameraDataHandler [main] Client [/192.168.119.224:7000] unreachable.
+2014-03-28 14:53:56,206 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:53:56,854 INFO w.g.CameraDataHandler [main] Initialize camera [cam_9]
+ ip: 192.168.119.220, port: 7000
+2014-03-28 14:53:57,860 ERROR w.g.CameraDataHandler [main] Client [/192.168.119.220:7000] unreachable.
+2014-03-28 14:54:02,923 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:54:03,536 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8]
+ ip: 192.168.111.241, port: 7000
+2014-03-28 14:54:08,415 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:54:09,015 INFO w.g.CameraDataHandler [main] Initialize camera [cam_7]
+ ip: 192.168.110.221, port: 7000
+2014-03-28 14:54:30,028 ERROR w.g.CameraDataHandler [main] Client [/192.168.110.221:7000] unreachable.
+2014-03-28 14:54:35,754 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:54:36,400 INFO w.g.CameraDataHandler [main] Initialize camera [cam_6]
+ ip: 192.168.119.225, port: 7000
+2014-03-28 14:54:37,403 ERROR w.g.CameraDataHandler [main] Client [/192.168.119.225:7000] unreachable.
+2014-03-28 14:54:42,509 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:54:43,098 INFO w.g.CameraDataHandler [main] Initialize camera [cam_5]
+ ip: 192.168.119.223, port: 7000
+2014-03-28 14:54:44,101 ERROR w.g.CameraDataHandler [main] Client [/192.168.119.223:7000] unreachable.
+2014-03-28 14:54:49,238 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:54:49,876 INFO w.g.CameraDataHandler [main] Initialize camera [cam_4]
+ ip: 192.168.119.221, port: 7000
+2014-03-28 14:54:50,878 ERROR w.g.CameraDataHandler [main] Client [/192.168.119.221:7000] unreachable.
+2014-03-28 14:54:55,809 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:54:56,384 INFO w.g.CameraDataHandler [main] Initialize camera [cam_3]
+ ip: 192.168.111.242, port: 7000
+2014-03-28 14:55:17,390 ERROR w.g.CameraDataHandler [main] Client [/192.168.111.242:7000] unreachable.
+2014-03-28 14:55:22,079 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:55:22,680 INFO w.g.CameraDataHandler [main] Initialize camera [cam_2]
+ ip: 192.168.111.240, port: 7000
+2014-03-28 14:55:27,372 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:55:27,968 INFO w.g.CameraDataHandler [main] Initialize camera [cam_1]
+ ip: 159.226.94.34, port: 7000
+2014-03-28 14:55:28,971 ERROR w.g.CameraDataHandler [main] Client [/159.226.94.34:7000] unreachable.
+2014-03-28 14:55:33,699 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 14:55:34,368 INFO w.g.CameraDataHandler [main] Initialize camera [cam_11]
+ ip: 192.168.119.224, port: 7000
+2014-03-28 14:55:35,373 ERROR w.g.CameraDataHandler [main] Client [/192.168.119.224:7000] unreachable.
+2014-03-28 14:55:40,261 INFO w.g.Gateway [main] Loading preprocessor...
+2014-03-28 14:55:40,262 INFO w.g.Gateway [main] Started.
+2014-03-28 14:56:08,844 INFO w.g.CameraDataHandler [pool-5-thread-2] Command [\x08\x01\x04\x01]
+2014-03-28 14:57:55,715 INFO w.g.CameraDataHandler [pool-5-thread-4] Command [\x08\x01\x04\x01]
+2014-03-28 15:01:49,498 INFO w.g.CameraDataHandler [pool-5-thread-5] Command [\x08\x01\x04\x04]
+2014-03-28 15:02:15,212 INFO w.g.CameraDataHandler [pool-5-thread-5] Command [\x08\x01\x04\x01]
+2014-03-28 15:02:15,333 INFO w.g.CameraDataHandler [pool-5-thread-5] Command [\x08\x01\x04\x03]
+2014-03-28 15:02:18,669 INFO w.g.CameraDataHandler [pool-5-thread-5] Command [\x08\x01\x04\x04]
+2014-03-28 15:02:19,725 INFO w.g.CameraDataHandler [pool-5-thread-5] Command [\x08\x01\x04\x02]
+2014-03-28 15:02:21,106 INFO w.g.CameraDataHandler [pool-5-thread-5] Command [\x08\x01\x04\x01]
+2014-03-28 15:03:23,074 INFO w.g.CameraDataHandler [pool-5-thread-6] Command [\x08\x01\x04\x01]
+2014-03-28 15:03:25,457 INFO w.g.CameraDataHandler [pool-5-thread-6] Command [\x08\x01\x04\x03]
+2014-03-28 15:09:08,741 INFO w.g.Gateway [Thread-4] Clean and exit.
+2014-03-28 15:09:45,941 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 15:09:45,945 INFO w.g.Gateway [main] Initializing resources...
+2014-03-28 15:09:45,946 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-28 15:09:45,949 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:09:47,615 INFO w.g.CameraDataHandler [main] Initialize camera [cam_10]
+ ip: 192.168.119.224, port: 7000
+2014-03-28 15:09:48,617 ERROR w.g.CameraDataHandler [main] Client [/192.168.119.224:7000] unreachable.
+2014-03-28 15:09:54,349 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:09:55,591 INFO w.g.CameraDataHandler [main] Initialize camera [cam_9]
+ ip: 192.168.119.220, port: 7000
+2014-03-28 15:09:56,604 ERROR w.g.CameraDataHandler [main] Client [/192.168.119.220:7000] unreachable.
+2014-03-28 15:10:01,450 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:10:02,035 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8]
+ ip: 192.168.111.241, port: 7000
+2014-03-28 15:10:06,826 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:10:07,387 INFO w.g.CameraDataHandler [main] Initialize camera [cam_7]
+ ip: 192.168.110.221, port: 7000
+2014-03-28 15:10:28,396 ERROR w.g.CameraDataHandler [main] Client [/192.168.110.221:7000] unreachable.
+2014-03-28 15:10:33,385 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:10:34,011 INFO w.g.CameraDataHandler [main] Initialize camera [cam_6]
+ ip: 192.168.119.225, port: 7000
+2014-03-28 15:10:35,036 ERROR w.g.CameraDataHandler [main] Client [/192.168.119.225:7000] unreachable.
+2014-03-28 15:10:40,088 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:10:40,662 INFO w.g.CameraDataHandler [main] Initialize camera [cam_5]
+ ip: 192.168.119.223, port: 7000
+2014-03-28 15:10:41,674 ERROR w.g.CameraDataHandler [main] Client [/192.168.119.223:7000] unreachable.
+2014-03-28 15:10:46,496 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:10:47,144 INFO w.g.CameraDataHandler [main] Initialize camera [cam_4]
+ ip: 192.168.119.221, port: 7000
+2014-03-28 15:10:48,148 ERROR w.g.CameraDataHandler [main] Client [/192.168.119.221:7000] unreachable.
+2014-03-28 15:10:52,892 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:10:53,472 INFO w.g.CameraDataHandler [main] Initialize camera [cam_3]
+ ip: 192.168.111.242, port: 7000
+2014-03-28 15:11:14,474 ERROR w.g.CameraDataHandler [main] Client [/192.168.111.242:7000] unreachable.
+2014-03-28 15:11:19,488 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:11:20,058 INFO w.g.CameraDataHandler [main] Initialize camera [cam_2]
+ ip: 192.168.111.240, port: 7000
+2014-03-28 15:11:24,830 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:11:25,428 INFO w.g.CameraDataHandler [main] Initialize camera [cam_1]
+ ip: 159.226.94.34, port: 7000
+2014-03-28 15:11:26,430 ERROR w.g.CameraDataHandler [main] Client [/159.226.94.34:7000] unreachable.
+2014-03-28 15:11:31,646 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:11:32,309 INFO w.g.CameraDataHandler [main] Initialize camera [cam_11]
+ ip: 192.168.119.224, port: 7000
+2014-03-28 15:11:33,369 ERROR w.g.CameraDataHandler [main] Client [/192.168.119.224:7000] unreachable.
+2014-03-28 15:11:38,345 INFO w.g.Gateway [main] Loading preprocessor...
+2014-03-28 15:11:38,346 INFO w.g.Gateway [main] Started.
+2014-03-28 15:40:42,387 INFO w.g.CameraDataHandler [pool-5-thread-4] Camera [/192.168.111.241:7000][cam_8]: Command [up]
+2014-03-28 15:40:44,349 INFO w.g.CameraDataHandler [pool-5-thread-4] Camera [/192.168.111.241:7000][cam_8]: Command [down]
+2014-03-28 15:40:45,107 INFO w.g.CameraDataHandler [pool-5-thread-4] Camera [/192.168.111.241:7000][cam_8]: Command [left]
+2014-03-28 15:40:45,677 INFO w.g.CameraDataHandler [pool-5-thread-4] Camera [/192.168.111.241:7000][cam_8]: Command [right]
+2014-03-28 15:42:11,009 INFO w.g.Gateway [Thread-4] Clean and exit.
+2014-03-28 15:43:15,142 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 15:43:15,147 INFO w.g.Gateway [main] Initializing resources...
+2014-03-28 15:43:15,147 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-28 15:43:15,152 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:43:16,792 INFO w.g.CameraDataHandler [main] Initialize camera [cam_10]
+ ip: 192.168.119.224, port: 7000
+2014-03-28 15:43:17,890 ERROR w.g.CameraDataHandler [main] Client [/192.168.119.224:7000] unreachable.
+2014-03-28 15:43:23,836 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:43:24,448 INFO w.g.CameraDataHandler [main] Initialize camera [cam_9]
+ ip: 192.168.119.220, port: 7000
+2014-03-28 15:43:25,447 ERROR w.g.CameraDataHandler [main] Client [/192.168.119.220:7000] unreachable.
+2014-03-28 15:43:30,378 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:43:30,989 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8]
+ ip: 192.168.111.241, port: 7000
+2014-03-28 15:43:36,118 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:43:36,690 INFO w.g.CameraDataHandler [main] Initialize camera [cam_7]
+ ip: 192.168.110.221, port: 7000
+2014-03-28 15:43:57,687 ERROR w.g.CameraDataHandler [main] Client [/192.168.110.221:7000] unreachable.
+2014-03-28 15:44:02,514 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:44:03,154 INFO w.g.CameraDataHandler [main] Initialize camera [cam_6]
+ ip: 192.168.119.225, port: 7000
+2014-03-28 15:44:04,171 ERROR w.g.CameraDataHandler [main] Client [/192.168.119.225:7000] unreachable.
+2014-03-28 15:44:08,900 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:44:09,485 INFO w.g.CameraDataHandler [main] Initialize camera [cam_5]
+ ip: 192.168.119.223, port: 7000
+2014-03-28 15:44:10,488 ERROR w.g.CameraDataHandler [main] Client [/192.168.119.223:7000] unreachable.
+2014-03-28 15:44:15,125 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:44:15,848 INFO w.g.CameraDataHandler [main] Initialize camera [cam_4]
+ ip: 192.168.119.221, port: 7000
+2014-03-28 15:44:16,851 ERROR w.g.CameraDataHandler [main] Client [/192.168.119.221:7000] unreachable.
+2014-03-28 15:44:21,387 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:44:21,907 INFO w.g.CameraDataHandler [main] Initialize camera [cam_3]
+ ip: 192.168.111.242, port: 7000
+2014-03-28 15:44:42,983 ERROR w.g.CameraDataHandler [main] Client [/192.168.111.242:7000] unreachable.
+2014-03-28 15:44:48,065 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:44:48,692 INFO w.g.CameraDataHandler [main] Initialize camera [cam_2]
+ ip: 192.168.111.240, port: 7000
+2014-03-28 15:44:53,549 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:44:54,123 INFO w.g.CameraDataHandler [main] Initialize camera [cam_1]
+ ip: 159.226.94.34, port: 7000
+2014-03-28 15:44:55,132 ERROR w.g.CameraDataHandler [main] Client [/159.226.94.34:7000] unreachable.
+2014-03-28 15:44:59,908 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:45:00,593 INFO w.g.CameraDataHandler [main] Initialize camera [cam_11]
+ ip: 192.168.119.224, port: 7000
+2014-03-28 15:45:01,592 ERROR w.g.CameraDataHandler [main] Client [/192.168.119.224:7000] unreachable.
+2014-03-28 15:45:06,372 INFO w.g.Gateway [main] Loading preprocessor...
+2014-03-28 15:45:06,373 INFO w.g.Gateway [main] Started.
+2014-03-28 15:46:46,801 INFO w.g.CameraDataHandler [pool-5-thread-4] Camera [/192.168.111.241:7000][cam_8]: Command [up]
+2014-03-28 15:46:48,351 INFO w.g.CameraDataHandler [pool-5-thread-4] Camera [/192.168.111.241:7000][cam_8]: Command [down]
+2014-03-28 15:46:49,477 INFO w.g.CameraDataHandler [pool-5-thread-4] Camera [/192.168.111.241:7000][cam_8]: Command [left]
+2014-03-28 15:46:50,277 INFO w.g.CameraDataHandler [pool-5-thread-4] Camera [/192.168.111.241:7000][cam_8]: Command [right]
+2014-03-28 15:47:08,824 INFO w.g.CameraDataHandler [pool-5-thread-4] Camera [/192.168.111.241:7000][cam_8]: Command [left]
+2014-03-28 15:51:09,201 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 15:51:09,206 INFO w.g.Gateway [main] Initializing resources...
+2014-03-28 15:51:09,207 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-28 15:51:09,210 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:51:10,886 INFO w.g.CameraDataHandler [main] Initialize camera [cam_10]
+ ip: 192.168.119.224, port: 7000
+2014-03-28 15:51:11,893 ERROR w.g.CameraDataHandler [main] Client [/192.168.119.224:7000] unreachable.
+2014-03-28 15:51:17,397 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:51:17,973 INFO w.g.CameraDataHandler [main] Initialize camera [cam_9]
+ ip: 192.168.119.220, port: 7000
+2014-03-28 15:51:18,996 ERROR w.g.CameraDataHandler [main] Client [/192.168.119.220:7000] unreachable.
+2014-03-28 15:51:23,811 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:51:24,414 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8]
+ ip: 192.168.111.241, port: 7000
+2014-03-28 15:51:29,375 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:51:29,975 INFO w.g.CameraDataHandler [main] Initialize camera [cam_7]
+ ip: 192.168.110.221, port: 7000
+2014-03-28 15:51:51,061 ERROR w.g.CameraDataHandler [main] Client [/192.168.110.221:7000] unreachable.
+2014-03-28 15:51:56,789 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:51:57,380 INFO w.g.CameraDataHandler [main] Initialize camera [cam_6]
+ ip: 192.168.119.225, port: 7000
+2014-03-28 15:51:58,395 ERROR w.g.CameraDataHandler [main] Client [/192.168.119.225:7000] unreachable.
+2014-03-28 15:52:03,446 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:52:04,069 INFO w.g.CameraDataHandler [main] Initialize camera [cam_5]
+ ip: 192.168.119.223, port: 7000
+2014-03-28 15:52:05,084 ERROR w.g.CameraDataHandler [main] Client [/192.168.119.223:7000] unreachable.
+2014-03-28 15:52:10,019 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:52:10,593 INFO w.g.CameraDataHandler [main] Initialize camera [cam_4]
+ ip: 192.168.119.221, port: 7000
+2014-03-28 15:52:11,646 ERROR w.g.CameraDataHandler [main] Client [/192.168.119.221:7000] unreachable.
+2014-03-28 15:52:16,708 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:52:17,311 INFO w.g.CameraDataHandler [main] Initialize camera [cam_3]
+ ip: 192.168.111.242, port: 7000
+2014-03-28 15:52:38,311 ERROR w.g.CameraDataHandler [main] Client [/192.168.111.242:7000] unreachable.
+2014-03-28 15:52:43,047 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:52:43,596 INFO w.g.CameraDataHandler [main] Initialize camera [cam_2]
+ ip: 192.168.111.240, port: 7000
+2014-03-28 15:52:48,236 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:52:48,787 INFO w.g.CameraDataHandler [main] Initialize camera [cam_1]
+ ip: 159.226.94.34, port: 7000
+2014-03-28 15:52:49,789 ERROR w.g.CameraDataHandler [main] Client [/159.226.94.34:7000] unreachable.
+2014-03-28 15:52:54,423 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:52:55,097 INFO w.g.CameraDataHandler [main] Initialize camera [cam_11]
+ ip: 192.168.119.224, port: 7000
+2014-03-28 15:52:56,100 ERROR w.g.CameraDataHandler [main] Client [/192.168.119.224:7000] unreachable.
+2014-03-28 15:53:00,821 INFO w.g.Gateway [main] Loading preprocessor...
+2014-03-28 15:53:00,822 INFO w.g.Gateway [main] Started.
+2014-03-28 15:53:25,755 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 15:53:25,760 INFO w.g.Gateway [main] Initializing resources...
+2014-03-28 15:53:25,760 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-28 15:53:25,765 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 15:53:27,388 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8]
+ ip: 192.168.111.241, port: 7000
+2014-03-28 15:53:34,163 INFO w.g.Gateway [main] Loading preprocessor...
+2014-03-28 15:53:34,164 INFO w.g.Gateway [main] Started.
+2014-03-28 15:54:12,571 INFO w.g.CameraDataHandler [pool-5-thread-2] Camera [/192.168.111.241:7000][cam_8]: Command [up]
+2014-03-28 15:54:19,460 INFO w.g.CameraDataHandler [pool-5-thread-2] Camera [/192.168.111.241:7000][cam_8]: Command [left]
+2014-03-28 15:55:02,719 INFO w.g.CameraDataHandler [pool-5-thread-2] Camera [/192.168.111.241:7000][cam_8]: Command [down]
+2014-03-28 16:01:39,652 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 16:01:39,656 INFO w.g.Gateway [main] Initializing resources...
+2014-03-28 16:01:39,656 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-28 16:01:39,661 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 16:01:41,325 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8]
+ ip: 192.168.111.241, port: 7000
+2014-03-28 17:22:36,042 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-28 17:22:36,086 INFO w.g.Gateway [main] Initializing resources...
+2014-03-28 17:22:36,086 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-28 17:22:36,087 INFO w.g.Gateway [main] IDMap not found, register all resources and creating a new map file...
+2014-03-28 17:22:36,117 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 17:22:38,742 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 17:22:40,561 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 17:22:42,139 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 17:22:43,680 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 17:22:45,337 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 17:22:46,760 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 17:22:48,200 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 17:22:49,721 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 17:22:51,151 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 17:22:53,019 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 17:22:54,716 INFO w.g.u.ConfigurationFile [main] Updating configuration in file idmap.ini
+2014-03-28 17:22:55,054 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 17:22:55,654 INFO w.g.CameraDataHandler [main] Initialize camera [cam_10]
+ ip: 192.168.119.224, port: 7000
+2014-03-28 17:23:00,568 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 17:23:01,167 INFO w.g.CameraDataHandler [main] Initialize camera [cam_9]
+ ip: 192.168.119.220, port: 7000
+2014-03-28 17:23:05,982 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 17:23:06,574 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8]
+ ip: 192.168.111.241, port: 7000
+2014-03-28 17:23:11,603 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 17:23:12,186 INFO w.g.CameraDataHandler [main] Initialize camera [cam_7]
+ ip: 192.168.110.221, port: 7000
+2014-03-28 17:23:17,233 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 17:23:17,828 INFO w.g.CameraDataHandler [main] Initialize camera [cam_6]
+ ip: 192.168.119.225, port: 7000
+2014-03-28 17:23:22,912 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 17:23:23,697 INFO w.g.CameraDataHandler [main] Initialize camera [cam_5]
+ ip: 192.168.119.223, port: 7000
+2014-03-28 17:23:28,395 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 17:23:28,989 INFO w.g.CameraDataHandler [main] Initialize camera [cam_4]
+ ip: 192.168.119.221, port: 7000
+2014-03-28 17:23:33,943 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 17:23:34,611 INFO w.g.CameraDataHandler [main] Initialize camera [cam_3]
+ ip: 192.168.111.242, port: 7000
+2014-03-28 17:23:39,753 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 17:23:40,402 INFO w.g.CameraDataHandler [main] Initialize camera [cam_2]
+ ip: 192.168.111.240, port: 7000
+2014-03-28 17:23:45,767 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 17:23:46,351 INFO w.g.CameraDataHandler [main] Initialize camera [cam_1]
+ ip: 159.226.94.34, port: 7000
+2014-03-28 17:23:51,246 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-28 17:23:51,846 INFO w.g.CameraDataHandler [main] Initialize camera [cam_11]
+ ip: 192.168.119.224, port: 7000
+2014-03-28 17:23:57,017 INFO w.g.Gateway [main] Loading preprocessor...
+2014-03-28 17:23:57,027 INFO w.g.Gateway [main] Started.
+2014-03-31 10:29:27,086 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-31 10:29:27,092 INFO w.g.Gateway [main] Initializing resources...
+2014-03-31 10:29:27,092 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-31 10:29:27,114 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 10:29:28,924 INFO w.g.CameraDataHandler [main] Initialize camera [cam_10]
+ ip: 192.168.119.224, port: 7000
+2014-03-31 10:29:35,629 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 10:29:36,968 INFO w.g.CameraDataHandler [main] Initialize camera [cam_9]
+ ip: 192.168.119.220, port: 7000
+2014-03-31 10:29:41,669 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 10:29:42,267 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8]
+ ip: 192.168.111.241, port: 7000
+2014-03-31 10:29:46,954 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 10:29:47,518 INFO w.g.CameraDataHandler [main] Initialize camera [cam_7]
+ ip: 192.168.110.221, port: 7000
+2014-03-31 10:29:52,409 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 10:29:53,026 INFO w.g.CameraDataHandler [main] Initialize camera [cam_6]
+ ip: 192.168.119.225, port: 7000
+2014-03-31 10:29:57,648 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 10:29:58,291 INFO w.g.CameraDataHandler [main] Initialize camera [cam_5]
+ ip: 192.168.119.223, port: 7000
+2014-03-31 10:30:02,889 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 10:30:03,431 INFO w.g.CameraDataHandler [main] Initialize camera [cam_4]
+ ip: 192.168.119.221, port: 7000
+2014-03-31 10:30:08,351 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 10:30:08,964 INFO w.g.CameraDataHandler [main] Initialize camera [cam_3]
+ ip: 192.168.111.242, port: 7000
+2014-03-31 10:30:14,912 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 10:30:15,504 INFO w.g.CameraDataHandler [main] Initialize camera [cam_2]
+ ip: 192.168.111.240, port: 7000
+2014-03-31 10:30:20,519 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 10:30:21,132 INFO w.g.CameraDataHandler [main] Initialize camera [cam_1]
+ ip: 159.226.94.34, port: 7000
+2014-03-31 10:30:26,503 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 10:30:27,189 INFO w.g.CameraDataHandler [main] Initialize camera [cam_11]
+ ip: 192.168.119.224, port: 7000
+2014-03-31 10:30:32,162 INFO w.g.Gateway [main] Loading preprocessor...
+2014-03-31 10:30:32,163 INFO w.g.Gateway [main] Started.
+2014-03-31 10:56:23,926 INFO w.g.CameraDataHandler [pool-5-thread-4] Camera [/192.168.111.241:7000][cam_8]: Command [left]
+2014-03-31 10:56:26,978 INFO w.g.CameraDataHandler [pool-5-thread-4] Camera [/192.168.111.241:7000][cam_8]: Command [stop]
+2014-03-31 10:56:28,202 INFO w.g.CameraDataHandler [pool-5-thread-4] Camera [/192.168.111.241:7000][cam_8]: Command [stop]
+2014-03-31 10:56:45,050 INFO w.g.CameraDataHandler [pool-5-thread-4] Camera [/192.168.111.241:7000][cam_8]: Command [down]
+2014-03-31 10:56:47,548 INFO w.g.CameraDataHandler [pool-5-thread-4] Camera [/192.168.111.241:7000][cam_8]: Command [stop]
+2014-03-31 13:39:23,364 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-31 13:39:23,368 INFO w.g.Gateway [main] Initializing resources...
+2014-03-31 13:39:23,368 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-31 13:39:23,372 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:39:25,018 INFO w.g.CameraDataHandler [main] Initialize camera [cam_10] [null]
+2014-03-31 13:39:31,783 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:39:32,866 INFO w.g.CameraDataHandler [main] Initialize camera [cam_9] [null]
+2014-03-31 13:39:37,882 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:39:38,456 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8] [null]
+2014-03-31 13:39:43,132 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:39:43,727 INFO w.g.CameraDataHandler [main] Initialize camera [cam_7] [null]
+2014-03-31 13:39:48,491 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:39:49,098 INFO w.g.CameraDataHandler [main] Initialize camera [cam_6] [null]
+2014-03-31 13:39:53,826 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:39:54,398 INFO w.g.CameraDataHandler [main] Initialize camera [cam_5] [null]
+2014-03-31 13:39:59,420 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:40:00,530 INFO w.g.CameraDataHandler [main] Initialize camera [cam_4] [null]
+2014-03-31 13:40:05,357 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:40:05,960 INFO w.g.CameraDataHandler [main] Initialize camera [cam_3] [null]
+2014-03-31 13:40:10,806 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:40:11,392 INFO w.g.CameraDataHandler [main] Initialize camera [cam_2] [null]
+2014-03-31 13:40:16,250 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:40:16,823 INFO w.g.CameraDataHandler [main] Initialize camera [cam_1] [null]
+2014-03-31 13:40:21,699 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:40:22,383 INFO w.g.CameraDataHandler [main] Initialize camera [cam_11] [null]
+2014-03-31 13:40:27,236 INFO w.g.Gateway [main] Loading preprocessor...
+2014-03-31 13:40:27,237 INFO w.g.Gateway [main] Started.
+2014-03-31 13:41:59,480 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_10] [/192.168.119.224:7000]: [left]
+2014-03-31 13:42:00,482 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:42:01,095 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_10] [/192.168.119.224:7000]: [startVideo]
+2014-03-31 13:42:01,095 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:42:01,651 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_10] [/192.168.119.224:7000]: [reboot]
+2014-03-31 13:42:01,652 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:42:02,222 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_10] [/192.168.119.224:7000]: [right]
+2014-03-31 13:42:02,222 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:42:02,815 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_10] [/192.168.119.224:7000]: [down]
+2014-03-31 13:42:02,816 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:42:03,388 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_10] [/192.168.119.224:7000]: [zoomin]
+2014-03-31 13:42:03,388 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:42:03,937 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_10] [/192.168.119.224:7000]: [zoomout]
+2014-03-31 13:42:03,938 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:42:04,499 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_10] [/192.168.119.224:7000]: [up]
+2014-03-31 13:42:04,499 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:42:05,071 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_10] [/192.168.119.224:7000]: [stopVideo]
+2014-03-31 13:42:05,071 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:42:05,881 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_10] [/192.168.119.224:7000]: [stop]
+2014-03-31 13:42:05,881 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:42:06,444 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_9] [/192.168.119.220:7000]: [left]
+2014-03-31 13:42:07,440 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 13:42:08,018 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_9] [/192.168.119.220:7000]: [startVideo]
+2014-03-31 13:42:08,018 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 13:42:08,617 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_9] [/192.168.119.220:7000]: [reboot]
+2014-03-31 13:42:08,618 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 13:42:09,199 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_9] [/192.168.119.220:7000]: [right]
+2014-03-31 13:42:09,200 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 13:42:09,770 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_9] [/192.168.119.220:7000]: [down]
+2014-03-31 13:42:09,770 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 13:42:10,321 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_9] [/192.168.119.220:7000]: [zoomin]
+2014-03-31 13:42:10,322 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 13:42:10,910 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_9] [/192.168.119.220:7000]: [zoomout]
+2014-03-31 13:42:10,911 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 13:42:11,479 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_9] [/192.168.119.220:7000]: [up]
+2014-03-31 13:42:11,480 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 13:42:12,081 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_9] [/192.168.119.220:7000]: [stopVideo]
+2014-03-31 13:42:12,082 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 13:42:12,650 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_9] [/192.168.119.220:7000]: [stop]
+2014-03-31 13:42:12,650 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 13:42:13,212 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_8] [/192.168.111.241:7000]: [left]
+2014-03-31 13:42:34,214 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 13:42:34,800 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_8] [/192.168.111.241:7000]: [startVideo]
+2014-03-31 13:42:34,800 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 13:42:35,394 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_8] [/192.168.111.241:7000]: [reboot]
+2014-03-31 13:42:35,395 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 13:42:35,957 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_8] [/192.168.111.241:7000]: [right]
+2014-03-31 13:42:35,957 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 13:42:36,552 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_8] [/192.168.111.241:7000]: [down]
+2014-03-31 13:42:36,552 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 13:42:37,166 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_8] [/192.168.111.241:7000]: [zoomin]
+2014-03-31 13:42:37,167 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 13:42:37,765 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_8] [/192.168.111.241:7000]: [zoomout]
+2014-03-31 13:42:37,765 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 13:42:38,350 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_8] [/192.168.111.241:7000]: [up]
+2014-03-31 13:42:38,351 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 13:42:38,939 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_8] [/192.168.111.241:7000]: [stopVideo]
+2014-03-31 13:42:38,939 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 13:42:39,524 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_8] [/192.168.111.241:7000]: [stop]
+2014-03-31 13:42:39,525 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 13:42:40,119 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_7] [/192.168.110.221:7000]: [left]
+2014-03-31 13:43:01,130 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_7] [/192.168.110.221:7000] unreachable.
+2014-03-31 13:43:01,701 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_7] [/192.168.110.221:7000]: [startVideo]
+2014-03-31 13:43:01,701 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_7] [/192.168.110.221:7000] unreachable.
+2014-03-31 13:43:02,319 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_7] [/192.168.110.221:7000]: [reboot]
+2014-03-31 13:43:02,320 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_7] [/192.168.110.221:7000] unreachable.
+2014-03-31 13:43:02,882 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_7] [/192.168.110.221:7000]: [right]
+2014-03-31 13:43:02,882 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_7] [/192.168.110.221:7000] unreachable.
+2014-03-31 13:43:03,436 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_7] [/192.168.110.221:7000]: [down]
+2014-03-31 13:43:03,437 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_7] [/192.168.110.221:7000] unreachable.
+2014-03-31 13:43:04,048 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_7] [/192.168.110.221:7000]: [zoomin]
+2014-03-31 13:43:04,049 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_7] [/192.168.110.221:7000] unreachable.
+2014-03-31 13:43:04,635 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_7] [/192.168.110.221:7000]: [zoomout]
+2014-03-31 13:43:04,635 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_7] [/192.168.110.221:7000] unreachable.
+2014-03-31 13:43:05,276 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_7] [/192.168.110.221:7000]: [up]
+2014-03-31 13:43:05,276 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_7] [/192.168.110.221:7000] unreachable.
+2014-03-31 13:43:05,897 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_7] [/192.168.110.221:7000]: [stopVideo]
+2014-03-31 13:43:05,898 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_7] [/192.168.110.221:7000] unreachable.
+2014-03-31 13:43:06,426 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_7] [/192.168.110.221:7000]: [stop]
+2014-03-31 13:43:06,427 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_7] [/192.168.110.221:7000] unreachable.
+2014-03-31 13:43:07,006 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_6] [/192.168.119.225:7000]: [left]
+2014-03-31 13:43:08,017 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_6] [/192.168.119.225:7000] unreachable.
+2014-03-31 13:43:08,595 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_6] [/192.168.119.225:7000]: [startVideo]
+2014-03-31 13:43:08,595 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_6] [/192.168.119.225:7000] unreachable.
+2014-03-31 13:43:09,193 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_6] [/192.168.119.225:7000]: [reboot]
+2014-03-31 13:43:09,193 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_6] [/192.168.119.225:7000] unreachable.
+2014-03-31 13:43:09,736 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_6] [/192.168.119.225:7000]: [right]
+2014-03-31 13:43:09,736 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_6] [/192.168.119.225:7000] unreachable.
+2014-03-31 13:43:10,308 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_6] [/192.168.119.225:7000]: [down]
+2014-03-31 13:43:10,309 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_6] [/192.168.119.225:7000] unreachable.
+2014-03-31 13:43:11,152 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_6] [/192.168.119.225:7000]: [zoomin]
+2014-03-31 13:43:11,152 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_6] [/192.168.119.225:7000] unreachable.
+2014-03-31 13:43:11,732 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_6] [/192.168.119.225:7000]: [zoomout]
+2014-03-31 13:43:11,733 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_6] [/192.168.119.225:7000] unreachable.
+2014-03-31 13:43:12,337 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_6] [/192.168.119.225:7000]: [up]
+2014-03-31 13:43:12,337 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_6] [/192.168.119.225:7000] unreachable.
+2014-03-31 13:43:12,935 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_6] [/192.168.119.225:7000]: [stopVideo]
+2014-03-31 13:43:12,935 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_6] [/192.168.119.225:7000] unreachable.
+2014-03-31 13:43:13,515 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_6] [/192.168.119.225:7000]: [stop]
+2014-03-31 13:43:13,515 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_6] [/192.168.119.225:7000] unreachable.
+2014-03-31 13:43:14,111 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_5] [/192.168.119.223:7000]: [left]
+2014-03-31 13:43:27,110 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_5] [/192.168.119.223:7000] unreachable.
+2014-03-31 13:43:27,734 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_5] [/192.168.119.223:7000]: [startVideo]
+2014-03-31 13:43:27,735 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_5] [/192.168.119.223:7000] unreachable.
+2014-03-31 13:43:28,364 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_5] [/192.168.119.223:7000]: [reboot]
+2014-03-31 13:43:28,365 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_5] [/192.168.119.223:7000] unreachable.
+2014-03-31 13:43:28,937 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_5] [/192.168.119.223:7000]: [right]
+2014-03-31 13:43:28,937 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_5] [/192.168.119.223:7000] unreachable.
+2014-03-31 13:43:29,533 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_5] [/192.168.119.223:7000]: [down]
+2014-03-31 13:43:29,533 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_5] [/192.168.119.223:7000] unreachable.
+2014-03-31 13:43:30,163 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_5] [/192.168.119.223:7000]: [zoomin]
+2014-03-31 13:43:30,164 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_5] [/192.168.119.223:7000] unreachable.
+2014-03-31 13:43:30,754 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_5] [/192.168.119.223:7000]: [zoomout]
+2014-03-31 13:43:30,755 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_5] [/192.168.119.223:7000] unreachable.
+2014-03-31 13:43:31,318 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_5] [/192.168.119.223:7000]: [up]
+2014-03-31 13:43:31,318 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_5] [/192.168.119.223:7000] unreachable.
+2014-03-31 13:43:31,894 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_5] [/192.168.119.223:7000]: [stopVideo]
+2014-03-31 13:43:31,894 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_5] [/192.168.119.223:7000] unreachable.
+2014-03-31 13:43:32,468 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_5] [/192.168.119.223:7000]: [stop]
+2014-03-31 13:43:32,468 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_5] [/192.168.119.223:7000] unreachable.
+2014-03-31 13:43:33,042 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_4] [/192.168.119.221:7000]: [left]
+2014-03-31 13:43:34,045 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_4] [/192.168.119.221:7000] unreachable.
+2014-03-31 13:43:34,847 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_4] [/192.168.119.221:7000]: [startVideo]
+2014-03-31 13:43:34,848 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_4] [/192.168.119.221:7000] unreachable.
+2014-03-31 13:43:35,509 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_4] [/192.168.119.221:7000]: [reboot]
+2014-03-31 13:43:35,509 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_4] [/192.168.119.221:7000] unreachable.
+2014-03-31 13:43:36,094 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_4] [/192.168.119.221:7000]: [right]
+2014-03-31 13:43:36,095 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_4] [/192.168.119.221:7000] unreachable.
+2014-03-31 13:43:36,699 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_4] [/192.168.119.221:7000]: [down]
+2014-03-31 13:43:36,700 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_4] [/192.168.119.221:7000] unreachable.
+2014-03-31 13:43:37,283 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_4] [/192.168.119.221:7000]: [zoomin]
+2014-03-31 13:43:37,283 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_4] [/192.168.119.221:7000] unreachable.
+2014-03-31 13:43:37,853 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_4] [/192.168.119.221:7000]: [zoomout]
+2014-03-31 13:43:37,854 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_4] [/192.168.119.221:7000] unreachable.
+2014-03-31 13:43:38,501 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_4] [/192.168.119.221:7000]: [up]
+2014-03-31 13:43:38,501 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_4] [/192.168.119.221:7000] unreachable.
+2014-03-31 13:43:39,073 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_4] [/192.168.119.221:7000]: [stopVideo]
+2014-03-31 13:43:39,073 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_4] [/192.168.119.221:7000] unreachable.
+2014-03-31 13:43:39,723 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_4] [/192.168.119.221:7000]: [stop]
+2014-03-31 13:43:39,723 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_4] [/192.168.119.221:7000] unreachable.
+2014-03-31 13:43:40,347 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_3] [/192.168.111.242:7000]: [left]
+2014-03-31 13:43:40,972 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_3] [/192.168.111.242:7000]: [startVideo]
+2014-03-31 13:43:41,587 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_3] [/192.168.111.242:7000]: [reboot]
+2014-03-31 13:43:42,213 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_3] [/192.168.111.242:7000]: [right]
+2014-03-31 13:43:42,837 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_3] [/192.168.111.242:7000]: [down]
+2014-03-31 13:43:43,466 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_3] [/192.168.111.242:7000]: [zoomin]
+2014-03-31 13:43:44,084 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_3] [/192.168.111.242:7000]: [zoomout]
+2014-03-31 13:43:44,709 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_3] [/192.168.111.242:7000]: [up]
+2014-03-31 13:43:45,283 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_3] [/192.168.111.242:7000]: [stopVideo]
+2014-03-31 13:43:45,853 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_3] [/192.168.111.242:7000]: [stop]
+2014-03-31 13:43:46,895 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_2] [/192.168.111.240:7000]: [left]
+2014-03-31 13:43:47,471 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_2] [/192.168.111.240:7000]: [startVideo]
+2014-03-31 13:43:48,093 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_2] [/192.168.111.240:7000]: [reboot]
+2014-03-31 13:43:48,684 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_2] [/192.168.111.240:7000]: [right]
+2014-03-31 13:43:49,262 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_2] [/192.168.111.240:7000]: [down]
+2014-03-31 13:43:49,833 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_2] [/192.168.111.240:7000]: [zoomin]
+2014-03-31 13:43:56,766 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_2] [/192.168.111.240:7000]: [zoomout]
+2014-03-31 13:43:57,377 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_2] [/192.168.111.240:7000]: [up]
+2014-03-31 13:43:57,968 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_2] [/192.168.111.240:7000]: [stopVideo]
+2014-03-31 13:43:58,542 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_2] [/192.168.111.240:7000]: [stop]
+2014-03-31 13:43:59,125 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_1] [/159.226.94.34:7000]: [left]
+2014-03-31 13:44:00,137 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_1] [/159.226.94.34:7000] unreachable.
+2014-03-31 13:44:00,728 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_1] [/159.226.94.34:7000]: [startVideo]
+2014-03-31 13:44:00,729 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_1] [/159.226.94.34:7000] unreachable.
+2014-03-31 13:44:01,369 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_1] [/159.226.94.34:7000]: [reboot]
+2014-03-31 13:44:01,369 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_1] [/159.226.94.34:7000] unreachable.
+2014-03-31 13:44:02,232 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_1] [/159.226.94.34:7000]: [right]
+2014-03-31 13:44:02,232 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_1] [/159.226.94.34:7000] unreachable.
+2014-03-31 13:44:02,838 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_1] [/159.226.94.34:7000]: [down]
+2014-03-31 13:44:02,838 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_1] [/159.226.94.34:7000] unreachable.
+2014-03-31 13:44:03,642 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_1] [/159.226.94.34:7000]: [zoomin]
+2014-03-31 13:44:03,643 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_1] [/159.226.94.34:7000] unreachable.
+2014-03-31 13:44:04,248 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_1] [/159.226.94.34:7000]: [zoomout]
+2014-03-31 13:44:04,249 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_1] [/159.226.94.34:7000] unreachable.
+2014-03-31 13:44:04,853 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_1] [/159.226.94.34:7000]: [up]
+2014-03-31 13:44:04,853 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_1] [/159.226.94.34:7000] unreachable.
+2014-03-31 13:44:05,469 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_1] [/159.226.94.34:7000]: [stopVideo]
+2014-03-31 13:44:05,470 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_1] [/159.226.94.34:7000] unreachable.
+2014-03-31 13:44:06,076 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_1] [/159.226.94.34:7000]: [stop]
+2014-03-31 13:44:06,076 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_1] [/159.226.94.34:7000] unreachable.
+2014-03-31 13:44:06,659 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_11] [/192.168.119.224:7000]: [left]
+2014-03-31 13:44:07,670 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_11] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:44:08,282 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_11] [/192.168.119.224:7000]: [startVideo]
+2014-03-31 13:44:08,283 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_11] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:44:08,867 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_11] [/192.168.119.224:7000]: [reboot]
+2014-03-31 13:44:08,868 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_11] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:44:09,472 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_11] [/192.168.119.224:7000]: [right]
+2014-03-31 13:44:09,473 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_11] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:44:10,020 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_11] [/192.168.119.224:7000]: [down]
+2014-03-31 13:44:10,020 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_11] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:44:10,612 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_11] [/192.168.119.224:7000]: [zoomin]
+2014-03-31 13:44:10,612 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_11] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:44:11,187 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_11] [/192.168.119.224:7000]: [zoomout]
+2014-03-31 13:44:11,187 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_11] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:45:14,737 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-31 13:45:14,741 INFO w.g.Gateway [main] Initializing resources...
+2014-03-31 13:45:14,741 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-31 13:45:14,745 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:45:16,495 INFO w.g.CameraDataHandler [main] Initialize camera [cam_10] [/192.168.119.224:7000]
+2014-03-31 13:45:23,490 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:45:24,062 INFO w.g.CameraDataHandler [main] Initialize camera [cam_9] [/192.168.119.220:7000]
+2014-03-31 13:45:28,936 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:45:29,560 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8] [/192.168.111.241:7000]
+2014-03-31 13:45:34,468 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:45:35,082 INFO w.g.CameraDataHandler [main] Initialize camera [cam_7] [/192.168.110.221:7000]
+2014-03-31 13:45:39,934 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:45:40,574 INFO w.g.CameraDataHandler [main] Initialize camera [cam_6] [/192.168.119.225:7000]
+2014-03-31 13:45:45,559 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:45:46,152 INFO w.g.CameraDataHandler [main] Initialize camera [cam_5] [/192.168.119.223:7000]
+2014-03-31 13:45:51,193 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:45:51,805 INFO w.g.CameraDataHandler [main] Initialize camera [cam_4] [/192.168.119.221:7000]
+2014-03-31 13:45:56,689 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:45:57,305 INFO w.g.CameraDataHandler [main] Initialize camera [cam_3] [/192.168.111.242:7000]
+2014-03-31 13:46:02,572 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:46:03,144 INFO w.g.CameraDataHandler [main] Initialize camera [cam_2] [/192.168.111.240:7000]
+2014-03-31 13:46:07,917 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:46:08,528 INFO w.g.CameraDataHandler [main] Initialize camera [cam_1] [/159.226.94.34:7000]
+2014-03-31 13:46:13,209 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:46:13,890 INFO w.g.CameraDataHandler [main] Initialize camera [cam_11] [/192.168.119.224:7000]
+2014-03-31 13:46:18,787 INFO w.g.Gateway [main] Loading preprocessor...
+2014-03-31 13:46:18,788 INFO w.g.Gateway [main] Started.
+2014-03-31 13:46:26,088 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_10] [/192.168.119.224:7000]: [left]
+2014-03-31 13:46:27,091 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:46:27,740 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_10] [/192.168.119.224:7000]: [startVideo]
+2014-03-31 13:46:27,740 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:46:28,316 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_10] [/192.168.119.224:7000]: [reboot]
+2014-03-31 13:46:28,317 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:46:28,936 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_10] [/192.168.119.224:7000]: [right]
+2014-03-31 13:46:28,936 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:46:29,562 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_10] [/192.168.119.224:7000]: [down]
+2014-03-31 13:46:29,562 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:46:30,161 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_10] [/192.168.119.224:7000]: [zoomin]
+2014-03-31 13:46:30,162 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:46:30,738 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_10] [/192.168.119.224:7000]: [zoomout]
+2014-03-31 13:46:30,739 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:46:31,312 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_10] [/192.168.119.224:7000]: [up]
+2014-03-31 13:46:31,313 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:46:31,927 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_10] [/192.168.119.224:7000]: [stopVideo]
+2014-03-31 13:46:31,928 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:46:32,507 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_10] [/192.168.119.224:7000]: [stop]
+2014-03-31 13:46:32,508 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:46:33,068 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_9] [/192.168.119.220:7000]: [left]
+2014-03-31 13:46:34,085 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 13:46:34,649 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_9] [/192.168.119.220:7000]: [startVideo]
+2014-03-31 13:46:34,650 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 13:46:35,283 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_9] [/192.168.119.220:7000]: [reboot]
+2014-03-31 13:46:35,284 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 13:46:35,828 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_9] [/192.168.119.220:7000]: [right]
+2014-03-31 13:46:35,829 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 13:46:36,379 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_9] [/192.168.119.220:7000]: [down]
+2014-03-31 13:46:36,379 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 13:46:37,087 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_9] [/192.168.119.220:7000]: [zoomin]
+2014-03-31 13:46:37,087 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 13:46:37,687 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_9] [/192.168.119.220:7000]: [zoomout]
+2014-03-31 13:46:37,688 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 13:46:38,247 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_9] [/192.168.119.220:7000]: [up]
+2014-03-31 13:46:38,247 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 13:46:38,816 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_9] [/192.168.119.220:7000]: [stopVideo]
+2014-03-31 13:46:38,816 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 13:46:39,448 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_9] [/192.168.119.220:7000]: [stop]
+2014-03-31 13:46:39,457 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 13:46:40,032 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_8] [/192.168.111.241:7000]: [left]
+2014-03-31 13:47:01,037 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 13:47:01,617 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_8] [/192.168.111.241:7000]: [startVideo]
+2014-03-31 13:47:01,618 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 13:47:02,210 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_8] [/192.168.111.241:7000]: [reboot]
+2014-03-31 13:47:02,210 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 13:47:02,822 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_8] [/192.168.111.241:7000]: [right]
+2014-03-31 13:47:02,823 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 13:47:03,428 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_8] [/192.168.111.241:7000]: [down]
+2014-03-31 13:47:03,428 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 13:47:04,048 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_8] [/192.168.111.241:7000]: [zoomin]
+2014-03-31 13:47:04,049 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 13:47:04,640 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_8] [/192.168.111.241:7000]: [zoomout]
+2014-03-31 13:47:04,641 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 13:47:05,222 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_8] [/192.168.111.241:7000]: [up]
+2014-03-31 13:47:05,223 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 13:47:05,830 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_8] [/192.168.111.241:7000]: [stopVideo]
+2014-03-31 13:47:05,831 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 13:47:06,431 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_8] [/192.168.111.241:7000]: [stop]
+2014-03-31 13:47:06,431 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 13:47:07,047 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_7] [/192.168.110.221:7000]: [left]
+2014-03-31 13:47:28,051 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_7] [/192.168.110.221:7000] unreachable.
+2014-03-31 13:47:28,625 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_7] [/192.168.110.221:7000]: [startVideo]
+2014-03-31 13:47:28,626 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_7] [/192.168.110.221:7000] unreachable.
+2014-03-31 13:47:29,297 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_7] [/192.168.110.221:7000]: [reboot]
+2014-03-31 13:47:29,298 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_7] [/192.168.110.221:7000] unreachable.
+2014-03-31 13:47:29,833 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_7] [/192.168.110.221:7000]: [right]
+2014-03-31 13:47:29,834 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_7] [/192.168.110.221:7000] unreachable.
+2014-03-31 13:47:30,408 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_7] [/192.168.110.221:7000]: [down]
+2014-03-31 13:47:30,409 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_7] [/192.168.110.221:7000] unreachable.
+2014-03-31 13:47:30,987 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_7] [/192.168.110.221:7000]: [zoomin]
+2014-03-31 13:47:30,987 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_7] [/192.168.110.221:7000] unreachable.
+2014-03-31 13:47:31,571 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_7] [/192.168.110.221:7000]: [zoomout]
+2014-03-31 13:47:31,572 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_7] [/192.168.110.221:7000] unreachable.
+2014-03-31 13:47:32,118 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_7] [/192.168.110.221:7000]: [up]
+2014-03-31 13:47:32,118 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_7] [/192.168.110.221:7000] unreachable.
+2014-03-31 13:47:32,717 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_7] [/192.168.110.221:7000]: [stopVideo]
+2014-03-31 13:47:32,718 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_7] [/192.168.110.221:7000] unreachable.
+2014-03-31 13:47:33,302 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_7] [/192.168.110.221:7000]: [stop]
+2014-03-31 13:47:33,302 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_7] [/192.168.110.221:7000] unreachable.
+2014-03-31 13:47:33,907 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_6] [/192.168.119.225:7000]: [left]
+2014-03-31 13:47:34,914 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_6] [/192.168.119.225:7000] unreachable.
+2014-03-31 13:47:35,441 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_6] [/192.168.119.225:7000]: [startVideo]
+2014-03-31 13:47:35,442 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_6] [/192.168.119.225:7000] unreachable.
+2014-03-31 13:47:36,008 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_6] [/192.168.119.225:7000]: [reboot]
+2014-03-31 13:47:36,008 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_6] [/192.168.119.225:7000] unreachable.
+2014-03-31 13:47:36,559 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_6] [/192.168.119.225:7000]: [right]
+2014-03-31 13:47:36,559 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_6] [/192.168.119.225:7000] unreachable.
+2014-03-31 13:47:37,081 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_6] [/192.168.119.225:7000]: [down]
+2014-03-31 13:47:37,081 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_6] [/192.168.119.225:7000] unreachable.
+2014-03-31 13:47:37,658 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_6] [/192.168.119.225:7000]: [zoomin]
+2014-03-31 13:47:37,659 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_6] [/192.168.119.225:7000] unreachable.
+2014-03-31 13:47:38,249 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_6] [/192.168.119.225:7000]: [zoomout]
+2014-03-31 13:47:38,249 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_6] [/192.168.119.225:7000] unreachable.
+2014-03-31 13:50:18,104 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-31 13:50:18,108 INFO w.g.Gateway [main] Initializing resources...
+2014-03-31 13:50:18,108 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-31 13:50:18,112 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:50:19,764 INFO w.g.CameraDataHandler [main] Initialize camera [cam_10] [/192.168.119.224:7000]
+2014-03-31 13:50:26,806 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:50:27,416 INFO w.g.CameraDataHandler [main] Initialize camera [cam_9] [/192.168.119.220:7000]
+2014-03-31 13:50:32,268 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:50:32,828 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8] [/192.168.111.241:7000]
+2014-03-31 13:50:37,533 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:50:38,137 INFO w.g.CameraDataHandler [main] Initialize camera [cam_7] [/192.168.110.221:7000]
+2014-03-31 13:50:42,835 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:50:43,421 INFO w.g.CameraDataHandler [main] Initialize camera [cam_6] [/192.168.119.225:7000]
+2014-03-31 13:50:48,114 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:50:48,731 INFO w.g.CameraDataHandler [main] Initialize camera [cam_5] [/192.168.119.223:7000]
+2014-03-31 13:50:53,569 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:50:54,135 INFO w.g.CameraDataHandler [main] Initialize camera [cam_4] [/192.168.119.221:7000]
+2014-03-31 13:50:59,301 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:50:59,912 INFO w.g.CameraDataHandler [main] Initialize camera [cam_3] [/192.168.111.242:7000]
+2014-03-31 13:51:02,250 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_10] [/192.168.119.224:7000]: [left]
+2014-03-31 13:51:03,253 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:51:03,792 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_10] [/192.168.119.224:7000]: [startVideo]
+2014-03-31 13:51:03,793 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:51:04,389 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_10] [/192.168.119.224:7000]: [reboot]
+2014-03-31 13:51:04,390 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:51:04,674 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:51:04,956 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_10] [/192.168.119.224:7000]: [right]
+2014-03-31 13:51:04,957 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:51:05,193 INFO w.g.CameraDataHandler [main] Initialize camera [cam_2] [/192.168.111.240:7000]
+2014-03-31 13:51:05,505 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_10] [/192.168.119.224:7000]: [down]
+2014-03-31 13:51:05,505 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:51:06,066 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_10] [/192.168.119.224:7000]: [zoomin]
+2014-03-31 13:51:06,066 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:51:06,637 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_10] [/192.168.119.224:7000]: [zoomout]
+2014-03-31 13:51:06,637 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:51:07,271 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_10] [/192.168.119.224:7000]: [up]
+2014-03-31 13:51:07,271 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:51:07,882 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_10] [/192.168.119.224:7000]: [stopVideo]
+2014-03-31 13:51:07,883 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:51:08,426 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_10] [/192.168.119.224:7000]: [stop]
+2014-03-31 13:51:08,426 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:51:08,984 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_9] [/192.168.119.220:7000]: [left]
+2014-03-31 13:51:09,596 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:51:09,987 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 13:51:10,235 INFO w.g.CameraDataHandler [main] Initialize camera [cam_1] [/159.226.94.34:7000]
+2014-03-31 13:51:10,503 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_9] [/192.168.119.220:7000]: [startVideo]
+2014-03-31 13:51:10,503 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 13:51:11,073 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_9] [/192.168.119.220:7000]: [reboot]
+2014-03-31 13:51:11,074 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 13:51:11,674 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_9] [/192.168.119.220:7000]: [right]
+2014-03-31 13:51:11,674 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 13:51:12,275 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_9] [/192.168.119.220:7000]: [down]
+2014-03-31 13:51:12,276 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 13:51:12,934 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_9] [/192.168.119.220:7000]: [zoomin]
+2014-03-31 13:51:12,934 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 13:51:13,504 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_9] [/192.168.119.220:7000]: [zoomout]
+2014-03-31 13:51:13,505 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 13:51:14,078 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_9] [/192.168.119.220:7000]: [up]
+2014-03-31 13:51:14,078 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 13:51:14,577 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:51:14,643 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_9] [/192.168.119.220:7000]: [stopVideo]
+2014-03-31 13:51:14,644 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 13:51:15,184 INFO w.g.CameraDataHandler [main] Initialize camera [cam_11] [/192.168.119.224:7000]
+2014-03-31 13:51:15,228 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_9] [/192.168.119.220:7000]: [stop]
+2014-03-31 13:51:15,229 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 13:51:15,811 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_8] [/192.168.111.241:7000]: [left]
+2014-03-31 13:51:19,981 INFO w.g.Gateway [main] Loading preprocessor...
+2014-03-31 13:51:19,982 INFO w.g.Gateway [main] Started.
+2014-03-31 13:51:36,816 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 13:51:37,421 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_8] [/192.168.111.241:7000]: [startVideo]
+2014-03-31 13:51:37,421 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 13:51:38,030 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_8] [/192.168.111.241:7000]: [reboot]
+2014-03-31 13:51:38,039 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 13:51:38,616 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_8] [/192.168.111.241:7000]: [right]
+2014-03-31 13:51:38,616 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 13:51:39,147 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_8] [/192.168.111.241:7000]: [down]
+2014-03-31 13:51:39,148 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 13:51:39,681 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_8] [/192.168.111.241:7000]: [zoomin]
+2014-03-31 13:51:39,681 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 13:51:40,285 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_8] [/192.168.111.241:7000]: [zoomout]
+2014-03-31 13:51:40,286 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 13:51:40,881 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_8] [/192.168.111.241:7000]: [up]
+2014-03-31 13:51:40,882 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 13:51:41,414 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_8] [/192.168.111.241:7000]: [stopVideo]
+2014-03-31 13:51:41,415 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 13:51:41,998 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_8] [/192.168.111.241:7000]: [stop]
+2014-03-31 13:51:41,999 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 13:51:42,596 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_7] [/192.168.110.221:7000]: [left]
+2014-03-31 13:52:03,587 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_7] [/192.168.110.221:7000] unreachable.
+2014-03-31 13:56:58,848 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-31 13:56:58,852 INFO w.g.Gateway [main] Initializing resources...
+2014-03-31 13:56:58,853 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-31 13:56:58,856 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:57:00,471 INFO w.g.CameraDataHandler [main] Initialize camera [cam_10] [/192.168.119.224:7000]
+2014-03-31 13:57:07,609 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:57:08,149 INFO w.g.CameraDataHandler [main] Initialize camera [cam_9] [/192.168.119.220:7000]
+2014-03-31 13:57:12,781 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:57:13,379 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8] [/192.168.111.241:7000]
+2014-03-31 13:57:18,121 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:57:18,711 INFO w.g.CameraDataHandler [main] Initialize camera [cam_7] [/192.168.110.221:7000]
+2014-03-31 13:57:23,507 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:57:24,122 INFO w.g.CameraDataHandler [main] Initialize camera [cam_6] [/192.168.119.225:7000]
+2014-03-31 13:57:29,026 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:57:29,662 INFO w.g.CameraDataHandler [main] Initialize camera [cam_5] [/192.168.119.223:7000]
+2014-03-31 13:57:34,539 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:57:35,133 INFO w.g.CameraDataHandler [main] Initialize camera [cam_4] [/192.168.119.221:7000]
+2014-03-31 13:57:39,974 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:57:40,565 INFO w.g.CameraDataHandler [main] Initialize camera [cam_3] [/192.168.111.242:7000]
+2014-03-31 13:57:41,719 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_10] [/192.168.119.224:7000]: [left]
+2014-03-31 13:57:42,723 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:57:43,312 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_10] [/192.168.119.224:7000]: [startVideo]
+2014-03-31 13:57:44,312 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:57:44,910 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_10] [/192.168.119.224:7000]: [reboot]
+2014-03-31 13:57:45,598 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:57:45,914 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:57:46,205 INFO w.g.CameraDataHandler [main] Initialize camera [cam_2] [/192.168.111.240:7000]
+2014-03-31 13:57:46,465 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_10] [/192.168.119.224:7000]: [right]
+2014-03-31 13:57:47,468 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:57:48,022 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_10] [/192.168.119.224:7000]: [down]
+2014-03-31 13:57:49,087 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:57:49,644 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_10] [/192.168.119.224:7000]: [zoomin]
+2014-03-31 13:57:50,642 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:57:50,830 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:57:51,216 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_10] [/192.168.119.224:7000]: [zoomout]
+2014-03-31 13:57:51,404 INFO w.g.CameraDataHandler [main] Initialize camera [cam_1] [/159.226.94.34:7000]
+2014-03-31 13:57:52,220 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:57:52,772 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_10] [/192.168.119.224:7000]: [up]
+2014-03-31 13:57:53,774 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:57:54,333 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_10] [/192.168.119.224:7000]: [stopVideo]
+2014-03-31 13:57:55,336 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:57:55,857 INFO w.g.CameraDataHandler [pool-5-thread-3] Command to [cam_10] [/192.168.119.224:7000]: [stop]
+2014-03-31 13:57:56,118 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:57:56,766 INFO w.g.CameraDataHandler [main] Initialize camera [cam_11] [/192.168.119.224:7000]
+2014-03-31 13:57:56,866 ERROR w.g.CameraDataHandler [pool-5-thread-3] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 13:57:57,428 INFO w.g.CameraDataHandler [pool-5-thread-3] Command to [cam_9] [/192.168.119.220:7000]: [left]
+2014-03-31 13:57:58,436 ERROR w.g.CameraDataHandler [pool-5-thread-3] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 13:57:58,957 INFO w.g.CameraDataHandler [pool-5-thread-3] Command to [cam_9] [/192.168.119.220:7000]: [startVideo]
+2014-03-31 13:57:59,967 ERROR w.g.CameraDataHandler [pool-5-thread-3] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 13:58:00,481 INFO w.g.CameraDataHandler [pool-5-thread-3] Command to [cam_9] [/192.168.119.220:7000]: [reboot]
+2014-03-31 13:58:01,328 INFO w.g.Gateway [main] Loading preprocessor...
+2014-03-31 13:58:01,329 INFO w.g.Gateway [main] Started.
+2014-03-31 13:58:01,480 ERROR w.g.CameraDataHandler [pool-5-thread-3] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 13:58:02,106 INFO w.g.CameraDataHandler [pool-5-thread-3] Command to [cam_9] [/192.168.119.220:7000]: [right]
+2014-03-31 13:58:03,116 ERROR w.g.CameraDataHandler [pool-5-thread-3] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 13:58:03,682 INFO w.g.CameraDataHandler [pool-5-thread-3] Command to [cam_9] [/192.168.119.220:7000]: [down]
+2014-03-31 13:58:04,683 ERROR w.g.CameraDataHandler [pool-5-thread-3] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 13:58:05,250 INFO w.g.CameraDataHandler [pool-5-thread-3] Command to [cam_9] [/192.168.119.220:7000]: [zoomin]
+2014-03-31 13:58:06,254 ERROR w.g.CameraDataHandler [pool-5-thread-3] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 13:58:06,823 INFO w.g.CameraDataHandler [pool-5-thread-3] Command to [cam_9] [/192.168.119.220:7000]: [zoomout]
+2014-03-31 13:58:07,829 ERROR w.g.CameraDataHandler [pool-5-thread-3] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 13:58:08,391 INFO w.g.CameraDataHandler [pool-5-thread-3] Command to [cam_9] [/192.168.119.220:7000]: [up]
+2014-03-31 13:58:14,895 ERROR w.g.CameraDataHandler [pool-5-thread-3] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 13:58:15,443 INFO w.g.CameraDataHandler [pool-5-thread-3] Command to [cam_9] [/192.168.119.220:7000]: [stopVideo]
+2014-03-31 13:58:16,445 ERROR w.g.CameraDataHandler [pool-5-thread-3] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 13:58:16,975 INFO w.g.CameraDataHandler [pool-5-thread-3] Command to [cam_9] [/192.168.119.220:7000]: [stop]
+2014-03-31 13:58:17,984 ERROR w.g.CameraDataHandler [pool-5-thread-3] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 13:58:18,574 INFO w.g.CameraDataHandler [pool-5-thread-3] Command to [cam_8] [/192.168.111.241:7000]: [left]
+2014-03-31 13:58:39,587 ERROR w.g.CameraDataHandler [pool-5-thread-3] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 13:58:40,163 INFO w.g.CameraDataHandler [pool-5-thread-3] Command to [cam_8] [/192.168.111.241:7000]: [startVideo]
+2014-03-31 13:59:01,160 ERROR w.g.CameraDataHandler [pool-5-thread-3] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 13:59:01,733 INFO w.g.CameraDataHandler [pool-5-thread-3] Command to [cam_8] [/192.168.111.241:7000]: [reboot]
+2014-03-31 13:59:22,735 ERROR w.g.CameraDataHandler [pool-5-thread-3] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 13:59:23,352 INFO w.g.CameraDataHandler [pool-5-thread-3] Command to [cam_8] [/192.168.111.241:7000]: [right]
+2014-03-31 13:59:40,013 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-31 13:59:40,017 INFO w.g.Gateway [main] Initializing resources...
+2014-03-31 13:59:40,018 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-31 13:59:40,022 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:59:41,719 INFO w.g.CameraDataHandler [main] Initialize camera [cam_10] [/192.168.119.224:7000]
+2014-03-31 13:59:48,670 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:59:49,283 INFO w.g.CameraDataHandler [main] Initialize camera [cam_9] [/192.168.119.220:7000]
+2014-03-31 13:59:54,115 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 13:59:54,716 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8] [/192.168.111.241:7000]
+2014-03-31 13:59:59,657 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 14:00:00,300 INFO w.g.CameraDataHandler [main] Initialize camera [cam_7] [/192.168.110.221:7000]
+2014-03-31 14:00:05,132 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 14:00:05,748 INFO w.g.CameraDataHandler [main] Initialize camera [cam_6] [/192.168.119.225:7000]
+2014-03-31 14:00:10,684 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 14:00:11,298 INFO w.g.CameraDataHandler [main] Initialize camera [cam_5] [/192.168.119.223:7000]
+2014-03-31 14:00:16,504 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 14:00:17,103 INFO w.g.CameraDataHandler [main] Initialize camera [cam_4] [/192.168.119.221:7000]
+2014-03-31 14:00:21,773 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 14:00:22,391 INFO w.g.CameraDataHandler [main] Initialize camera [cam_3] [/192.168.111.242:7000]
+2014-03-31 14:00:27,374 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 14:00:28,006 INFO w.g.CameraDataHandler [main] Initialize camera [cam_2] [/192.168.111.240:7000]
+2014-03-31 14:00:32,867 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 14:00:33,470 INFO w.g.CameraDataHandler [main] Initialize camera [cam_1] [/159.226.94.34:7000]
+2014-03-31 14:00:38,456 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 14:00:39,192 INFO w.g.CameraDataHandler [main] Initialize camera [cam_11] [/192.168.119.224:7000]
+2014-03-31 14:00:44,137 INFO w.g.Gateway [main] Loading preprocessor...
+2014-03-31 14:00:44,138 INFO w.g.Gateway [main] Started.
+2014-03-31 14:00:54,566 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_10] [/192.168.119.224:7000]: [left]
+2014-03-31 14:00:55,571 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 14:00:56,250 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_10] [/192.168.119.224:7000]: [startVideo]
+2014-03-31 14:00:57,257 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 14:00:57,850 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_10] [/192.168.119.224:7000]: [reboot]
+2014-03-31 14:00:58,856 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 14:00:59,478 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_10] [/192.168.119.224:7000]: [right]
+2014-03-31 14:01:00,483 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 14:01:01,089 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_10] [/192.168.119.224:7000]: [down]
+2014-03-31 14:01:02,097 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 14:01:02,685 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_10] [/192.168.119.224:7000]: [zoomin]
+2014-03-31 14:01:03,693 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 14:01:04,277 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_10] [/192.168.119.224:7000]: [zoomout]
+2014-03-31 14:01:05,285 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 14:01:05,860 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_10] [/192.168.119.224:7000]: [up]
+2014-03-31 14:01:06,867 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 14:01:07,463 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_10] [/192.168.119.224:7000]: [stopVideo]
+2014-03-31 14:01:08,465 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 14:01:09,068 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_10] [/192.168.119.224:7000]: [stop]
+2014-03-31 14:01:10,072 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 14:01:10,664 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_9] [/192.168.119.220:7000]: [left]
+2014-03-31 14:01:11,673 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 14:01:12,283 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_9] [/192.168.119.220:7000]: [startVideo]
+2014-03-31 14:01:13,292 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 14:01:13,907 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_9] [/192.168.119.220:7000]: [reboot]
+2014-03-31 14:01:14,916 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 14:01:15,491 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_9] [/192.168.119.220:7000]: [right]
+2014-03-31 14:01:16,494 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 14:01:17,107 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_9] [/192.168.119.220:7000]: [down]
+2014-03-31 14:01:18,117 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 14:01:18,716 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_9] [/192.168.119.220:7000]: [zoomin]
+2014-03-31 14:01:19,730 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 14:01:20,325 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_9] [/192.168.119.220:7000]: [zoomout]
+2014-03-31 14:01:21,332 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 14:01:21,916 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_9] [/192.168.119.220:7000]: [up]
+2014-03-31 14:01:22,936 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 14:01:23,527 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_9] [/192.168.119.220:7000]: [stopVideo]
+2014-03-31 14:01:24,533 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 14:01:25,135 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_9] [/192.168.119.220:7000]: [stop]
+2014-03-31 14:01:26,150 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 14:01:26,691 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_8] [/192.168.111.241:7000]: [left]
+2014-03-31 14:01:47,690 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 14:01:48,305 INFO w.g.CameraDataHandler [pool-5-thread-2] Command to [cam_8] [/192.168.111.241:7000]: [startVideo]
+2014-03-31 14:02:09,298 ERROR w.g.CameraDataHandler [pool-5-thread-2] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 14:03:59,767 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_10] [/192.168.119.224:7000]: [left]
+2014-03-31 14:04:00,782 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 14:04:01,375 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_10] [/192.168.119.224:7000]: [startVideo]
+2014-03-31 14:04:02,380 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 14:04:02,954 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_10] [/192.168.119.224:7000]: [reboot]
+2014-03-31 14:04:03,966 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 14:04:04,569 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_10] [/192.168.119.224:7000]: [right]
+2014-03-31 14:04:05,574 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 14:04:06,145 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_10] [/192.168.119.224:7000]: [down]
+2014-03-31 14:04:07,154 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 14:04:07,778 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_10] [/192.168.119.224:7000]: [zoomin]
+2014-03-31 14:04:08,780 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 14:04:09,343 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_10] [/192.168.119.224:7000]: [zoomout]
+2014-03-31 14:04:10,341 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 14:04:10,924 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_10] [/192.168.119.224:7000]: [up]
+2014-03-31 14:04:11,937 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 14:04:12,521 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_10] [/192.168.119.224:7000]: [stopVideo]
+2014-03-31 14:04:13,527 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 14:04:14,091 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_10] [/192.168.119.224:7000]: [stop]
+2014-03-31 14:04:15,096 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_10] [/192.168.119.224:7000] unreachable.
+2014-03-31 14:04:15,666 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_9] [/192.168.119.220:7000]: [left]
+2014-03-31 14:04:16,677 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 14:04:17,299 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_9] [/192.168.119.220:7000]: [startVideo]
+2014-03-31 14:04:18,303 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 14:04:18,882 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_9] [/192.168.119.220:7000]: [reboot]
+2014-03-31 14:04:19,881 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 14:04:20,450 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_9] [/192.168.119.220:7000]: [right]
+2014-03-31 14:04:21,453 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 14:04:22,055 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_9] [/192.168.119.220:7000]: [down]
+2014-03-31 14:04:23,049 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 14:04:23,646 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_9] [/192.168.119.220:7000]: [zoomin]
+2014-03-31 14:04:24,651 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 14:04:25,278 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_9] [/192.168.119.220:7000]: [zoomout]
+2014-03-31 14:04:26,281 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 14:04:26,875 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_9] [/192.168.119.220:7000]: [up]
+2014-03-31 14:04:27,883 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 14:04:28,495 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_9] [/192.168.119.220:7000]: [stopVideo]
+2014-03-31 14:04:29,512 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 14:04:30,084 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_9] [/192.168.119.220:7000]: [stop]
+2014-03-31 14:04:31,090 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_9] [/192.168.119.220:7000] unreachable.
+2014-03-31 14:04:31,686 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_8] [/192.168.111.241:7000]: [left]
+2014-03-31 14:04:52,689 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 14:04:53,212 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_8] [/192.168.111.241:7000]: [startVideo]
+2014-03-31 14:05:14,208 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 14:05:14,839 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_8] [/192.168.111.241:7000]: [reboot]
+2014-03-31 14:05:35,844 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 14:05:36,448 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_8] [/192.168.111.241:7000]: [right]
+2014-03-31 14:05:57,451 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 14:05:58,067 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_8] [/192.168.111.241:7000]: [down]
+2014-03-31 14:06:19,073 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 14:06:19,669 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_8] [/192.168.111.241:7000]: [zoomin]
+2014-03-31 14:06:40,676 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 14:06:41,275 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_8] [/192.168.111.241:7000]: [zoomout]
+2014-03-31 14:07:02,273 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 14:07:02,842 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_8] [/192.168.111.241:7000]: [up]
+2014-03-31 14:07:23,838 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 14:07:24,412 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_8] [/192.168.111.241:7000]: [stopVideo]
+2014-03-31 14:07:45,408 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 14:07:46,057 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_8] [/192.168.111.241:7000]: [stop]
+2014-03-31 14:08:07,060 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_8] [/192.168.111.241:7000] unreachable.
+2014-03-31 14:08:07,624 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_7] [/192.168.110.221:7000]: [left]
+2014-03-31 14:08:28,625 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_7] [/192.168.110.221:7000] unreachable.
+2014-03-31 14:08:29,193 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_7] [/192.168.110.221:7000]: [startVideo]
+2014-03-31 14:08:50,196 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_7] [/192.168.110.221:7000] unreachable.
+2014-03-31 14:08:50,751 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_7] [/192.168.110.221:7000]: [reboot]
+2014-03-31 14:09:11,751 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_7] [/192.168.110.221:7000] unreachable.
+2014-03-31 14:09:12,340 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_7] [/192.168.110.221:7000]: [right]
+2014-03-31 14:09:33,345 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_7] [/192.168.110.221:7000] unreachable.
+2014-03-31 14:09:33,941 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_7] [/192.168.110.221:7000]: [down]
+2014-03-31 14:09:54,937 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_7] [/192.168.110.221:7000] unreachable.
+2014-03-31 14:09:55,501 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_7] [/192.168.110.221:7000]: [zoomin]
+2014-03-31 14:10:16,500 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_7] [/192.168.110.221:7000] unreachable.
+2014-03-31 14:10:17,074 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_7] [/192.168.110.221:7000]: [zoomout]
+2014-03-31 14:10:38,076 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_7] [/192.168.110.221:7000] unreachable.
+2014-03-31 14:10:38,655 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_7] [/192.168.110.221:7000]: [up]
+2014-03-31 14:10:59,650 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_7] [/192.168.110.221:7000] unreachable.
+2014-03-31 14:11:00,257 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_7] [/192.168.110.221:7000]: [stopVideo]
+2014-03-31 14:11:21,264 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_7] [/192.168.110.221:7000] unreachable.
+2014-03-31 14:11:21,907 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_7] [/192.168.110.221:7000]: [stop]
+2014-03-31 14:11:42,910 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_7] [/192.168.110.221:7000] unreachable.
+2014-03-31 14:11:43,485 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_6] [/192.168.119.225:7000]: [left]
+2014-03-31 14:11:44,497 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_6] [/192.168.119.225:7000] unreachable.
+2014-03-31 14:11:45,115 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_6] [/192.168.119.225:7000]: [startVideo]
+2014-03-31 14:11:46,124 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_6] [/192.168.119.225:7000] unreachable.
+2014-03-31 14:11:46,703 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_6] [/192.168.119.225:7000]: [reboot]
+2014-03-31 14:11:47,704 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_6] [/192.168.119.225:7000] unreachable.
+2014-03-31 14:11:48,303 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_6] [/192.168.119.225:7000]: [right]
+2014-03-31 14:11:49,302 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_6] [/192.168.119.225:7000] unreachable.
+2014-03-31 14:11:49,908 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_6] [/192.168.119.225:7000]: [down]
+2014-03-31 14:11:50,922 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_6] [/192.168.119.225:7000] unreachable.
+2014-03-31 14:11:51,493 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_6] [/192.168.119.225:7000]: [zoomin]
+2014-03-31 14:11:52,499 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_6] [/192.168.119.225:7000] unreachable.
+2014-03-31 14:11:53,109 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_6] [/192.168.119.225:7000]: [zoomout]
+2014-03-31 14:11:54,114 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_6] [/192.168.119.225:7000] unreachable.
+2014-03-31 14:11:54,722 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_6] [/192.168.119.225:7000]: [up]
+2014-03-31 14:11:55,724 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_6] [/192.168.119.225:7000] unreachable.
+2014-03-31 14:11:56,328 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_6] [/192.168.119.225:7000]: [stopVideo]
+2014-03-31 14:11:57,336 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_6] [/192.168.119.225:7000] unreachable.
+2014-03-31 14:11:57,952 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_6] [/192.168.119.225:7000]: [stop]
+2014-03-31 14:11:58,954 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_6] [/192.168.119.225:7000] unreachable.
+2014-03-31 14:11:59,547 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_5] [/192.168.119.223:7000]: [left]
+2014-03-31 14:12:00,554 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_5] [/192.168.119.223:7000] unreachable.
+2014-03-31 14:12:01,130 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_5] [/192.168.119.223:7000]: [startVideo]
+2014-03-31 14:12:02,136 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_5] [/192.168.119.223:7000] unreachable.
+2014-03-31 14:12:02,713 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_5] [/192.168.119.223:7000]: [reboot]
+2014-03-31 14:12:03,708 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_5] [/192.168.119.223:7000] unreachable.
+2014-03-31 14:12:04,263 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_5] [/192.168.119.223:7000]: [right]
+2014-03-31 14:12:05,263 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_5] [/192.168.119.223:7000] unreachable.
+2014-03-31 14:12:05,869 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_5] [/192.168.119.223:7000]: [down]
+2014-03-31 14:12:06,872 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_5] [/192.168.119.223:7000] unreachable.
+2014-03-31 14:12:07,432 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_5] [/192.168.119.223:7000]: [zoomin]
+2014-03-31 14:12:08,433 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_5] [/192.168.119.223:7000] unreachable.
+2014-03-31 14:12:08,984 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_5] [/192.168.119.223:7000]: [zoomout]
+2014-03-31 14:12:09,996 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_5] [/192.168.119.223:7000] unreachable.
+2014-03-31 14:12:10,597 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_5] [/192.168.119.223:7000]: [up]
+2014-03-31 14:12:11,605 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_5] [/192.168.119.223:7000] unreachable.
+2014-03-31 14:12:12,183 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_5] [/192.168.119.223:7000]: [stopVideo]
+2014-03-31 14:12:13,187 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_5] [/192.168.119.223:7000] unreachable.
+2014-03-31 14:12:13,733 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_5] [/192.168.119.223:7000]: [stop]
+2014-03-31 14:12:14,733 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_5] [/192.168.119.223:7000] unreachable.
+2014-03-31 14:12:15,318 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_4] [/192.168.119.221:7000]: [left]
+2014-03-31 14:12:16,323 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_4] [/192.168.119.221:7000] unreachable.
+2014-03-31 14:12:16,879 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_4] [/192.168.119.221:7000]: [startVideo]
+2014-03-31 14:12:17,882 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_4] [/192.168.119.221:7000] unreachable.
+2014-03-31 14:12:18,494 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_4] [/192.168.119.221:7000]: [reboot]
+2014-03-31 14:12:19,496 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_4] [/192.168.119.221:7000] unreachable.
+2014-03-31 14:12:20,032 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_4] [/192.168.119.221:7000]: [right]
+2014-03-31 14:12:21,035 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_4] [/192.168.119.221:7000] unreachable.
+2014-03-31 14:12:21,668 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_4] [/192.168.119.221:7000]: [down]
+2014-03-31 14:12:22,689 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_4] [/192.168.119.221:7000] unreachable.
+2014-03-31 14:12:23,305 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_4] [/192.168.119.221:7000]: [zoomin]
+2014-03-31 14:12:24,317 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_4] [/192.168.119.221:7000] unreachable.
+2014-03-31 14:12:24,960 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_4] [/192.168.119.221:7000]: [zoomout]
+2014-03-31 14:12:25,973 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_4] [/192.168.119.221:7000] unreachable.
+2014-03-31 14:12:26,572 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_4] [/192.168.119.221:7000]: [up]
+2014-03-31 14:12:27,572 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_4] [/192.168.119.221:7000] unreachable.
+2014-03-31 14:12:28,186 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_4] [/192.168.119.221:7000]: [stopVideo]
+2014-03-31 14:12:29,190 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_4] [/192.168.119.221:7000] unreachable.
+2014-03-31 14:12:29,785 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_4] [/192.168.119.221:7000]: [stop]
+2014-03-31 14:12:30,795 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_4] [/192.168.119.221:7000] unreachable.
+2014-03-31 14:12:31,417 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_3] [/192.168.111.242:7000]: [left]
+2014-03-31 14:12:32,024 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_3] [/192.168.111.242:7000]: [startVideo]
+2014-03-31 14:12:32,686 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_3] [/192.168.111.242:7000]: [reboot]
+2014-03-31 14:12:33,328 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_3] [/192.168.111.242:7000]: [right]
+2014-03-31 14:12:33,951 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_3] [/192.168.111.242:7000]: [down]
+2014-03-31 14:12:34,525 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_3] [/192.168.111.242:7000]: [zoomin]
+2014-03-31 14:12:35,168 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_3] [/192.168.111.242:7000]: [zoomout]
+2014-03-31 14:12:35,764 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_3] [/192.168.111.242:7000]: [up]
+2014-03-31 14:12:36,407 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_3] [/192.168.111.242:7000]: [stopVideo]
+2014-03-31 14:12:37,039 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_3] [/192.168.111.242:7000]: [stop]
+2014-03-31 14:12:37,634 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_2] [/192.168.111.240:7000]: [left]
+2014-03-31 14:12:38,268 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_2] [/192.168.111.240:7000]: [startVideo]
+2014-03-31 14:12:38,933 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_2] [/192.168.111.240:7000]: [reboot]
+2014-03-31 14:12:39,535 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_2] [/192.168.111.240:7000]: [right]
+2014-03-31 14:12:40,139 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_2] [/192.168.111.240:7000]: [down]
+2014-03-31 14:12:40,725 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_2] [/192.168.111.240:7000]: [zoomin]
+2014-03-31 14:12:41,366 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_2] [/192.168.111.240:7000]: [zoomout]
+2014-03-31 14:12:42,008 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_2] [/192.168.111.240:7000]: [up]
+2014-03-31 14:12:42,581 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_2] [/192.168.111.240:7000]: [stopVideo]
+2014-03-31 14:12:43,208 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_2] [/192.168.111.240:7000]: [stop]
+2014-03-31 14:12:43,811 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_1] [/159.226.94.34:7000]: [left]
+2014-03-31 14:12:44,815 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_1] [/159.226.94.34:7000] unreachable.
+2014-03-31 14:12:45,397 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_1] [/159.226.94.34:7000]: [startVideo]
+2014-03-31 14:12:46,403 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_1] [/159.226.94.34:7000] unreachable.
+2014-03-31 14:12:47,034 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_1] [/159.226.94.34:7000]: [reboot]
+2014-03-31 14:12:48,034 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_1] [/159.226.94.34:7000] unreachable.
+2014-03-31 14:12:48,610 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_1] [/159.226.94.34:7000]: [right]
+2014-03-31 14:12:49,620 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_1] [/159.226.94.34:7000] unreachable.
+2014-03-31 14:12:50,205 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_1] [/159.226.94.34:7000]: [down]
+2014-03-31 14:12:51,209 ERROR w.g.CameraDataHandler [pool-5-thread-4] Client [cam_1] [/159.226.94.34:7000] unreachable.
+2014-03-31 14:12:51,827 INFO w.g.CameraDataHandler [pool-5-thread-4] Command to [cam_1] [/159.226.94.34:7000]: [zoomin]
+2014-03-31 17:21:41,898 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-31 17:21:41,903 INFO w.g.Gateway [main] Initializing resources...
+2014-03-31 17:21:41,903 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-31 17:21:41,907 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 17:23:14,049 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-31 17:23:14,053 INFO w.g.Gateway [main] Initializing resources...
+2014-03-31 17:23:14,053 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-31 17:23:14,057 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 17:23:40,150 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-31 17:23:40,154 INFO w.g.Gateway [main] Initializing resources...
+2014-03-31 17:23:40,154 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-31 17:23:40,155 INFO w.g.Gateway [main] IDMap not found, register all resources and creating a new map file...
+2014-03-31 17:23:40,164 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 17:23:42,735 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 17:23:44,227 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 17:23:45,723 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 17:23:47,190 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 17:23:48,687 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 17:23:50,144 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 17:23:51,621 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 17:23:53,083 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 17:23:54,542 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 17:23:56,003 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 17:23:57,428 INFO w.g.u.ConfigurationFile [main] Updating configuration in file idmap.ini
+2014-03-31 17:23:57,451 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 17:23:58,045 INFO w.g.CameraDataHandler [main] Initialize camera [cam_10] [/192.168.119.224:7000]
+2014-03-31 17:24:02,895 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 17:24:03,527 INFO w.g.CameraDataHandler [main] Initialize camera [cam_9] [/192.168.119.220:7000]
+2014-03-31 17:24:08,559 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 17:24:09,181 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8] [/192.168.111.241:7000]
+2014-03-31 17:24:13,906 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 17:24:14,506 INFO w.g.CameraDataHandler [main] Initialize camera [cam_7] [/192.168.110.221:7000]
+2014-03-31 17:24:19,262 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 17:24:19,967 INFO w.g.CameraDataHandler [main] Initialize camera [cam_6] [/192.168.119.225:7000]
+2014-03-31 17:24:24,606 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 17:24:25,190 INFO w.g.CameraDataHandler [main] Initialize camera [cam_5] [/192.168.119.223:7000]
+2014-03-31 17:24:29,830 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 17:24:30,421 INFO w.g.CameraDataHandler [main] Initialize camera [cam_4] [/192.168.119.221:7000]
+2014-03-31 17:24:35,047 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 17:24:35,611 INFO w.g.CameraDataHandler [main] Initialize camera [cam_3] [/192.168.111.242:7000]
+2014-03-31 17:24:40,327 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 17:24:40,923 INFO w.g.CameraDataHandler [main] Initialize camera [cam_2] [/192.168.111.240:7000]
+2014-03-31 17:24:45,670 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 17:24:46,293 INFO w.g.CameraDataHandler [main] Initialize camera [cam_1] [/159.226.94.34:7000]
+2014-03-31 17:24:51,123 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 17:24:51,783 INFO w.g.CameraDataHandler [main] Initialize camera [cam_11] [/192.168.119.224:7000]
+2014-03-31 17:24:56,756 INFO w.g.Gateway [main] Loading preprocessor...
+2014-03-31 17:24:56,757 INFO w.g.Gateway [main] Started.
+2014-03-31 18:25:58,464 ERROR r.t.b.PacketReceiver [rpc.term.byval.ValTerminal@6141e734.daemon] catching
+rpc.io.FatalIOException: java.io.EOFException
+	at rpc.io.jdk.JdkSerializer.readObject(JdkSerializer.java:57) ~[camera-gateway.jar:?]
+	at rpc.term.byval.PacketReceiver.run(PacketReceiver.java:42) [camera-gateway.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [?:1.7.0_21]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334) [?:1.7.0_21]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166) [?:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [?:1.7.0_21]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [?:1.7.0_21]
+	at java.lang.Thread.run(Thread.java:722) [?:1.7.0_21]
+Caused by: java.io.EOFException
+	at java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:2596) ~[?:1.7.0_21]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1316) ~[?:1.7.0_21]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:370) ~[?:1.7.0_21]
+	at rpc.io.jdk.JdkSerializer.readObject(JdkSerializer.java:49) ~[camera-gateway.jar:?]
+	... 7 more
+2014-03-31 18:42:51,105 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-31 18:42:51,109 INFO w.g.Gateway [main] Initializing resources...
+2014-03-31 18:42:51,109 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-31 18:42:51,112 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 18:42:52,803 INFO w.g.CameraDataHandler [main] Initialize camera [cam_10] [/192.168.119.224:7000]
+2014-03-31 18:42:57,712 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 18:42:58,361 INFO w.g.CameraDataHandler [main] Initialize camera [cam_9] [/192.168.119.220:7000]
+2014-03-31 18:43:03,253 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 18:43:03,860 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8] [/192.168.111.241:7000]
+2014-03-31 18:43:08,899 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 18:43:09,477 INFO w.g.CameraDataHandler [main] Initialize camera [cam_7] [/192.168.110.221:7000]
+2014-03-31 18:43:14,420 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 18:43:15,025 INFO w.g.CameraDataHandler [main] Initialize camera [cam_6] [/192.168.119.225:7000]
+2014-03-31 18:43:20,049 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 18:43:20,687 INFO w.g.CameraDataHandler [main] Initialize camera [cam_5] [/192.168.119.223:7000]
+2014-03-31 18:43:25,696 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 18:43:26,308 INFO w.g.CameraDataHandler [main] Initialize camera [cam_4] [/192.168.119.221:7000]
+2014-03-31 18:43:31,225 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 18:43:31,866 INFO w.g.CameraDataHandler [main] Initialize camera [cam_3] [/192.168.111.242:7000]
+2014-03-31 18:43:36,676 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 18:43:37,328 INFO w.g.CameraDataHandler [main] Initialize camera [cam_2] [/192.168.111.240:7000]
+2014-03-31 18:43:42,194 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 18:43:42,802 INFO w.g.CameraDataHandler [main] Initialize camera [cam_1] [/159.226.94.34:7000]
+2014-03-31 18:43:47,586 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 18:43:48,269 INFO w.g.CameraDataHandler [main] Initialize camera [cam_11] [/192.168.119.224:7000]
+2014-03-31 18:43:53,063 INFO w.g.Gateway [main] Loading preprocessor...
+2014-03-31 18:43:53,063 INFO w.g.Gateway [main] Started.
+2014-03-31 18:48:01,883 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-31 18:48:01,887 INFO w.g.Gateway [main] Initializing resources...
+2014-03-31 18:48:01,887 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-31 18:48:01,887 INFO w.g.Gateway [main] IDMap not found, register all resources and creating a new map file...
+2014-03-31 18:48:01,897 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 18:48:04,388 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 18:48:05,869 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 18:48:07,298 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 18:48:08,717 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 18:48:10,720 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 18:48:12,427 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 18:48:13,841 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 18:48:15,247 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 18:48:16,657 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 18:48:18,055 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 18:48:19,497 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 18:48:20,914 INFO w.g.u.ConfigurationFile [main] Updating configuration in file idmap.ini
+2014-03-31 18:48:20,917 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 18:48:21,522 INFO w.g.CameraDataHandler [main] Initialize camera [cam_10] [/192.168.119.222:7000]
+2014-03-31 18:48:26,362 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 18:48:27,021 INFO w.g.CameraDataHandler [main] Initialize camera [cam_9] [/192.168.119.220:7000]
+2014-03-31 18:48:31,834 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 18:48:32,441 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8] [/192.168.111.241:7000]
+2014-03-31 18:48:37,320 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 18:48:37,960 INFO w.g.CameraDataHandler [main] Initialize camera [cam_7] [/192.168.110.221:7000]
+2014-03-31 18:48:42,859 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 18:48:43,583 INFO w.g.CameraDataHandler [main] Initialize camera [cam_6] [/192.168.119.225:7000]
+2014-03-31 18:48:48,535 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 18:48:49,165 INFO w.g.CameraDataHandler [main] Initialize camera [cam_5] [/192.168.119.223:7000]
+2014-03-31 18:48:54,021 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 18:48:54,635 INFO w.g.CameraDataHandler [main] Initialize camera [cam_4] [/192.168.119.221:7000]
+2014-03-31 18:48:59,461 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 18:49:00,067 INFO w.g.CameraDataHandler [main] Initialize camera [cam_3] [/192.168.111.242:7000]
+2014-03-31 18:49:04,874 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 18:49:05,476 INFO w.g.CameraDataHandler [main] Initialize camera [cam_2] [/192.168.111.240:7000]
+2014-03-31 18:49:10,267 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 18:49:10,889 INFO w.g.CameraDataHandler [main] Initialize camera [cam_1] [/159.226.94.34:7000]
+2014-03-31 18:49:15,746 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-03-31 18:49:16,358 INFO w.g.CameraDataHandler [main] Initialize camera [cam_11] [/192.168.119.224:7000]
+2014-03-31 18:49:21,188 INFO w.g.Gateway [main] Loading preprocessor...
+2014-03-31 18:49:21,189 INFO w.g.Gateway [main] Started.
+2014-03-31 19:54:02,257 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-31 19:54:02,261 INFO w.g.Gateway [main] Initializing resources...
+2014-03-31 19:54:02,261 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-31 19:54:02,265 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 19:54:50,018 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-31 19:54:50,021 INFO w.g.Gateway [main] Initializing resources...
+2014-03-31 19:54:50,022 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-31 19:54:50,025 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 19:57:18,243 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-31 19:57:18,247 INFO w.g.Gateway [main] Initializing resources...
+2014-03-31 19:57:18,248 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-31 19:57:18,251 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 19:59:02,889 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-31 19:59:02,893 INFO w.g.Gateway [main] Initializing resources...
+2014-03-31 19:59:02,893 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-31 19:59:02,894 INFO w.g.Gateway [main] IDMap not found, register all resources and creating a new map file...
+2014-03-31 19:59:02,904 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 19:59:08,898 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 19:59:12,974 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 19:59:16,941 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 19:59:21,061 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 19:59:25,003 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 19:59:29,319 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 19:59:33,439 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 19:59:37,500 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 19:59:41,499 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 19:59:45,845 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 19:59:49,906 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 19:59:53,899 INFO w.g.u.ConfigurationFile [main] Updating configuration in file idmap.ini
+2014-03-31 19:59:53,903 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 19:59:55,779 INFO w.g.CameraDataHandler [main] Initialize camera [cam_10] [/192.168.119.222:7000]
+2014-03-31 20:04:30,279 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-31 20:04:30,283 INFO w.g.Gateway [main] Initializing resources...
+2014-03-31 20:04:30,283 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-31 20:04:30,287 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:04:34,348 INFO w.g.CameraDataHandler [main] Initialize camera [cam_10] [/192.168.119.222:7000]
+2014-03-31 20:04:47,681 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:04:49,583 INFO w.g.CameraDataHandler [main] Initialize camera [cam_9] [/192.168.119.220:7000]
+2014-03-31 20:05:03,055 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:05:04,942 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8] [/192.168.111.241:7000]
+2014-03-31 20:05:18,718 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:05:20,598 INFO w.g.CameraDataHandler [main] Initialize camera [cam_7] [/192.168.110.221:7000]
+2014-03-31 20:05:33,906 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:05:35,822 INFO w.g.CameraDataHandler [main] Initialize camera [cam_6] [/192.168.119.225:7000]
+2014-03-31 20:05:49,380 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:05:51,314 INFO w.g.CameraDataHandler [main] Initialize camera [cam_5] [/192.168.119.223:7000]
+2014-03-31 20:06:04,953 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:06:06,882 INFO w.g.CameraDataHandler [main] Initialize camera [cam_4] [/192.168.119.221:7000]
+2014-03-31 20:06:20,178 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:06:22,115 INFO w.g.CameraDataHandler [main] Initialize camera [cam_3] [/192.168.111.242:7000]
+2014-03-31 20:06:35,591 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:06:37,512 INFO w.g.CameraDataHandler [main] Initialize camera [cam_2] [/192.168.111.240:7000]
+2014-03-31 20:07:09,567 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-31 20:07:09,571 INFO w.g.Gateway [main] Initializing resources...
+2014-03-31 20:07:09,571 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-31 20:07:09,575 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:07:13,465 INFO w.g.CameraDataHandler [main] Initialize camera [cam_10] [/192.168.119.222:7000]
+2014-03-31 20:07:26,860 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:07:28,795 INFO w.g.CameraDataHandler [main] Initialize camera [cam_9] [/192.168.119.220:7000]
+2014-03-31 20:20:02,051 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-31 20:20:02,054 INFO w.g.Gateway [main] Initializing resources...
+2014-03-31 20:20:02,055 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-31 20:20:02,058 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:27:27,104 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-31 20:27:27,107 INFO w.g.Gateway [main] Initializing resources...
+2014-03-31 20:27:27,108 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-31 20:27:27,111 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:41:45,308 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-31 20:41:45,312 INFO w.g.Gateway [main] Initializing resources...
+2014-03-31 20:41:45,312 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-31 20:41:45,315 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:42:43,598 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-31 20:42:43,602 INFO w.g.Gateway [main] Initializing resources...
+2014-03-31 20:42:43,602 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-31 20:42:43,602 INFO w.g.Gateway [main] IDMap not found, register all resources and creating a new map file...
+2014-03-31 20:42:43,612 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:42:49,580 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:42:53,664 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:42:57,705 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:43:01,767 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:43:05,829 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:43:09,893 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:43:13,870 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:43:18,087 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:43:22,112 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:43:26,061 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:43:30,082 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:43:34,067 INFO w.g.u.ConfigurationFile [main] Updating configuration in file idmap.ini
+2014-03-31 20:43:34,070 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:43:36,004 INFO w.g.CameraDataHandler [main] Initialize camera [cam_10] [/192.168.119.222:7000]
+2014-03-31 20:43:49,283 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:43:51,159 INFO w.g.CameraDataHandler [main] Initialize camera [cam_9] [/192.168.119.220:7000]
+2014-03-31 20:44:04,361 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:44:06,252 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8] [/192.168.111.241:7000]
+2014-03-31 20:44:19,857 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:44:21,762 INFO w.g.CameraDataHandler [main] Initialize camera [cam_7] [/192.168.110.221:7000]
+2014-03-31 20:44:34,929 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:44:37,138 INFO w.g.CameraDataHandler [main] Initialize camera [cam_6] [/192.168.119.225:7000]
+2014-03-31 20:44:50,287 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:44:52,171 INFO w.g.CameraDataHandler [main] Initialize camera [cam_5] [/192.168.119.223:7000]
+2014-03-31 20:45:05,197 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:45:07,072 INFO w.g.CameraDataHandler [main] Initialize camera [cam_4] [/192.168.119.221:7000]
+2014-03-31 20:45:20,369 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:45:22,306 INFO w.g.CameraDataHandler [main] Initialize camera [cam_3] [/192.168.111.242:7000]
+2014-03-31 20:45:35,685 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:45:37,549 INFO w.g.CameraDataHandler [main] Initialize camera [cam_2] [/192.168.111.240:7000]
+2014-03-31 20:45:50,923 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:45:52,857 INFO w.g.CameraDataHandler [main] Initialize camera [cam_1] [/159.226.94.34:7000]
+2014-03-31 20:46:06,026 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:46:07,891 INFO w.g.CameraDataHandler [main] Initialize camera [cam_11] [/192.168.119.224:7000]
+2014-03-31 20:46:20,967 INFO w.g.Gateway [main] Loading preprocessor...
+2014-03-31 20:46:20,968 INFO w.g.Gateway [main] Started.
+2014-03-31 20:46:40,306 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-03-31 20:46:40,309 INFO w.g.Gateway [main] Initializing resources...
+2014-03-31 20:46:40,310 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-03-31 20:46:40,313 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:46:44,162 INFO w.g.CameraDataHandler [main] Initialize camera [cam_10] [/192.168.119.222:7000]
+2014-03-31 20:47:03,114 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:47:05,042 INFO w.g.CameraDataHandler [main] Initialize camera [cam_9] [/192.168.119.220:7000]
+2014-03-31 20:47:18,358 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:47:20,290 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8] [/192.168.111.241:7000]
+2014-03-31 20:47:33,651 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:47:35,548 INFO w.g.CameraDataHandler [main] Initialize camera [cam_7] [/192.168.110.221:7000]
+2014-03-31 20:47:49,416 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:47:51,351 INFO w.g.CameraDataHandler [main] Initialize camera [cam_6] [/192.168.119.225:7000]
+2014-03-31 20:48:04,865 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:48:06,790 INFO w.g.CameraDataHandler [main] Initialize camera [cam_5] [/192.168.119.223:7000]
+2014-03-31 20:48:19,971 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:48:21,847 INFO w.g.CameraDataHandler [main] Initialize camera [cam_4] [/192.168.119.221:7000]
+2014-03-31 20:48:34,927 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:48:36,825 INFO w.g.CameraDataHandler [main] Initialize camera [cam_3] [/192.168.111.242:7000]
+2014-03-31 20:48:50,280 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:48:52,224 INFO w.g.CameraDataHandler [main] Initialize camera [cam_2] [/192.168.111.240:7000]
+2014-03-31 20:49:05,576 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:49:07,501 INFO w.g.CameraDataHandler [main] Initialize camera [cam_1] [/159.226.94.34:7000]
+2014-03-31 20:49:20,612 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-03-31 20:49:22,716 INFO w.g.CameraDataHandler [main] Initialize camera [cam_11] [/192.168.119.224:7000]
+2014-03-31 20:49:35,996 INFO w.g.Gateway [main] Loading preprocessor...
+2014-03-31 20:49:35,997 INFO w.g.Gateway [main] Started.
+2014-04-01 11:16:23,016 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-04-01 11:16:23,021 INFO w.g.Gateway [main] Initializing resources...
+2014-04-01 11:16:23,021 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-04-01 11:16:23,027 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
