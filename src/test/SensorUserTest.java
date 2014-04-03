@@ -3,7 +3,7 @@ package test;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-import ws.gw.util.ConfigurationFile;
+import cn.iie.gateway.util.ConfigurationFile;
 import wshare.dc.DC;
 import wshare.dc.resource.*;
 

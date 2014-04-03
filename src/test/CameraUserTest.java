@@ -115,7 +115,7 @@ public class CameraUserTest {
 		def.tags.add("adjustable");
 
 		def.description = new HashMap<String, String>();
-		def.description.put("manufacturer", "cn.iie");
+		def.description.put("manufacturer", "iie.iie");
 		def.description.put("birthdate", "201308");
 
 		PropertyDefinition pdef = new PropertyDefinition();
@@ -126,7 +126,7 @@ public class CameraUserTest {
 		pdef.description.put("comment", "provide rtmp video stream");
 		pdef.type = new DataType();
 		pdef.type.name = "stream";
-		pdef.type.org = "cn.iie";
+		pdef.type.org = "iie.iie";
 		pdef.type.protocol = "rtmp";
 		def.properties.put("1", pdef);
 
@@ -138,7 +138,7 @@ public class CameraUserTest {
 		ctrlDef.description.put("comment", "change direction of the camera");
 		ctrlDef.type = new DataType();
 		ctrlDef.type.name = "movement";
-		ctrlDef.type.org = "cn.iie";
+		ctrlDef.type.org = "iie.iie";
 		ctrlDef.type.protocol = "LEFT/RIGHT/UP/DOWN";
 		def.properties.put("2", ctrlDef);
 

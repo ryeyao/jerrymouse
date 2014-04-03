@@ -5,6 +5,7 @@
 		<check>abcd</check>
 		<key>203</key>
 		<LocalID>203</LocalID>
+		<geo>20,50</geo>
 		<gateway>192.168.119.254</gateway>
 		<description>展灯</description>
 

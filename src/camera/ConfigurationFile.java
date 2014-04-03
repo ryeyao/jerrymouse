@@ -76,7 +76,7 @@ public class ConfigurationFile {
         Properties prop = new Properties();
         prop.setProperty("server.host", "192.168.119.175");
         prop.setProperty("server.port", "8111");
-        prop.setProperty("client.handler", "Device.handler.CommandHandler");
+        prop.setProperty("client.handler", "Component.handler.CommandHandler");
 
         return prop;
     }

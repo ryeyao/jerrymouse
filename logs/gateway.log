@@ -63,7 +63,7 @@
 2014-03-28 16:05:15,297 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
 2014-03-28 16:05:15,974 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8]
  ip: 192.168.111.241, port: 7000
-2014-03-28 16:05:21,083 INFO w.g.Gateway [main] Loading preprocessor...
+2014-03-28 16:05:21,083 INFO w.g.Gateway [main] Loading preProcessor...
 2014-03-28 16:05:21,084 INFO w.g.Gateway [main] Started.
 2014-03-28 16:07:53,310 INFO w.g.CameraDataHandler [pool-5-thread-3] Camera [/192.168.111.241:7000][cam_8]: Command [up]
 2014-03-28 16:12:37,098 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
@@ -72,7 +72,7 @@
 2014-03-28 16:12:37,109 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
 2014-03-28 16:12:38,947 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8]
  ip: 192.168.111.241, port: 7000
-2014-03-28 16:12:46,401 INFO w.g.Gateway [main] Loading preprocessor...
+2014-03-28 16:12:46,401 INFO w.g.Gateway [main] Loading preProcessor...
 2014-03-28 16:12:46,402 INFO w.g.Gateway [main] Started.
 2014-03-28 16:13:00,258 INFO w.g.CameraDataHandler [pool-5-thread-2] Camera [/192.168.111.241:7000][cam_8]: Command [down]
 2014-03-28 16:13:18,288 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
@@ -81,7 +81,7 @@
 2014-03-28 16:13:18,302 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
 2014-03-28 16:13:20,424 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8]
  ip: 192.168.111.241, port: 7000
-2014-03-28 16:13:27,833 INFO w.g.Gateway [main] Loading preprocessor...
+2014-03-28 16:13:27,833 INFO w.g.Gateway [main] Loading preProcessor...
 2014-03-28 16:13:27,834 INFO w.g.Gateway [main] Started.
 2014-03-28 16:13:35,712 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
 2014-03-28 16:13:35,717 INFO w.g.Gateway [main] Initializing resources...
@@ -89,7 +89,7 @@
 2014-03-28 16:13:35,722 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
 2014-03-28 16:13:37,415 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8]
  ip: 192.168.111.241, port: 7000
-2014-03-28 16:13:44,302 INFO w.g.Gateway [main] Loading preprocessor...
+2014-03-28 16:13:44,302 INFO w.g.Gateway [main] Loading preProcessor...
 2014-03-28 16:13:44,303 INFO w.g.Gateway [main] Started.
 2014-03-28 16:13:45,578 INFO w.g.CameraDataHandler [pool-5-thread-2] Camera [/192.168.111.241:7000][cam_8]: Command [left]
 2014-03-28 16:13:51,016 INFO w.g.CameraDataHandler [pool-5-thread-2] Camera [/192.168.111.241:7000][cam_8]: Command [down]
@@ -102,7 +102,7 @@
 2014-03-28 16:14:14,111 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
 2014-03-28 16:14:15,711 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8]
  ip: 192.168.111.241, port: 7000
-2014-03-28 16:14:22,505 INFO w.g.Gateway [main] Loading preprocessor...
+2014-03-28 16:14:22,505 INFO w.g.Gateway [main] Loading preProcessor...
 2014-03-28 16:14:22,506 INFO w.g.Gateway [main] Started.
 2014-03-28 16:15:40,134 INFO w.g.CameraDataHandler [pool-5-thread-4] Camera [/192.168.111.241:7000][cam_8]: Command [left]
 2014-03-28 16:15:58,960 INFO w.g.CameraDataHandler [pool-5-thread-5] Camera [/192.168.111.241:7000][cam_8]: Command [down]
@@ -113,7 +113,7 @@
 2014-03-28 16:17:18,270 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
 2014-03-28 16:17:19,892 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8]
  ip: 192.168.111.241, port: 7000
-2014-03-28 16:17:26,430 INFO w.g.Gateway [main] Loading preprocessor...
+2014-03-28 16:17:26,430 INFO w.g.Gateway [main] Loading preProcessor...
 2014-03-28 16:17:26,431 INFO w.g.Gateway [main] Started.
 2014-03-28 17:19:40,527 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
 2014-03-28 17:19:40,531 INFO w.g.Gateway [main] Initializing resources...
@@ -121,7 +121,7 @@
 2014-03-28 17:19:40,535 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
 2014-03-28 17:19:42,401 INFO w.g.CameraDataHandler [main] Initialize camera [cam_8]
  ip: 192.168.111.241, port: 7000
-2014-03-28 17:19:50,336 INFO w.g.Gateway [main] Loading preprocessor...
+2014-03-28 17:19:50,336 INFO w.g.Gateway [main] Loading preProcessor...
 2014-03-28 17:19:50,337 INFO w.g.Gateway [main] Started.
 2014-03-28 17:20:25,923 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
 2014-03-28 17:20:25,926 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
@@ -201,3 +201,44 @@ Caused by: java.io.EOFException
 	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:370) ~[?:1.7.0_21]
 	at rpc.io.jdk.JdkSerializer.readObject(JdkSerializer.java:49) ~[rpc-io-serial-jdk.jar:?]
 	... 7 more
+2014-04-01 15:56:10,148 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-04-01 15:56:10,153 INFO w.g.Gateway [main] Initializing resources...
+2014-04-01 15:56:10,153 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-04-01 15:56:10,157 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.119.175:8111/session.provider
+2014-04-01 15:56:19,511 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-04-01 15:56:19,515 ERROR w.g.Gateway [main] Initialization failed.
+2014-04-01 15:56:45,140 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-04-01 15:56:45,727 ERROR w.g.Gateway [main] Initialization failed.
+2014-04-01 15:56:59,876 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-04-01 15:57:20,204 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-04-01 15:58:23,354 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-04-01 15:58:23,357 ERROR w.g.Gateway [main] Initialization failed.
+2014-04-01 15:59:08,742 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-04-01 15:59:08,746 INFO w.g.Gateway [main] Initializing resources...
+2014-04-01 15:59:08,746 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-04-01 15:59:08,750 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-04-01 15:59:12,714 INFO w.g.u.UDPClient [main] Initializing cn.iie.udp Client...
+2014-04-01 15:59:12,714 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-04-01 15:59:12,974 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-04-01 15:59:23,722 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-04-01 15:59:23,726 INFO w.g.Gateway [main] Initializing resources...
+2014-04-01 15:59:23,726 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-04-01 15:59:23,726 INFO w.g.Gateway [main] IDMap not found, register all resources and creating a new map file...
+2014-04-01 15:59:36,517 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-04-01 15:59:39,358 INFO w.g.Gateway [main] Initializing resources...
+2014-04-01 15:59:39,358 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-04-01 15:59:39,358 INFO w.g.Gateway [main] IDMap not found, register all resources and creating a new map file...
+2014-04-01 16:00:53,008 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-04-01 16:00:53,012 INFO w.g.Gateway [main] Initializing resources...
+2014-04-01 16:00:53,012 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-04-01 16:00:53,013 INFO w.g.Gateway [main] IDMap not found, register all resources and creating a new map file...
+2014-04-01 16:00:53,022 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-04-01 16:01:07,428 INFO w.g.u.ConfigurationFile [main] Updating configuration in file idmap.ini
+2014-04-01 16:01:07,432 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-04-01 16:01:09,232 INFO w.g.u.UDPClient [main] Initializing cn.iie.udp Client...
+2014-04-01 16:01:09,232 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-04-01 16:01:13,575 INFO w.g.Gateway [main] Loading preProcessor...
+2014-04-01 16:01:13,576 INFO w.g.u.UDPServer [main] Initializing cn.iie.udp Server...
+2014-04-01 16:01:13,576 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-04-01 16:01:13,577 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-04-01 16:01:13,577 INFO w.g.u.UDPServer [main] cn.iie.udp Server listening on port 50002

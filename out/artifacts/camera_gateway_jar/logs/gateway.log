@@ -1752,3 +1752,9 @@ Caused by: java.io.EOFException
 2014-04-01 11:16:23,021 INFO w.g.Gateway [main] Initializing resources...
 2014-04-01 11:16:23,021 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
 2014-04-01 11:16:23,027 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider
+2014-04-01 15:53:26,419 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-04-01 15:53:26,473 ERROR w.g.Gateway [main] Initialization failed.
+2014-04-01 15:55:36,608 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-04-01 15:55:36,612 INFO w.g.Gateway [main] Initializing resources...
+2014-04-01 15:55:36,612 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
+2014-04-01 15:55:36,616 INFO w.d.s.SessionProviderImpl [main] DCServiceProvider: rpc:socket://192.168.111.121:8111/session.provider

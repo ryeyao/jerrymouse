@@ -5,8 +5,8 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import sun.misc.Signal;
 import sun.misc.SignalHandler;
-import ws.gw.CameraCMDHandler;
-import ws.gw.util.ResourceDef2Json;
+import cn.iie.CameraCMDHandler;
+import cn.iie.gateway.util.ResourceDef2Json;
 import wshare.common.ClientInfo;
 import wshare.dc.DC;
 import wshare.dc.ResourceInfo;
@@ -76,7 +76,7 @@ public class CameraClient {
             Resource res = register(String.valueOf(i));
             resList.add(res);
             JsonObject jo = ResourceDef2Json.createJson(res);
-            ResourceDef2Json.writeJson("resources/Device." + res.getDefinition().description.get("localid") + ".json", jo);
+            ResourceDef2Json.writeJson("resources/Component." + res.getDefinition().description.get("localid") + ".json", jo);
         }
         return resList;
     }
@@ -157,7 +157,7 @@ public class CameraClient {
         def.tags.add("adjustable");
 
         def.description = new HashMap<String, String>();
-        def.description.put("manufacturer", "cn.iie");
+        def.description.put("manufacturer", "iie.iie");
         def.description.put("birthdate", "201308");
 
         if(localid == "1") {
@@ -203,7 +203,7 @@ public class CameraClient {
         pdef.description.put("comment", "provide rtmp video stream");
         pdef.type = new DataType();
         pdef.type.name = "stream";
-        pdef.type.org = "cn.iie";
+        pdef.type.org = "iie.iie";
         pdef.type.protocol = "rtmp";
         def.properties.put("1", pdef);
 
@@ -215,7 +215,7 @@ public class CameraClient {
         ctrlDef.description.put("comment", "change direction of the camera");
         ctrlDef.type = new DataType();
         ctrlDef.type.name = "movement";
-        ctrlDef.type.org = "cn.iie";
+        ctrlDef.type.org = "iie.iie";
         ctrlDef.type.protocol = "LEFT/RIGHT/UP/DOWN";
         def.properties.put("2", ctrlDef);
 
