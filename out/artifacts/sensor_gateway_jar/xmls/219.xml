@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<wshare xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance"
+	xsd:noNamespaceSchemaLocation="F:\wshareData.xsd">
+	<device seq="1">
+		<check>abcd</check>
+		<key>219</key>
+		<LocalID>219</LocalID>
+		<gateway>192.168.119.254</gateway>
+		<description>红外节点</description>
+
+		
+		<devicetype name="红外节点">
+			<type>红外节点</type>
+			<description>红外节点</description>
+			<icon>gif/deviceicon/bjq.png</icon>
+			<property name="manufacture">IIECAS</property>
+		</devicetype>
+
+		<datatype name="红外数据">
+			<description>红外数据</description>
+			<icon>gif/deviceicon/bjq.gif</icon>
+			<valuetype>bool</valuetype>
+			<max_value>1</max_value>
+			<min_value>0</min_value>
+			<unit>null</unit>
+			<stream>红外数据流</stream>
+		</datatype>
+	</device>
+</wshare>

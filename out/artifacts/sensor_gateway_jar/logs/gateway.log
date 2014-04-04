@@ -48322,3 +48322,23 @@ nodid:[1] type:[7] value[31.28] cmd[null]
 2014-04-03 04:52:16,901 INFO w.g.u.UDPDataHandler [main] receive data:
 nodid:[1] type:[6] value[22.98] cmd[null]
 2014-04-03 04:52:16,901 ERROR w.g.u.UDPDataHandler [main] Unknown data source
+2014-04-04 15:15:02,996 INFO c.i.j.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-04-04 15:15:03,001 ERROR c.i.j.g.Gateway [main] Initialization failed.
+2014-04-04 15:16:05,441 INFO c.i.j.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-04-04 15:16:05,445 ERROR c.i.j.g.Gateway [main] Initialization failed.
+2014-04-04 15:16:24,965 INFO c.i.j.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-04-04 15:16:24,969 ERROR c.i.j.g.Gateway [main] Initialization failed.
+2014-04-04 15:20:17,864 INFO c.i.j.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-04-04 15:20:17,868 ERROR c.i.j.g.Gateway [main] Initialization failed.
+2014-04-04 15:22:21,912 INFO c.i.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-04-04 15:22:21,916 ERROR c.i.g.Gateway [main] Initialization failed.
+2014-04-04 15:23:13,662 INFO c.i.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-04-04 15:23:13,667 ERROR c.i.g.Gateway [main] Initialization failed.
+2014-04-04 15:23:59,857 INFO c.i.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-04-04 15:23:59,861 ERROR c.i.g.Gateway [main] Initialization failed.
+2014-04-04 15:24:21,576 INFO c.i.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-04-04 15:24:21,580 ERROR c.i.g.Gateway [main] Initialization failed.
+2014-04-04 15:25:11,370 INFO c.i.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-04-04 15:25:11,375 ERROR c.i.g.Gateway [main] Initialization failed.
+2014-04-04 15:32:19,577 INFO c.i.g.u.ConfigurationFile [main] Loading configuration from file config.properties
+2014-04-04 15:32:19,582 ERROR c.i.g.Gateway [main] Initialization failed.

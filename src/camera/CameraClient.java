@@ -5,7 +5,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import sun.misc.Signal;
 import sun.misc.SignalHandler;
-import cn.iie.CameraCMDHandler;
+import cn.iie.jerry.camera.CameraCMDHandler;
 import cn.iie.gateway.util.ResourceDef2Json;
 import wshare.common.ClientInfo;
 import wshare.dc.DC;

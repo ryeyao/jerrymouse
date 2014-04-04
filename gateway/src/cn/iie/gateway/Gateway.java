@@ -1,11 +1,6 @@
 package cn.iie.gateway;
 
 import com.google.gson.JsonObject;
-import cn.iie.abstracthandler.CommandHandler;
-import cn.iie.abstracthandler.PreProcessor;
-import cn.iie.gateway.util.ConfigurationFile;
-import cn.iie.gateway.util.ResourceDef2Json;
-import cn.iie.gateway.util.XML2ResourceDef;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.xml.sax.SAXException;
@@ -13,6 +8,8 @@ import wshare.dc.DC;
 import wshare.dc.ResourceInfo;
 import wshare.dc.resource.*;
 import wshare.dc.session.ResourceInfoImpl;
+import cn.iie.gateway.abstracthandler.*;
+import cn.iie.gateway.util.*;
 
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.File;
@@ -114,8 +111,10 @@ public class Gateway {
             double yMax = 58, yMin = -38, xMax = 170, xMin = -2;
             double x = rand.nextDouble() * (xMax - xMin) + xMin;
             double y = rand.nextDouble() * (yMax - yMin) + yMin;
-//            def.description.put("geo", x + "," + y);
-//            def.description.put("geo", "20,50");
+            if(!def.description.containsKey("geo")) {
+                def.description.put("geo", x + "," + y);
+                def.description.put("geo", "20,50");
+            }
 
 
             Resource res = registerResource(def);

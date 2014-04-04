@@ -2,159 +2,81 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="camera-gateway:jar" />
-      <artifact name="sensor-gateway:jar" />
+      <artifact name="gateway:jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/util/modeler/AttributeInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/util/modeler/BaseAttributeFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/util/modeler/BaseModelMBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/util/modeler/BaseNotificationBroadcaster.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/device/Component.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/device/ComponentBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/util/modeler/FeatureInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/lifecycle/Globals.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/loader/GroupClassLoader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/loader/GroupClassLoaderBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/loader/GroupLoader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/loader/GroupLoaderBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/lifecycle/util/LifecycleMBeanBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/util/modeler/ManagedBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/util/modeler/modules/ModelerSource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/util/modeler/NotificationInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/util/modeler/OperationInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/util/modeler/ParameterInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/util/modeler/Registry.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/util/modeler/RegistryMBean.java" />
-      <change type="DELETED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\ws\gw\device\device.java" afterPath="" />
-      <change type="DELETED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\xmls\cam_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\xmls\cam_10.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\xmls\cam_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\xmls\cam_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\xmls\cam_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\xmls\cam_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\xmls\cam_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\xmls\cam_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\xmls\cam_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\xmls\cam_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\xmls\cam_9.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gaia/ComponentBase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gaia/loader/ComponentClassLoader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gaia/loader/ComponentLoader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gaia/loader/Constants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gaia/Container.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gaia/ContainerBase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gaia/startup/GaiaProperties.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gaia/util/LifecycleMBeanBase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gateway/src/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/jerry/Nothing.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gaia/loader/ResourceEntry.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/gateway_jar.xml" />
+      <change type="DELETED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\camera-gateway\src\cn\camera\Main.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\cn\iie\device\ComponentBase.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\cn\iie\gateway\manager\lifecycle\util\LifecycleMBeanBase.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\cn\iie\gateway\manager\loader\GroupClassLoader.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\cn\iie\gateway\manager\loader\GroupClassLoaderBase.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\cn\iie\gateway\manager\loader\GroupLoader.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\cn\iie\gateway\manager\loader\GroupLoaderBase.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\cn\iie\gateway\manager\util\modeler\AttributeInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\cn\iie\gateway\manager\util\modeler\BaseAttributeFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\cn\iie\gateway\manager\util\modeler\BaseModelMBean.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\cn\iie\gateway\manager\util\modeler\BaseNotificationBroadcaster.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\cn\iie\gateway\manager\util\modeler\FeatureInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\cn\iie\gateway\manager\util\modeler\ManagedBean.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\cn\iie\gateway\manager\util\modeler\NotificationInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\cn\iie\gateway\manager\util\modeler\OperationInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\cn\iie\gateway\manager\util\modeler\ParameterInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\cn\iie\gateway\manager\util\modeler\Registry.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\cn\iie\gateway\manager\util\modeler\RegistryMBean.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\cn\iie\gateway\manager\util\modeler\modules\ModelerSource.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\cn\iie\jerry\LifecycleBase.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/camera/CameraClient.java" afterPath="$PROJECT_DIR$/src/camera/CameraClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/CameraUserTest.java" afterPath="$PROJECT_DIR$/src/test/CameraUserTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/camera/ConfigurationFile.java" afterPath="$PROJECT_DIR$/src/camera/ConfigurationFile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/src/cn/iie/gateway/util/ConfigurationFile.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gateway/util/ConfigurationFile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/src/cn/iie/gateway/Gateway.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gateway/Gateway.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/camera-gateway/src/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/camera-gateway/src/META-INF/MANIFEST.MF" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sensor-gateway/src/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/sensor-gateway/src/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/SensorUserTest.java" afterPath="$PROJECT_DIR$/src/test/SensorUserTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.properties" afterPath="$PROJECT_DIR$/config.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/config.properties" afterPath="$PROJECT_DIR$/gateway/config.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.1.json" afterPath="$PROJECT_DIR$/gateway/resources/device.1.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.10.json" afterPath="$PROJECT_DIR$/gateway/resources/device.10.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.170.json" afterPath="$PROJECT_DIR$/gateway/resources/device.170.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.171.json" afterPath="$PROJECT_DIR$/gateway/resources/device.171.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.172.json" afterPath="$PROJECT_DIR$/gateway/resources/device.172.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.173.json" afterPath="$PROJECT_DIR$/gateway/resources/device.173.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.174.json" afterPath="$PROJECT_DIR$/gateway/resources/device.174.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.175.json" afterPath="$PROJECT_DIR$/gateway/resources/device.175.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.176.json" afterPath="$PROJECT_DIR$/gateway/resources/device.176.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.177.json" afterPath="$PROJECT_DIR$/gateway/resources/device.177.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.178.json" afterPath="$PROJECT_DIR$/gateway/resources/device.178.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.179.json" afterPath="$PROJECT_DIR$/gateway/resources/device.179.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.180.json" afterPath="$PROJECT_DIR$/gateway/resources/device.180.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.181.json" afterPath="$PROJECT_DIR$/gateway/resources/device.181.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.182.json" afterPath="$PROJECT_DIR$/gateway/resources/device.182.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.183.json" afterPath="$PROJECT_DIR$/gateway/resources/device.183.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.184.json" afterPath="$PROJECT_DIR$/gateway/resources/device.184.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.185.json" afterPath="$PROJECT_DIR$/gateway/resources/device.185.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.186.json" afterPath="$PROJECT_DIR$/gateway/resources/device.186.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.187.json" afterPath="$PROJECT_DIR$/gateway/resources/device.187.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.188.json" afterPath="$PROJECT_DIR$/gateway/resources/device.188.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.189.json" afterPath="$PROJECT_DIR$/gateway/resources/device.189.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.190.json" afterPath="$PROJECT_DIR$/gateway/resources/device.190.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.191.json" afterPath="$PROJECT_DIR$/gateway/resources/device.191.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.192.json" afterPath="$PROJECT_DIR$/gateway/resources/device.192.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.193.json" afterPath="$PROJECT_DIR$/gateway/resources/device.193.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.202.json" afterPath="$PROJECT_DIR$/gateway/resources/device.202.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.203.json" afterPath="$PROJECT_DIR$/gateway/resources/device.203.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.204.json" afterPath="$PROJECT_DIR$/gateway/resources/device.204.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.205.json" afterPath="$PROJECT_DIR$/gateway/resources/device.205.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.206.json" afterPath="$PROJECT_DIR$/gateway/resources/device.206.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.207.json" afterPath="$PROJECT_DIR$/gateway/resources/device.207.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.208.json" afterPath="$PROJECT_DIR$/gateway/resources/device.208.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.209.json" afterPath="$PROJECT_DIR$/gateway/resources/device.209.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.210.json" afterPath="$PROJECT_DIR$/gateway/resources/device.210.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.211.json" afterPath="$PROJECT_DIR$/gateway/resources/device.211.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.212.json" afterPath="$PROJECT_DIR$/gateway/resources/device.212.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.213.json" afterPath="$PROJECT_DIR$/gateway/resources/device.213.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.214.json" afterPath="$PROJECT_DIR$/gateway/resources/device.214.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.215.json" afterPath="$PROJECT_DIR$/gateway/resources/device.215.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.216.json" afterPath="$PROJECT_DIR$/gateway/resources/device.216.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.217.json" afterPath="$PROJECT_DIR$/gateway/resources/device.217.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.218.json" afterPath="$PROJECT_DIR$/gateway/resources/device.218.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.219.json" afterPath="$PROJECT_DIR$/gateway/resources/device.219.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.225.json" afterPath="$PROJECT_DIR$/gateway/resources/device.225.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.226.json" afterPath="$PROJECT_DIR$/gateway/resources/device.226.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.227.json" afterPath="$PROJECT_DIR$/gateway/resources/device.227.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.228.json" afterPath="$PROJECT_DIR$/gateway/resources/device.228.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.229.json" afterPath="$PROJECT_DIR$/gateway/resources/device.229.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.230.json" afterPath="$PROJECT_DIR$/gateway/resources/device.230.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.231.json" afterPath="$PROJECT_DIR$/gateway/resources/device.231.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.232.json" afterPath="$PROJECT_DIR$/gateway/resources/device.232.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.233.json" afterPath="$PROJECT_DIR$/gateway/resources/device.233.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.234.json" afterPath="$PROJECT_DIR$/gateway/resources/device.234.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.235.json" afterPath="$PROJECT_DIR$/gateway/resources/device.235.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.236.json" afterPath="$PROJECT_DIR$/gateway/resources/device.236.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.237.json" afterPath="$PROJECT_DIR$/gateway/resources/device.237.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.238.json" afterPath="$PROJECT_DIR$/gateway/resources/device.238.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.239.json" afterPath="$PROJECT_DIR$/gateway/resources/device.239.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.240.json" afterPath="$PROJECT_DIR$/gateway/resources/device.240.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/resources/device.9434.json" afterPath="$PROJECT_DIR$/gateway/resources/device.9434.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/device.cam_1.json" afterPath="$PROJECT_DIR$/resources/device.cam_1.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/device.cam_10.json" afterPath="$PROJECT_DIR$/resources/device.cam_10.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/device.cam_11.json" afterPath="$PROJECT_DIR$/resources/device.cam_11.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/device.cam_2.json" afterPath="$PROJECT_DIR$/resources/device.cam_2.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/device.cam_3.json" afterPath="$PROJECT_DIR$/resources/device.cam_3.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/device.cam_4.json" afterPath="$PROJECT_DIR$/resources/device.cam_4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/device.cam_5.json" afterPath="$PROJECT_DIR$/resources/device.cam_5.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/device.cam_6.json" afterPath="$PROJECT_DIR$/resources/device.cam_6.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/device.cam_7.json" afterPath="$PROJECT_DIR$/resources/device.cam_7.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/device.cam_8.json" afterPath="$PROJECT_DIR$/resources/device.cam_8.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/device.cam_9.json" afterPath="$PROJECT_DIR$/resources/device.cam_9.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/device-api/device-api.iml" afterPath="$PROJECT_DIR$/device-api/device-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gateway/gateway.iml" afterPath="$PROJECT_DIR$/gateway/gateway.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/gateway.log" afterPath="$PROJECT_DIR$/logs/gateway.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/idmap.ini" afterPath="$PROJECT_DIR$/idmap.ini" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\camera-gateway\src\ws\camera\Main.java" afterPath="$PROJECT_DIR$/camera-gateway/src/cn/camera/Main.java" />
-      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\camera-gateway\src\ws\gw\CameraCMDHandler.java" afterPath="$PROJECT_DIR$/camera-gateway/src/cn/iie/CameraCMDHandler.java" />
-      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\camera-gateway\src\ws\gw\CameraPreprocessor.java" afterPath="$PROJECT_DIR$/camera-gateway/src/cn/iie/CameraPreProcessor.java" />
-      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\ws\gw\Bootstrap.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gateway/Bootstrap.java" />
-      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\ws\gw\Gateway.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gateway/Gateway.java" />
-      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\ws\gw\abstracthandler\CommandHandler.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/abstracthandler/CommandHandler.java" />
-      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\ws\gw\abstracthandler\Preprocessor.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/abstracthandler/PreProcessor.java" />
-      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\ws\gw\abstracthandler\Processor.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/abstracthandler/PostProcessor.java" />
-      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\ws\gw\manager\lifecircle\Lifecycle.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/lifecycle/Lifecycle.java" />
-      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\ws\gw\manager\lifecircle\LifecycleEvent.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/lifecycle/LifecycleEvent.java" />
-      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\ws\gw\manager\lifecircle\LifecycleException.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/lifecycle/LifecycleException.java" />
-      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\ws\gw\manager\lifecircle\LifecycleListener.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/lifecycle/LifecycleListener.java" />
-      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\ws\gw\manager\lifecircle\LifecycleState.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/lifecycle/LifecycleState.java" />
-      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\ws\gw\manager\lifecircle\util\ExceptionUtils.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/lifecycle/util/ExceptionUtils.java" />
-      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\ws\gw\manager\lifecircle\util\LifecycleBase.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/lifecycle/util/LifecycleBase.java" />
-      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\ws\gw\manager\lifecircle\util\LifecycleSupport.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/lifecycle/util/LifecycleSupport.java" />
-      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\ws\gw\manager\lifecircle\util\StringManager.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/lifecycle/util/StringManager.java" />
-      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\ws\gw\util\ConfigurationFile.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gateway/util/ConfigurationFile.java" />
-      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\ws\gw\util\Json2ResourceDef.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gateway/util/Json2ResourceDef.java" />
-      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\ws\gw\util\ResourceDef2Json.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gateway/util/ResourceDef2Json.java" />
-      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\ws\gw\util\XML2ResourceDef.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gateway/util/XML2ResourceDef.java" />
-      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\sensor-gateway\src\ws\gw\SensorCMDHandler.java" afterPath="$PROJECT_DIR$/sensor-gateway/src/cn/iie/SensorCMDHandler.java" />
-      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\sensor-gateway\src\ws\gw\SensorPreprocessor.java" afterPath="$PROJECT_DIR$/sensor-gateway/src/cn/iie/SensorPreProcessor.java" />
-      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\sensor-gateway\src\ws\gw\udp\UDPClient.java" afterPath="$PROJECT_DIR$/sensor-gateway/src/cn/iie/udp/UDPClient.java" />
-      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\sensor-gateway\src\ws\gw\udp\UDPDataHandler.java" afterPath="$PROJECT_DIR$/sensor-gateway/src/cn/iie/udp/UDPDataHandler.java" />
-      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\sensor-gateway\src\ws\gw\udp\UDPPacket.java" afterPath="$PROJECT_DIR$/sensor-gateway/src/cn/iie/udp/UDPPacket.java" />
-      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\sensor-gateway\src\ws\gw\udp\UDPServer.java" afterPath="$PROJECT_DIR$/sensor-gateway/src/cn/iie/udp/UDPServer.java" />
-      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\sensor-gateway\src\ws\sensor\Main.java" afterPath="$PROJECT_DIR$/sensor-gateway/src/cn/sensor/Main.java" />
+      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\camera-gateway\src\cn\iie\CameraCMDHandler.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/jerry/camera/CameraCMDHandler.java" />
+      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\camera-gateway\src\cn\iie\CameraPreProcessor.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/jerry/camera/CameraPreProcessor.java" />
+      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\cn\iie\abstracthandler\CommandHandler.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gateway/abstracthandler/CommandHandler.java" />
+      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\cn\iie\abstracthandler\PostProcessor.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gateway/abstracthandler/PostProcessor.java" />
+      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\cn\iie\abstracthandler\PreProcessor.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gateway/abstracthandler/PreProcessor.java" />
+      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\cn\iie\device\Component.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gaia/Component.java" />
+      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\cn\iie\gateway\Bootstrap.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gaia/startup/Bootstrap.java" />
+      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\cn\iie\gateway\manager\lifecycle\Globals.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gaia/Globals.java" />
+      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\cn\iie\gateway\manager\lifecycle\Lifecycle.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gaia/Lifecycle.java" />
+      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\cn\iie\gateway\manager\lifecycle\LifecycleEvent.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gaia/LifecycleEvent.java" />
+      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\cn\iie\gateway\manager\lifecycle\LifecycleException.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gaia/LifecycleException.java" />
+      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\cn\iie\gateway\manager\lifecycle\LifecycleListener.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gaia/LifecycleListener.java" />
+      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\cn\iie\gateway\manager\lifecycle\LifecycleState.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gaia/LifecycleState.java" />
+      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\cn\iie\gateway\manager\lifecycle\util\ExceptionUtils.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gaia/util/ExceptionUtils.java" />
+      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\cn\iie\gateway\manager\lifecycle\util\LifecycleSupport.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gaia/util/LifecycleSupport.java" />
+      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\cn\iie\gateway\manager\lifecycle\util\StringManager.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/gaia/util/StringManager.java" />
+      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\sensor-gateway\src\cn\iie\SensorCMDHandler.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/jerry/sensor/SensorCMDHandler.java" />
+      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\sensor-gateway\src\cn\iie\SensorPreProcessor.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/jerry/sensor/SensorPreProcessor.java" />
+      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\sensor-gateway\src\cn\iie\udp\UDPClient.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/jerry/sensor/udp/UDPClient.java" />
+      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\sensor-gateway\src\cn\iie\udp\UDPDataHandler.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/jerry/sensor/udp/UDPDataHandler.java" />
+      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\sensor-gateway\src\cn\iie\udp\UDPPacket.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/jerry/sensor/udp/UDPPacket.java" />
+      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\sensor-gateway\src\cn\iie\udp\UDPServer.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/jerry/sensor/udp/UDPServer.java" />
+      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\sensor-gateway\src\cn\sensor\Main.java" afterPath="$PROJECT_DIR$/gateway/src/cn/iie/jerry/Main.java" />
     </list>
     <ignored path="wshare-2.0-gateway-1.0.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396235201154" ignored="false" />
+    <file path="/Dummy.txt" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396596966817" ignored="false" />
     <file path="/log4j2.xml" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1395989103730" ignored="false" />
     <file path="/ConfigurationFile.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1395913934788" ignored="false" />
     <file path="/CameraDataHandler.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396315133679" ignored="false" />
@@ -173,8 +95,8 @@
     <file path="/UDPDataHandler.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1395916436400" ignored="false" />
     <file path="/CameraPreprocessor.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1395914087750" ignored="false" />
     <file path="/GatewayMain.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1395914170757" ignored="false" />
-    <file path="/fragment.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396491751782" ignored="false" />
-    <file path="/Gateway.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396338472908" ignored="false" />
+    <file path="/fragment.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396596854541" ignored="false" />
+    <file path="/Gateway.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396595661241" ignored="false" />
     <file path="/XML2ResourceDef.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1395972307727" ignored="false" />
     <file path="/ResourceDef2Json.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1395975346734" ignored="false" />
     <file path="/Processor.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396315191790" ignored="false" />
@@ -185,7 +107,7 @@
     <file path="/lifecircle.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396317934090" ignored="false" />
     <file path="/LifecircleListener.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396318096776" ignored="false" />
     <file path="/Lifecycle.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396334204269" ignored="false" />
-    <file path="/LifecycleBase.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396424585998" ignored="false" />
+    <file path="/LifecycleBase.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396534305647" ignored="false" />
     <file path="/LifecycleEventBase.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396318785789" ignored="false" />
     <file path="/LifecycleEvent.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396319425623" ignored="false" />
     <file path="/LifecycleException.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396319488048" ignored="false" />
@@ -205,16 +127,16 @@
     <file path="$PROJECT_DIR$/../Apache/apache-tomcat-7.0.52-src/java/org/apache/catalina/ha/ClusterRuleSet.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396321109800" ignored="false" />
     <file path="$PROJECT_DIR$/../Apache/apache-tomcat-7.0.52-src/java/org/apache/catalina/startup/Catalina.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396321109800" ignored="false" />
     <file path="/LifecycleState.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396334459489" ignored="false" />
-    <file path="/a.dummy" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396420976073" ignored="false" />
+    <file path="/a.dummy" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396577214205" ignored="false" />
     <file path="/Device.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396420230687" ignored="false" />
     <file path="/DeviceBase.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396341538567" ignored="false" />
     <file path="/Group.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396342670205" ignored="false" />
-    <file path="/Component.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396422157600" ignored="false" />
-    <file path="/GroupClassLoader.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396423474024" ignored="false" />
-    <file path="/GroupClassLoaderBase.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396423607004" ignored="false" />
-    <file path="/GroupLoader.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396424218681" ignored="false" />
+    <file path="/Component.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396593855340" ignored="false" />
+    <file path="/GroupClassLoader.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396512471703" ignored="false" />
+    <file path="/GroupClassLoaderBase.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396511043532" ignored="false" />
+    <file path="/GroupLoader.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396515569832" ignored="false" />
     <file path="/GroupLoaderBase.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396424312704" ignored="false" />
-    <file path="/LifecycleMBeanBase.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396487258634" ignored="false" />
+    <file path="/LifecycleMBeanBase.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396578971513" ignored="false" />
     <file path="/Registry.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396491101637" ignored="false" />
     <file path="/BaseModelMBean.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396491412795" ignored="false" />
     <file path="$PROJECT_DIR$/resources/device.173.json" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396491770694" ignored="false" />
@@ -278,6 +200,20 @@
     <file path="$PROJECT_DIR$/resources/device.231.json" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396491770714" ignored="false" />
     <file path="$PROJECT_DIR$/resources/device.207.json" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396491770714" ignored="false" />
     <file path="$PROJECT_DIR$/resources/device.217.json" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396491770714" ignored="false" />
+    <file path="/Constants.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396578196334" ignored="false" />
+    <file path="/Hub.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396533667611" ignored="false" />
+    <file path="/ComponentBase.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396593985490" ignored="false" />
+    <file path="/ComponentClassLoader.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396602963266" ignored="false" />
+    <file path="/StandardClassLoader.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396594950603" ignored="false" />
+    <file path="/ComponentLoader.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396605163286" ignored="false" />
+    <file path="/GaiaProperties.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396576515411" ignored="false" />
+    <file path="/ContainerBase.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396604213031" ignored="false" />
+    <file path="/Container.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396604076743" ignored="false" />
+    <file path="$PROJECT_DIR$/src/test/SensorUserTest.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396596101037" ignored="false" />
+    <file path="$PROJECT_DIR$/../Apache/apache-tomcat-7.0.52-src/java/org/apache/catalina/loader/WebappLoader.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396598151955" ignored="false" />
+    <file path="$PROJECT_DIR$/../Apache/apache-tomcat-7.0.52-src/java/org/apache/catalina/loader/WebappClassLoader.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396602932002" ignored="false" />
+    <file path="/WebappClassLoader.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396602928233" ignored="false" />
+    <file path="/*.regexp" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396603396957" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -285,6 +221,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
   <component name="CompilerWorkspaceConfiguration">
     <option name="COMPILER_PROCESS_HEAP_SIZE" value="512" />
   </component>
@@ -296,7 +237,7 @@
   </component>
   <component name="DebuggerManager">
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/camera-gateway/src/cn/iie/CameraCMDHandler.java" line="52" class="ws.gw.CameraCMDHandler" package="ws.gw">
+      <breakpoint url="file://$PROJECT_DIR$/gateway/src/cn/iie/jerry/camera/CameraCMDHandler.java" line="52" class="cn.iie.CameraCMDHandler" package="cn.iie">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -326,7 +267,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/gateway/src/cn/iie/gateway/Gateway.java" line="63" class="ws.gw.Gateway" package="ws.gw">
+      <breakpoint url="file://$PROJECT_DIR$/gateway/src/cn/iie/gateway/Gateway.java" line="63" class="cn.iie.gateway.Gateway" package="cn.iie.gateway">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -341,7 +282,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/gateway/src/cn/iie/gateway/util/XML2ResourceDef.java" line="42" class="ws.gw.util.XML2ResourceDef" package="ws.gw.util">
+      <breakpoint url="file://$PROJECT_DIR$/gateway/src/cn/iie/gateway/util/XML2ResourceDef.java" line="42" class="cn.iie.gateway.util.XML2ResourceDef" package="cn.iie.gateway.util">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -357,6 +298,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -393,7 +335,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -402,58 +343,32 @@
     <favorites_list name="wshare-2.0-gateway-1.0" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5521148">
+    <splitter split-orientation="horizontal" split-proportion="0.4853121">
       <split-first>
         <leaf>
-          <file leaf-file-name="GroupLoader.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/loader/GroupLoader.java">
+          <file leaf-file-name="Container.java" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/gaia/Container.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="10" column="17" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
+                <state line="18" column="45" selection-start="422" selection-end="422" vertical-scroll-proportion="0.4859611">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="AttributeInfo.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/util/modeler/AttributeInfo.java">
+          <file leaf-file-name="ComponentClassLoader.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/gaia/loader/ComponentClassLoader.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="28" column="13" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.0">
+                <state line="107" column="0" selection-start="3401" selection-end="3401" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ModelerSource.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/util/modeler/modules/ModelerSource.java">
+          <file leaf-file-name="GaiaProperties.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/gaia/startup/GaiaProperties.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="42" column="23" selection-start="1485" selection-end="1485" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Registry.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/util/modeler/Registry.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="240" column="6" selection-start="8110" selection-end="8110" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#3092#3112#0" expanded="true" />
-                    <element signature="e#3256#3276#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="LifecycleMBeanBase.java" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/lifecycle/util/LifecycleMBeanBase.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="90" column="8" selection-start="3079" selection-end="3079" vertical-scroll-proportion="0.6716667">
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                <state line="95" column="12" selection-start="2340" selection-end="2340" vertical-scroll-proportion="0.0">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -462,13 +377,49 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="Lifecycle.java" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/lifecycle/Lifecycle.java">
+          <file leaf-file-name="ComponentBase.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/gaia/ComponentBase.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="133" column="35" selection-start="6952" selection-end="6952" vertical-scroll-proportion="0.45833334">
+                <state line="19" column="4" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ContainerBase.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/gaia/ContainerBase.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="61" column="37" selection-start="1353" selection-end="1353" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ComponentLoader.java" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/gaia/loader/ComponentLoader.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="233" column="57" selection-start="7711" selection-end="7711" vertical-scroll-proportion="0.39759037">
                   <folding>
-                    <element signature="e#0#15028#0" expanded="true" />
+                    <element signature="imports" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Lifecycle.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/gaia/Lifecycle.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="289" column="16" selection-start="12372" selection-end="12372" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="StringManager.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/gaia/util/StringManager.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="46" column="13" selection-start="1870" selection-end="1870" vertical-scroll-proportion="0.0">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -493,22 +444,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/gateway/src/ws/gw/manager/util/modeler/AttributeInfo.java" />
-        <option value="$PROJECT_DIR$/gateway/src/ws/gw/manager/util/modeler/ModelerSource.java" />
-        <option value="$PROJECT_DIR$/gateway/src/ws/gw/manager/util/modeler/Registry.java" />
-        <option value="$PROJECT_DIR$/gateway/src/ws/gw/manager/util/modeler/OperationInfo.java" />
-        <option value="$PROJECT_DIR$/gateway/src/ws/gw/manager/util/modeler/FeatureInfo.java" />
-        <option value="$PROJECT_DIR$/gateway/src/ws/gw/manager/util/modeler/ParameterInfo.java" />
-        <option value="$PROJECT_DIR$/gateway/src/ws/gw/manager/util/modeler/NotificationInfo.java" />
-        <option value="$PROJECT_DIR$/gateway/src/ws/gw/manager/util/modeler/BaseNotificationBroadcaster.java" />
-        <option value="$PROJECT_DIR$/gateway/src/ws/gw/manager/util/modeler/BaseAttributeFilter.java" />
-        <option value="$PROJECT_DIR$/gateway/src/ws/gw/manager/util/modeler/BaseModelMBean.java" />
-        <option value="$PROJECT_DIR$/gateway/src/ws/gw/manager/util/modeler/modules/ModelerSource.java" />
-        <option value="$PROJECT_DIR$/gateway/src/ws/gw/manager/Globals.java" />
-        <option value="$PROJECT_DIR$/gateway/src/ws/cn/manager/lifecycle/util/LifecycleMBeanBase.java" />
-        <option value="$PROJECT_DIR$/gateway/src/ws/Nothing.java" />
-        <option value="$PROJECT_DIR$/gateway/src/cn/Nothing.java" />
-        <option value="$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/lifecycle/util/LifecycleMBeanBase.java" />
+        <option value="$PROJECT_DIR$/gateway/src/cn/iie/gaia/ContainerListener.java" />
+        <option value="$PROJECT_DIR$/gateway/src/cn/iie/gaia/core/Constants.java" />
+        <option value="$PROJECT_DIR$/gateway/src/cn/iie/gaia/core/ContainerBase.java" />
+        <option value="$PROJECT_DIR$/gateway/src/cn/iie/gaia/Component.java" />
+        <option value="$PROJECT_DIR$/gateway/src/cn/iie/gaia/ComponentBase.java" />
+        <option value="$PROJECT_DIR$/gateway/src/cn/iie/gaia/loader/StandardClassLoader.java" />
+        <option value="$PROJECT_DIR$/gateway/src/ws/iie/jerry/gateway/Gateway.java" />
+        <option value="$PROJECT_DIR$/gateway/src/cn/iie/jerry/gateway/Gateway.java" />
+        <option value="$PROJECT_DIR$/gateway/src/cn/iie/gateway/Gateway.java" />
+        <option value="$PROJECT_DIR$/sensor-gateway/src/cn/sensor/SensorCMDHandler.java" />
+        <option value="$PROJECT_DIR$/gateway/src/cn/iie/jerry/sensor/SensorCMDHandler.java" />
+        <option value="$PROJECT_DIR$/gateway/src/cn/iie/jerry/Main.java" />
+        <option value="$PROJECT_DIR$/gateway/src/cn/iie/gaia/loader/ComponentClassLoader.java" />
+        <option value="$PROJECT_DIR$/gateway/src/cn/iie/gaia/Container.java" />
+        <option value="$PROJECT_DIR$/gateway/src/cn/iie/gaia/ContainerBase.java" />
+        <option value="$PROJECT_DIR$/gateway/src/cn/iie/gaia/loader/ComponentLoader.java" />
       </list>
     </option>
   </component>
@@ -571,6 +522,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -603,11 +555,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="gateway" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -621,39 +569,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="camera" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wshare-2.0-gateway-1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wshare-2.0-gateway-1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sensor-gateway" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wshare-2.0-gateway-1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wshare-2.0-gateway-1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sensor-gateway" />
+              <option name="myItemId" value="gateway" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -671,7 +587,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sensor-gateway" />
+              <option name="myItemId" value="gateway" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wshare-2.0-gateway-1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wshare-2.0-gateway-1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gateway" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -682,10 +620,6 @@
               <option name="myItemId" value="cn" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sensor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -697,7 +631,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sensor-gateway" />
+              <option name="myItemId" value="gateway" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -710,90 +644,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="iie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wshare-2.0-gateway-1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wshare-2.0-gateway-1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sensor-gateway" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="udp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wshare-2.0-gateway-1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wshare-2.0-gateway-1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gateway" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wshare-2.0-gateway-1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wshare-2.0-gateway-1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gateway" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wshare-2.0-gateway-1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wshare-2.0-gateway-1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gateway" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cn" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -887,11 +737,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gateway" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manager" />
+              <option name="myItemId" value="gaia" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -921,11 +767,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="gaia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="startup" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wshare-2.0-gateway-1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wshare-2.0-gateway-1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="gateway" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="manager" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gaia" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -943,142 +819,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gateway" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gateway" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifecycle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wshare-2.0-gateway-1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wshare-2.0-gateway-1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gateway" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gateway" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lifecycle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wshare-2.0-gateway-1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wshare-2.0-gateway-1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gateway" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="device" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wshare-2.0-gateway-1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wshare-2.0-gateway-1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gateway" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wshare-2.0-gateway-1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wshare-2.0-gateway-1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="camera-gateway" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1098,108 +838,58 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wshare-2.0-gateway-1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wshare-2.0-gateway-1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="camera-gateway" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wshare-2.0-gateway-1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wshare-2.0-gateway-1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="camera-gateway" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="camera" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="reference.settings.ide.settings.webservices" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/camera-gateway/src" />
+    <property name="last_opened_file_path" value="F:/LIBs/JavaLIB/Apache/commons-io-2.4/commons-io-2.4.jar!/" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="ws.gw.manager.util.modeler" />
-      <recent name="ws.gw.manager.util.modeler.modules" />
-      <recent name="ws.gw.manager" />
-      <recent name="ws.gw.manager.lifecycle.util" />
-      <recent name="ws.gw.manager.lifecircle.util" />
+      <recent name="cn.iie.gaia.core" />
+      <recent name="cn.iie.gaia" />
+      <recent name="cn.iie.gaia.loader" />
+      <recent name="cn.iie.gaia.startup" />
+      <recent name="cn.iie.gateway.manager" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\cn\iie\gaia" />
       <recent name="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\ws\gw\manager\util\modeler" />
       <recent name="F:\repositories\wshare-2.0-gateway-1.0\gateway\src\ws\gw\manager\lifecircle\util" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cn.sensor" />
+      <recent name="cn.iie" />
+      <recent name="cn.iie.Jerry" />
+      <recent name="jerry" />
+      <recent name="cn.iie.core" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\repositories\wshare-2.0-gateway-1.0\gateway\src" />
       <recent name="F:\repositories\wshare-2.0-gateway-1.0\gateway" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="ws" />
-      <recent name="ws.gw.manager.util.modeler.modules" />
-      <recent name="ws.gw.manager" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -1279,11 +969,11 @@
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="cn.sensor.*" />
+          <option name="PATTERN" value="cn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="cn.sensor.Main" />
+      <option name="MAIN_CLASS_NAME" value="cn.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1318,19 +1008,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1357,6 +1034,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1443,32 +1133,32 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1680" y="0" width="1680" height="1050" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32878152" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32878152" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39976957" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949308" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32878152" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.249694" sideWeight="0.6722689" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.249694" sideWeight="0.6712185" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18971848" sideWeight="0.6712185" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.250306" sideWeight="0.6712185" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277311" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1537,124 +1227,114 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/util/modeler/ParameterInfo.java">
+    <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/gaia/Component.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="41" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.0">
+        <state line="25" column="53" selection-start="841" selection-end="841" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/util/modeler/NotificationInfo.java">
+    <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/gaia/ComponentBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="13" selection-start="1042" selection-end="1042" vertical-scroll-proportion="0.0">
+        <state line="19" column="4" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/util/modeler/ManagedBean.java">
+    <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/gateway/Gateway.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="327" column="8" selection-start="9757" selection-end="9757" vertical-scroll-proportion="0.0">
+        <state line="111" column="46" selection-start="4159" selection-end="4159" vertical-scroll-proportion="0.4381161">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/util/modeler/BaseNotificationBroadcaster.java">
+    <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/jerry/sensor/SensorCMDHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="220" column="6" selection-start="7502" selection-end="7502" vertical-scroll-proportion="0.0">
+        <state line="31" column="31" selection-start="1002" selection-end="1002" vertical-scroll-proportion="0.54764515">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/util/modeler/BaseModelMBean.java">
+    <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/jerry/sensor/SensorPreProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="845" selection-end="845" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/util/modeler/BaseAttributeFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="13" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.0">
+        <state line="20" column="27" selection-start="505" selection-end="505" vertical-scroll-proportion="0.43196544">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/lifecycle/Globals.java">
+    <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/gateway/util/XML2ResourceDef.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="262" column="37" selection-start="9129" selection-end="9129" vertical-scroll-proportion="0.0">
+        <state line="38" column="34" selection-start="1152" selection-end="1152" vertical-scroll-proportion="-1.6155531">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/lifecycle/util/StringManager.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_21/src.zip!/java/lang/ClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="178" column="18" selection-start="6489" selection-end="6489" vertical-scroll-proportion="0.0">
+        <state line="1008" column="25" selection-start="39199" selection-end="39199" vertical-scroll-proportion="0.33296824">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/cn/Nothing.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_21/src.zip!/java/net/URLClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="2" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0">
+        <state line="357" column="23" selection-start="13172" selection-end="13172" vertical-scroll-proportion="0.524644">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/loader/GroupClassLoader.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_21/src.zip!/javax/naming/directory/InitialDirContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="17" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
+        <state line="77" column="11" selection-start="1896" selection-end="1896" vertical-scroll-proportion="0.33261338">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/loader/GroupClassLoaderBase.java">
+    <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/gaia/startup/GaiaProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="35" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/loader/GroupLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="17" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
+        <state line="95" column="12" selection-start="2340" selection-end="2340" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/util/modeler/AttributeInfo.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_21/src.zip!/java/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="13" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.0">
+        <state line="1160" column="5" selection-start="49615" selection-end="49615" vertical-scroll-proportion="0.958379">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/util/modeler/modules/ModelerSource.java">
+    <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/gaia/loader/ComponentClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="23" selection-start="1485" selection-end="1485" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="107" column="0" selection-start="3401" selection-end="3401" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/util/modeler/Registry.java">
+    <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/gaia/Container.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="240" column="6" selection-start="8110" selection-end="8110" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3092#3112#0" expanded="true" />
-            <element signature="e#3256#3276#0" expanded="true" />
-          </folding>
+        <state line="18" column="45" selection-start="422" selection-end="422" vertical-scroll-proportion="0.4859611">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/gateway/manager/lifecycle/util/LifecycleMBeanBase.java">
+    <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/gaia/ContainerBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="8" selection-start="3079" selection-end="3079" vertical-scroll-proportion="0.6716667">
+        <state line="61" column="37" selection-start="1353" selection-end="1353" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/gaia/Lifecycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="289" column="16" selection-start="12372" selection-end="12372" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/cn/iie/gaia/loader/ComponentLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="233" column="57" selection-start="7711" selection-end="7711" vertical-scroll-proportion="0.39759037">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1669,12 +1349,12 @@
           <artifact-editor>
             <show-content>
               <type id="artifact" />
-              <type id="javaee-facet-resources" />
               <type id="jpa-descriptors" />
+              <type id="javaee-facet-resources" />
               <type id="library" />
             </show-content>
           </artifact-editor>
-          <last-edited>camera-gateway:jar</last-edited>
+          <last-edited>gateway:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1699,7 +1379,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>gson-2.2.4</last-edited>
+          <last-edited>commons-io-2.4-javadoc</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<wshare xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance"
+	xsd:noNamespaceSchemaLocation="F:\wshareData.xsd">
+	<device seq="1">
+		<check>abcd</check>
+		<key>204</key>
+		<LocalID>204</LocalID>
+		<gateway>192.168.119.254</gateway>
+		<description>展灯</description>
+
+		
+		<devicetype name="展灯">
+			<type>展灯</type>
+			<description>展灯</description>
+			<icon>gif/deviceicon/td.png</icon>
+			<property name="manufacture">IIECAS</property>
+		</devicetype>
+
+		<datatype name="展灯状态">
+			<description>展灯的开关状态</description>
+			<icon>gif/deviceicon/kg.gif</icon>
+			<valuetype>int</valuetype>
+			<max_value>1</max_value>
+			<min_value>0</min_value>
+			<unit>null</unit>
+
+			<stream>展灯状态流</stream>
+			
+			<command name="打开展灯" dataid="1">
+				<des>打开数据上报</des>
+			</command>
+			<command name="关闭展灯" dataid="1">
+				<des>关闭数据上报</des>
+			</command>
+			<command name="状态查询" dataid="1">
+				<des>查询开关的状态</des>
+			</command>	
+		</datatype>
+	</device>
+</wshare>

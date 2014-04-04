@@ -81,8 +81,8 @@ public class ConfigurationFile {
         Properties prop = new Properties();
         prop.setProperty("server.host", "192.168.119.175");
         prop.setProperty("server.port", "8111");
-//        prop.setProperty("cn.iie.udp.host", "192.168.111.25");
-//        prop.setProperty("cn.iie.udp.port", "50002");
+//        prop.setProperty("cn.iie.jerry.sensor.udp.host", "192.168.111.25");
+//        prop.setProperty("cn.iie.jerry.sensor.udp.port", "50002");
 //        prop.setProperty("gateway.host", "192.168.110.225");
 //        prop.setProperty("gateway.port", "50003");
         prop.setProperty("client.commandhandler", "   #add your own implementation of CommandHandler here");

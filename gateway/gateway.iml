@@ -11,6 +11,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="wsdc" level="application" />
     <orderEntry type="library" exported="" name="gson-2.2.4" level="application" />
+    <orderEntry type="library" name="commons-io-2.4-javadoc" level="application" />
   </component>
 </module>
 
