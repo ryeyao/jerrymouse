@@ -2,7 +2,9 @@ package cn.iie.gaia.loader;
 
 import cn.iie.gaia.*;
 import cn.iie.gaia.entity.ConfigPropertiesBase;
-import cn.iie.gaia.util.*;
+import cn.iie.gaia.util.ExceptionUtils;
+import cn.iie.gaia.util.LifecycleMBeanBase;
+import cn.iie.gaia.util.StringManager;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -31,7 +33,6 @@ public class ComponentLoader extends LifecycleMBeanBase {
     private ClassLoader parentClassLoader = null;
     private Container container = null;
 
-
     private ConfigProperties properties = null;
     private String repositories[] = new String[0];
     private String classpath = null;
@@ -39,10 +40,6 @@ public class ComponentLoader extends LifecycleMBeanBase {
 
     public ComponentClassLoader getClassLoader() {
         return classLoader;
-    }
-
-    public void setClassLoader(ComponentClassLoader classLoader) {
-        this.classLoader = classLoader;
     }
 
     public Container getContainer() {
@@ -73,10 +70,10 @@ public class ComponentLoader extends LifecycleMBeanBase {
         if(!classRepository.exists()) {
             if(!classRepository.mkdirs() &&
                     !classRepository.isDirectory()) {
-                throw new IOException(sm.getString("webappLoader.mkdirFailure"));
+                throw new IOException(sm.getString("componentLoader.mkdirFailure"));
             }
         } else if(!classRepository.isDirectory()) {
-            throw new IOException(sm.getString("webappLoader.notDirFailure"));
+            throw new IOException(sm.getString("componentLoader.notDirFailure"));
         }
 
         classLoader.addRepository(absoluteClassesPath + File.separatorChar, classRepository);
@@ -91,10 +88,10 @@ public class ComponentLoader extends LifecycleMBeanBase {
 
         if(!libDir.exists()) {
             if(!libDir.mkdirs() && !libDir.isDirectory()) {
-                throw new IOException(sm.getString("webappLoader.mkdirFailure"));
+                throw new IOException(sm.getString("componentLoader.mkdirFailure"));
             }
         } else if(!libDir.isDirectory()) {
-            throw new IOException(sm.getString("webappLoader.mkdirFailure"));
+            throw new IOException(sm.getString("componentLoader.mkdirFailure"));
         }
 
         for(File file : libDir.listFiles()) {
@@ -112,6 +109,7 @@ public class ComponentLoader extends LifecycleMBeanBase {
     public String getClasspath() {
         return classpath;
     }
+
     // try to extract the classpath from a loader that is not URLClassLoader
     private String getClasspath( ClassLoader loader ) {
         try {
@@ -198,7 +196,7 @@ public class ComponentLoader extends LifecycleMBeanBase {
     public void addRepository(String repository) {
 
         if (log.isDebugEnabled())
-            log.debug(sm.getString("webappLoader.addRepository", repository));
+            log.debug(sm.getString("componentLoader.addRepository", repository));
 
         for (int i = 0; i < repositories.length; i++) {
             if (repository.equals(repositories[i]))
@@ -216,6 +214,9 @@ public class ComponentLoader extends LifecycleMBeanBase {
         }
 
     }
+
+
+
     @Override
     protected void startInternal() throws LifecycleException {
 
@@ -233,18 +234,9 @@ public class ComponentLoader extends LifecycleMBeanBase {
             loadConfig();
             properties.start();
             ((Lifecycle) classLoader).start();
-//        } catch (NoSuchMethodException e) {
-//            e.printStackTrace();
-//        } catch (IllegalAccessException e) {
-//            e.printStackTrace();
-//        } catch (InvocationTargetException e) {
-//            e.printStackTrace();
-//        } catch (InstantiationException e) {
-//            e.printStackTrace();
-//        } catch (ClassNotFoundException e) {
-//            e.printStackTrace();
+            loadComponent();
+
         } catch (IOException e) {
-            e.printStackTrace();
         } catch (Throwable t) {
             t = ExceptionUtils.unwrapInvocationTargetException(t);
             ExceptionUtils.handleThrowable(t);
@@ -288,5 +280,35 @@ public class ComponentLoader extends LifecycleMBeanBase {
     private void loadConfig() throws LifecycleException {
         properties = new ConfigPropertiesBase();
         properties.setContainer(container);
+    }
+
+    private void loadComponent() {
+//            System.out.println("CompClassLoader:\n " + ccl);
+        log.debug(sm.getString("componentLoader.loading", container.getName()));
+        Component comp = null;
+        try {
+            String cName = getProperties().getProperty("myComponent");
+            if(cName == null || cName.isEmpty()) {
+                log.error(sm.getString("componentLoader.loadFailure", container.getName()));
+                return;
+            }
+            Class<?> c =  classLoader.loadClass(cName);
+            Object o = c.newInstance();
+            if(o instanceof Component) {
+                comp = (Component) o;
+                container.addComponent(comp);
+            } else {
+                log.error(sm.getString("componentLoader.loadFailure", container.getName()));
+                return;
+            }
+            log.debug(sm.getString("componentLoader.loaded", container.getName()));
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (InstantiationException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        }
+
     }
 }

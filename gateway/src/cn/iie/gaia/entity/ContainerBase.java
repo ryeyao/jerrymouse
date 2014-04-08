@@ -1,11 +1,13 @@
 package cn.iie.gaia.entity;
 
+import cn.iie.gaia.Component;
 import cn.iie.gaia.Container;
 import cn.iie.gaia.LifecycleException;
 import cn.iie.gaia.util.LifecycleBase;
 import cn.iie.gaia.util.LifecycleMBeanBase;
 
 import java.io.File;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -22,6 +24,8 @@ public abstract class ContainerBase extends LifecycleMBeanBase implements Contai
     private ClassLoader parentClassLoader = null;
 
     private Map<String, Container> childs = new HashMap<String, Container>();
+    private Map<String, Component> components = new HashMap<String, Component>();
+
 
     @Override
     public void setName(String name) {
@@ -46,6 +50,16 @@ public abstract class ContainerBase extends LifecycleMBeanBase implements Contai
     @Override
     public void removeChild(Container child) {
         childs.remove(child.getName());
+    }
+
+    @Override
+    public void addComponent(Component component) {
+        components.put(component.getName(), component);
+    }
+
+    @Override
+    public void removeComponent(Component component) {
+        components.remove(component.getName());
     }
 
     @Override

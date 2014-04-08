@@ -4,32 +4,19 @@ import cn.iie.gaia.Lifecycle;
 import cn.iie.gaia.LifecycleException;
 import cn.iie.gaia.LifecycleListener;
 import cn.iie.gaia.LifecycleState;
-import cn.iie.gaia.util.ExceptionUtils;
 import cn.iie.gaia.util.StringManager;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import javax.naming.Binding;
-import javax.naming.NameClassPair;
-import javax.naming.NamingEnumeration;
-import javax.naming.NamingException;
 import javax.naming.directory.DirContext;
 import java.io.File;
-import java.io.FilePermission;
 import java.io.IOException;
-import java.io.InputStream;
-import java.lang.ref.Reference;
-import java.lang.ref.WeakReference;
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
-import java.lang.reflect.Modifier;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLClassLoader;
 import java.nio.charset.Charset;
-import java.security.*;
-import java.util.*;
-import java.util.concurrent.ThreadPoolExecutor;
+import java.security.AccessControlException;
+import java.security.Policy;
 import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 
@@ -114,10 +101,6 @@ public class ComponentClassLoader extends URLClassLoader implements Lifecycle {
         }
     }
 
-//    public ComponentClassLoader(URL[] urls) {
-//        super(urls);
-//    }
-
     /**
      * Construct a new ClassLoader with no defined repositories and the given
      * parent ClassLoader.
@@ -151,10 +134,6 @@ public class ComponentClassLoader extends URLClassLoader implements Lifecycle {
             refreshPolicy();
         }
     }
-
-//    public ComponentClassLoader(URL[] urls, ClassLoader parent) {
-//        super(urls, parent);
-//    }
 
     public void addRepository(URL repositoryURL) {
         super.addURL(repositoryURL);
@@ -319,31 +298,9 @@ public class ComponentClassLoader extends URLClassLoader implements Lifecycle {
 
 
     /**
-     * Get URL.
-     * @deprecated Use {@link #getURI(File)} instead
-     */
-    @Deprecated
-    protected URL getURL(File file, boolean encoded)
-            throws MalformedURLException {
-
-        File realFile = file;
-        try {
-            realFile = realFile.getCanonicalFile();
-        } catch (IOException e) {
-            // Ignore
-        }
-        if(encoded) {
-            return getURI(realFile);
-        }
-
-        return realFile.toURI().toURL();
-    }
-
-
-    /**
      * Get the URI for the given file.
      */
-    protected URL getURI(File file)
+    protected URL getURL(File file)
             throws MalformedURLException {
 
 
@@ -618,7 +575,7 @@ public class ComponentClassLoader extends URLClassLoader implements Lifecycle {
 
     public String toString() {
 
-        StringBuilder sb = new StringBuilder("WebappClassLoader\r\n");
+        StringBuilder sb = new StringBuilder("ComponentClassLoader\r\n");
         sb.append("  repositories:\r\n");
         if (repositories != null) {
             for (int i = 0; i < repositories.length; i++) {

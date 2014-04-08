@@ -21,5 +21,8 @@ public interface Container extends Lifecycle {
     public void addChild(Container child);
     public void removeChild(Container child);
 
+    public void addComponent(Component component);
+    public void removeComponent(Component component);
+
     public String getPath();
 }

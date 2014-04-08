@@ -387,3 +387,269 @@ Caused by: java.net.MalformedURLException: unknown protocol: f
 2014-04-08 14:29:06,309 INFO c.i.g.s.Gaia [main] Initialization processed in 13 ms
 2014-04-08 15:08:58,552 ERROR c.i.g.s.Gaia [main] null
 2014-04-08 15:08:58,573 INFO c.i.g.s.Gaia [main] Initialization processed in 34 ms
+2014-04-08 15:37:10,549 ERROR c.i.g.s.Gaia [main] null
+2014-04-08 15:38:11,147 INFO c.i.g.s.Gaia [main] Initialization processed in 463316 ms
+2014-04-08 15:40:16,180 ERROR c.i.g.s.Gaia [main] null
+2014-04-08 15:40:16,183 INFO c.i.g.s.Gaia [main] Initialization processed in 21 ms
+2014-04-08 16:25:45,537 ERROR c.i.g.l.ComponentLoader [main] null
+2014-04-08 16:25:45,556 INFO c.i.g.s.Gaia [main] Initialization processed in 33 ms
+2014-04-08 16:30:25,311 INFO c.i.g.s.Gaia [main] Initialization processed in 11 ms
+2014-04-08 16:33:15,309 ERROR c.i.g.l.ComponentLoader [main] LifecycleException 
+java.io.IOException
+	at cn.iie.gaia.loader.ComponentLoader.loadComponent(ComponentLoader.java:291) ~[gateway/:?]
+	at cn.iie.gaia.loader.ComponentLoader.startInternal(ComponentLoader.java:237) [gateway/:?]
+	at cn.iie.gaia.util.LifecycleBase.start(LifecycleBase.java:169) [gateway/:?]
+	at cn.iie.gaia.startup.Gaia.loadAllComponentes(Gaia.java:128) [gateway/:?]
+	at cn.iie.gaia.startup.Gaia.load(Gaia.java:96) [gateway/:?]
+	at cn.iie.gaia.startup.Gaia.start(Gaia.java:148) [gateway/:?]
+	at cn.iie.gaia.startup.Bootstrap.start(Bootstrap.java:27) [gateway/:?]
+	at cn.iie.gaia.startup.Bootstrap.main(Bootstrap.java:78) [gateway/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_21]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_21]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_21]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[?:1.7.0_21]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:120) [idea_rt.jar:?]
+2014-04-08 16:33:15,383 INFO c.i.g.s.Gaia [main] Initialization processed in 89 ms
+2014-04-08 16:38:15,446 INFO c.i.g.s.Gaia [main] Initialization processed in 12 ms
+2014-04-08 16:38:53,806 ERROR c.i.g.l.ComponentLoader [main] null
+2014-04-08 16:38:53,809 INFO c.i.g.s.Gaia [main] Initialization processed in 15 ms
+2014-04-08 16:40:12,168 DEBUG c.i.g.l.ComponentLoader [main] webappLoader.addRepository
+2014-04-08 16:40:12,169 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:40:12,169 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:40:12,169 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:40:12,171 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:40:12,171 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:40:12,171 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:40:12,171 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:40:12,171 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:40:12,188 DEBUG c.i.g.l.ComponentLoader [main] null
+2014-04-08 16:40:12,189 ERROR c.i.g.l.ComponentLoader [main] null
+2014-04-08 16:40:12,189 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:40:12,189 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:40:12,189 DEBUG c.i.g.l.ComponentLoader [main] webappLoader.addRepository
+2014-04-08 16:40:12,189 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:40:12,189 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:40:12,189 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:40:12,190 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:40:12,190 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:40:12,190 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:40:12,190 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:40:12,190 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:40:12,190 DEBUG c.i.g.l.ComponentLoader [main] null
+2014-04-08 16:40:12,190 DEBUG c.i.g.l.ComponentClassLoader [main] loadClass(cn.iie.testComp, false)
+2014-04-08 16:40:12,190 DEBUG c.i.g.l.ComponentClassLoader [main]   Delegating to parent classloader1 sun.misc.Launcher$AppClassLoader@3798f5e7
+2014-04-08 16:40:12,191 DEBUG c.i.g.l.ComponentClassLoader [main]   Loading class from parent
+2014-04-08 16:40:12,192 DEBUG c.i.g.l.ComponentLoader [main] null
+2014-04-08 16:40:12,192 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:40:12,192 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:40:12,192 INFO c.i.g.s.Gaia [main] Initialization processed in 37 ms
+2014-04-08 16:46:01,083 DEBUG c.i.g.l.ComponentLoader [main] Adding repository file:/F:/repositories/wshare-2.0-gateway-1.0/components/camera/COMP-INF/classes/
+2014-04-08 16:46:01,084 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:46:01,084 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:46:01,085 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:46:01,086 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:46:01,086 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:46:01,086 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:46:01,086 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:46:01,087 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:46:01,088 DEBUG c.i.g.l.ComponentLoader [main] null
+2014-04-08 16:46:01,088 ERROR c.i.g.l.ComponentLoader [main] null
+2014-04-08 16:46:01,088 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:46:01,088 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:46:01,088 DEBUG c.i.g.l.ComponentLoader [main] Adding repository file:/F:/repositories/wshare-2.0-gateway-1.0/components/sensor/COMP-INF/classes/
+2014-04-08 16:46:01,088 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:46:01,088 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:46:01,089 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:46:01,089 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:46:01,089 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:46:01,089 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:46:01,090 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:46:01,090 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:46:01,090 DEBUG c.i.g.l.ComponentLoader [main] null
+2014-04-08 16:46:01,090 DEBUG c.i.g.l.ComponentClassLoader [main] loadClass(cn.iie.testComp, false)
+2014-04-08 16:46:01,090 DEBUG c.i.g.l.ComponentClassLoader [main]   Delegating to parent classloader1 sun.misc.Launcher$AppClassLoader@2d68be1b
+2014-04-08 16:46:01,091 DEBUG c.i.g.l.ComponentClassLoader [main]   Loading class from parent
+2014-04-08 16:46:01,091 DEBUG c.i.g.l.ComponentLoader [main] null
+2014-04-08 16:46:01,091 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:46:01,091 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:46:01,092 INFO c.i.g.s.Gaia [main] Initialization processed in 21 ms
+2014-04-08 16:49:29,355 DEBUG c.i.g.l.ComponentLoader [main] webappLoader.addRepository
+2014-04-08 16:49:29,358 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:49:29,359 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:49:29,359 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:49:29,361 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:49:29,361 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:49:29,361 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:49:29,362 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:49:29,362 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:49:29,363 DEBUG c.i.g.l.ComponentLoader [main] null
+2014-04-08 16:49:29,364 ERROR c.i.g.l.ComponentLoader [main] null
+2014-04-08 16:49:29,364 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:49:29,364 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:49:29,364 DEBUG c.i.g.l.ComponentLoader [main] webappLoader.addRepository
+2014-04-08 16:49:29,364 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:49:29,364 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:49:29,364 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:49:29,365 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:49:29,365 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:49:29,365 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:49:29,365 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:49:29,367 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:49:29,367 DEBUG c.i.g.l.ComponentLoader [main] null
+2014-04-08 16:49:29,367 DEBUG c.i.g.l.ComponentClassLoader [main] loadClass(cn.iie.testComp, false)
+2014-04-08 16:49:29,367 DEBUG c.i.g.l.ComponentClassLoader [main]   Delegating to parent classloader1 sun.misc.Launcher$AppClassLoader@2d68be1b
+2014-04-08 16:49:29,368 DEBUG c.i.g.l.ComponentClassLoader [main]   Loading class from parent
+2014-04-08 16:49:29,370 DEBUG c.i.g.l.ComponentLoader [main] null
+2014-04-08 16:49:29,370 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:49:29,370 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:49:29,370 INFO c.i.g.s.Gaia [main] Initialization processed in 36 ms
+2014-04-08 16:50:17,712 DEBUG c.i.g.l.ComponentLoader [main] Adding repository file:/F:/repositories/wshare-2.0-gateway-1.0/components/camera/COMP-INF/classes/
+2014-04-08 16:50:17,714 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:50:17,714 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:50:17,714 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:50:17,715 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:50:17,716 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:50:17,716 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:50:17,716 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:50:17,716 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:50:17,717 DEBUG c.i.g.l.ComponentLoader [main] null
+2014-04-08 16:50:17,717 ERROR c.i.g.l.ComponentLoader [main] null
+2014-04-08 16:50:17,717 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:50:17,717 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:50:17,717 DEBUG c.i.g.l.ComponentLoader [main] Adding repository file:/F:/repositories/wshare-2.0-gateway-1.0/components/sensor/COMP-INF/classes/
+2014-04-08 16:50:17,717 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:50:17,718 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:50:17,718 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:50:17,718 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:50:17,718 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:50:17,718 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:50:17,718 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:50:17,718 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:50:17,718 DEBUG c.i.g.l.ComponentLoader [main] null
+2014-04-08 16:50:17,719 DEBUG c.i.g.l.ComponentClassLoader [main] loadClass(cn.iie.testComp, false)
+2014-04-08 16:50:17,719 DEBUG c.i.g.l.ComponentClassLoader [main]   Delegating to parent classloader1 sun.misc.Launcher$AppClassLoader@2d68be1b
+2014-04-08 16:50:17,720 DEBUG c.i.g.l.ComponentClassLoader [main]   Loading class from parent
+2014-04-08 16:50:17,720 DEBUG c.i.g.l.ComponentLoader [main] null
+2014-04-08 16:50:17,720 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:50:17,720 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:50:17,720 INFO c.i.g.s.Gaia [main] Initialization processed in 20 ms
+2014-04-08 16:51:20,013 DEBUG c.i.g.l.ComponentLoader [main] Adding repository file:/F:/repositories/wshare-2.0-gateway-1.0/components/camera/COMP-INF/classes/
+2014-04-08 16:51:20,015 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:51:20,015 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:51:20,015 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:51:20,017 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:51:20,017 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:51:20,017 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:51:20,017 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:51:20,017 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:51:20,018 DEBUG c.i.g.l.ComponentLoader [main] null
+2014-04-08 16:51:20,019 ERROR c.i.g.l.ComponentLoader [main] null
+2014-04-08 16:51:20,019 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:51:20,019 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:51:20,019 DEBUG c.i.g.l.ComponentLoader [main] Adding repository file:/F:/repositories/wshare-2.0-gateway-1.0/components/sensor/COMP-INF/classes/
+2014-04-08 16:51:20,019 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:51:20,019 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:51:20,019 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:51:20,020 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:51:20,020 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:51:20,020 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:51:20,020 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:51:20,020 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:51:20,020 DEBUG c.i.g.l.ComponentLoader [main] null
+2014-04-08 16:51:20,020 DEBUG c.i.g.l.ComponentClassLoader [main] loadClass(cn.iie.testComp, false)
+2014-04-08 16:51:20,021 DEBUG c.i.g.l.ComponentClassLoader [main]   Delegating to parent classloader1 sun.misc.Launcher$AppClassLoader@3798f5e7
+2014-04-08 16:51:20,022 DEBUG c.i.g.l.ComponentClassLoader [main]   Loading class from parent
+2014-04-08 16:51:20,022 DEBUG c.i.g.l.ComponentLoader [main] null
+2014-04-08 16:51:20,022 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:51:20,022 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:51:20,022 INFO c.i.g.s.Gaia [main] Initialization processed in 22 ms
+2014-04-08 16:53:50,313 DEBUG c.i.g.l.ComponentLoader [main] Adding repository file:/F:/repositories/wshare-2.0-gateway-1.0/components/camera/COMP-INF/classes/
+2014-04-08 16:53:50,314 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:53:50,315 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:53:50,315 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:53:50,316 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:53:50,316 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:53:50,316 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:53:50,317 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:53:50,317 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:53:50,318 DEBUG c.i.g.l.ComponentLoader [main] Loading component {0}
+2014-04-08 16:53:50,318 ERROR c.i.g.l.ComponentLoader [main] Fail to load component {0}
+2014-04-08 16:53:50,318 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:53:50,318 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:53:50,318 DEBUG c.i.g.l.ComponentLoader [main] Adding repository file:/F:/repositories/wshare-2.0-gateway-1.0/components/sensor/COMP-INF/classes/
+2014-04-08 16:53:50,318 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:53:50,318 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:53:50,319 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:53:50,319 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:53:50,319 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:53:50,319 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:53:50,319 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:53:50,319 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:53:50,320 DEBUG c.i.g.l.ComponentLoader [main] Loading component {0}
+2014-04-08 16:53:50,320 DEBUG c.i.g.l.ComponentClassLoader [main] loadClass(cn.iie.testComp, false)
+2014-04-08 16:53:50,320 DEBUG c.i.g.l.ComponentClassLoader [main]   Delegating to parent classloader1 sun.misc.Launcher$AppClassLoader@1b382d35
+2014-04-08 16:53:50,321 DEBUG c.i.g.l.ComponentClassLoader [main]   Loading class from parent
+2014-04-08 16:53:50,322 DEBUG c.i.g.l.ComponentLoader [main] Component {0} loaded sucessfully
+2014-04-08 16:53:50,322 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:53:50,322 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:53:50,322 INFO c.i.g.s.Gaia [main] Initialization processed in 26 ms
+2014-04-08 16:55:28,510 DEBUG c.i.g.l.ComponentLoader [main] Adding repository file:/F:/repositories/wshare-2.0-gateway-1.0/components/camera/COMP-INF/classes/
+2014-04-08 16:55:28,511 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:55:28,512 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:55:28,512 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:55:28,514 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:55:28,514 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:55:28,514 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:55:28,514 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:55:28,514 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:55:28,514 DEBUG c.i.g.l.ComponentLoader [main] Loading component camera
+2014-04-08 16:55:28,514 ERROR c.i.g.l.ComponentLoader [main] Fail to load component camera
+2014-04-08 16:55:28,515 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:55:28,515 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:55:28,515 DEBUG c.i.g.l.ComponentLoader [main] Adding repository file:/F:/repositories/wshare-2.0-gateway-1.0/components/sensor/COMP-INF/classes/
+2014-04-08 16:55:28,515 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:55:28,515 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:55:28,515 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:55:28,516 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:55:28,516 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:55:28,516 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:55:28,516 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:55:28,516 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:55:28,516 DEBUG c.i.g.l.ComponentLoader [main] Loading component sensor
+2014-04-08 16:55:28,516 DEBUG c.i.g.l.ComponentClassLoader [main] loadClass(cn.iie.testComp, false)
+2014-04-08 16:55:28,516 DEBUG c.i.g.l.ComponentClassLoader [main]   Delegating to parent classloader1 sun.misc.Launcher$AppClassLoader@533e846f
+2014-04-08 16:55:28,517 DEBUG c.i.g.l.ComponentClassLoader [main]   Loading class from parent
+2014-04-08 16:55:28,518 DEBUG c.i.g.l.ComponentLoader [main] Component sensor loaded sucessfully
+2014-04-08 16:55:28,518 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:55:28,518 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 16:55:28,518 INFO c.i.g.s.Gaia [main] Initialization processed in 21 ms
+2014-04-08 17:03:49,729 DEBUG c.i.g.l.ComponentLoader [main] Adding repository file:/F:/repositories/wshare-2.0-gateway-1.0/components/camera/COMP-INF/classes/
+2014-04-08 17:03:49,730 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 17:03:49,730 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 17:03:49,730 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 17:03:49,732 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 17:03:49,732 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 17:03:49,732 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 17:03:49,732 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 17:03:49,732 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 17:03:49,732 DEBUG c.i.g.l.ComponentLoader [main] Loading component camera
+2014-04-08 17:03:49,733 ERROR c.i.g.l.ComponentLoader [main] Fail to load component camera
+2014-04-08 17:03:49,733 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 17:03:49,733 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 17:03:49,733 DEBUG c.i.g.l.ComponentLoader [main] Adding repository file:/F:/repositories/wshare-2.0-gateway-1.0/components/sensor/COMP-INF/classes/
+2014-04-08 17:03:49,733 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 17:03:49,733 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 17:03:49,733 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 17:03:49,734 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 17:03:49,734 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 17:03:49,734 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 17:03:49,734 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 17:03:49,734 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 17:03:49,734 DEBUG c.i.g.l.ComponentLoader [main] Loading component sensor
+2014-04-08 17:03:49,734 DEBUG c.i.g.l.ComponentClassLoader [main] loadClass(cn.iie.testComp, false)
+2014-04-08 17:03:49,734 DEBUG c.i.g.l.ComponentClassLoader [main]   Delegating to parent classloader1 sun.misc.Launcher$AppClassLoader@2d68be1b
+2014-04-08 17:03:49,736 DEBUG c.i.g.l.ComponentClassLoader [main]   Loading class from parent
+2014-04-08 17:03:49,736 DEBUG c.i.g.l.ComponentLoader [main] Component sensor loaded sucessfully
+2014-04-08 17:03:49,736 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 17:03:49,736 DEBUG c.i.g.u.LifecycleBase [main] lifecycleBase.setState
+2014-04-08 17:03:49,736 INFO c.i.g.s.Gaia [main] Initialization processed in 21 ms

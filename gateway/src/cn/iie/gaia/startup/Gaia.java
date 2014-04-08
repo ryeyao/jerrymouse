@@ -107,7 +107,7 @@ public class Gaia {
     private void loadAllComponentes() throws MalformedURLException {
         String componentHome = GaiaProperties.getProperty("component.home");
         Container rootContainer = new StandardContainer();
-        String root = System.getProperty(Globals.GAIA_HOME_PROP) + "/" + componentHome;
+        String root = System.getProperty(Globals.GAIA_HOME_PROP) + File.separatorChar + componentHome;
         rootContainer.setName(root);
         rootContainer.setParentClassLoader(Gaia.class.getClassLoader());
 
@@ -129,36 +129,6 @@ public class Gaia {
             } catch (LifecycleException e) {
                 e.printStackTrace();
             }
-
-            ComponentClassLoader ccl = compLoader.getClassLoader();
-//            System.out.println("CompClassLoader:\n " + ccl);
-            System.out.print("Loading component: " + compContainer.getName());
-            Component comp = null;
-            try {
-                String cName = compLoader.getProperties().getProperty("myComponent");
-                if(cName == null || cName.isEmpty()) {
-                    log.error(sm.getString("comp.loadFail"));
-                    continue;
-                }
-                Class<?> c =  ccl.loadClass(cName);
-                Object o = c.newInstance();
-                if(o instanceof Component) {
-                    comp = (Component) o;
-                    components.add(comp);
-                } else {
-                    log.error(sm.getString("comp.loadFail"));
-                    System.out.println();
-                    continue;
-                }
-                System.out.println(" ...done!");
-            } catch (ClassNotFoundException e) {
-                e.printStackTrace();
-            } catch (InstantiationException e) {
-                e.printStackTrace();
-            } catch (IllegalAccessException e) {
-                e.printStackTrace();
-            }
-
         }
 
     }

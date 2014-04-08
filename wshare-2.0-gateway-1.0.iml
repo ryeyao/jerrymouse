@@ -10,7 +10,6 @@
     <orderEntry type="library" name="wsdc" level="application" />
     <orderEntry type="library" name="gson-2.2.4" level="application" />
     <orderEntry type="module" module-name="gateway" />
-    <orderEntry type="module" module-name="camera-gateway" />
   </component>
 </module>
 
