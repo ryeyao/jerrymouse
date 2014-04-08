@@ -1,5 +1,7 @@
 package cn.iie.gaia;
 
+import java.io.File;
+
 /**
  * Created with IntelliJ IDEA.
  * User: Rye
@@ -13,18 +15,14 @@ package cn.iie.gaia;
  */
 public interface Component extends Lifecycle {
 
-    public static final String METAINFO_DIR_NAME = "COM-INF";
-    public static final String CLASS_DIR_NAME = "classes";
-    public static final String LIB_DIR_NAME = "lib";
-    public static final String RESDEF_DIR_NAME = "def";
-    public static final String CONF_DIR_NAME = "conf";
+    public static final String CLASS_DIR_NAME = "COMP-INF" + File.separatorChar + "classes";
+    public static final String LIB_DIR_NAME = "COMP-INF" + File.separatorChar + "lib";
+    public static final String RESDEF_DIR_NAME = "COMP-INF" + File.separatorChar + "def";
+    public static final String CONF_DIR_NAME = "COMP-INF" + File.separatorChar + "conf";
     public static final String CONF_FILE_NAME = "group.properties";
 
     public void setName(String name);
     public String getName();
-
-    public void setClassLoader(ClassLoader classLoader);
-    public ClassLoader getClassLoader();
 
     public void setContainer(Container container);
     public Container getContainer();

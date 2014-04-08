@@ -46,6 +46,8 @@ public class ComponentClassLoader extends URLClassLoader implements Lifecycle {
 
     private static final Charset CHARSET_UTF8 = Charset.forName("UTF-8");
     protected static final StringManager sm = StringManager.getManager(Constants.Package);
+    protected final ClassLoader j2seClassLoader;
+    protected SecurityManager securityManager;
     protected String[] repositories = new String[0];
     protected URL[] repositoryURLs = null;
     protected File[] files = new File[0];
@@ -65,6 +67,98 @@ public class ComponentClassLoader extends URLClassLoader implements Lifecycle {
 
     public ComponentClassLoader(URL[] urls) {
         super(urls);
+        ClassLoader p = getParent();
+
+        if (p == null) {
+            p = getSystemClassLoader();
+        }
+        this.parent = p;
+
+        ClassLoader j = String.class.getClassLoader();
+        if (j == null) {
+            j = getSystemClassLoader();
+            while (j.getParent() != null) {
+                j = j.getParent();
+            }
+        }
+        this.j2seClassLoader = j;
+
+        securityManager = System.getSecurityManager();
+        if (securityManager != null) {
+            refreshPolicy();
+        }
+    }
+
+    public ComponentClassLoader() {
+        super(new URL[0]);
+
+        ClassLoader p = getParent();
+
+        if (p == null) {
+            p = getSystemClassLoader();
+        }
+        this.parent = p;
+
+        ClassLoader j = String.class.getClassLoader();
+        if (j == null) {
+            j = getSystemClassLoader();
+            while (j.getParent() != null) {
+                j = j.getParent();
+            }
+        }
+        this.j2seClassLoader = j;
+
+        securityManager = System.getSecurityManager();
+        if (securityManager != null) {
+            refreshPolicy();
+        }
+    }
+
+//    public ComponentClassLoader(URL[] urls) {
+//        super(urls);
+//    }
+
+    /**
+     * Construct a new ClassLoader with no defined repositories and the given
+     * parent ClassLoader.
+     * <p>
+     * Method is used via reflection -
+     * see {@link ComponentLoader#createClassLoader()}
+     *
+     * @param parent Our parent class loader
+     */
+    public ComponentClassLoader(ClassLoader parent) {
+
+        super(new URL[0], parent);
+
+        ClassLoader p = getParent();
+        if (p == null) {
+            p = getSystemClassLoader();
+        }
+        this.parent = p;
+
+        ClassLoader j = String.class.getClassLoader();
+        if (j == null) {
+            j = getSystemClassLoader();
+            while (j.getParent() != null) {
+                j = j.getParent();
+            }
+        }
+        this.j2seClassLoader = j;
+
+        securityManager = System.getSecurityManager();
+        if (securityManager != null) {
+            refreshPolicy();
+        }
+    }
+
+//    public ComponentClassLoader(URL[] urls, ClassLoader parent) {
+//        super(urls, parent);
+//    }
+
+    public void addRepository(URL repositoryURL) {
+        super.addURL(repositoryURL);
+        repositoryURLs = null;
     }
 
     public void addRepository(String repository) {
@@ -75,14 +169,15 @@ public class ComponentClassLoader extends URLClassLoader implements Lifecycle {
 
         try {
             URL url = new URL(repository);
-            super.addURL(url);
-            repositoryURLs = null;
+            addRepository(url);
+
         } catch (MalformedURLException e) {
             IllegalArgumentException iae = new IllegalArgumentException("Invalid repository: " + repository);
             iae.initCause(e);
             throw iae;
         }
     }
+
     synchronized void addRepository(String repository, File file) {
         if(repository == null) {
             return;
@@ -430,6 +525,36 @@ public class ComponentClassLoader extends URLClassLoader implements Lifecycle {
             return (clazz);
         }
 
+        // (0.2) Try loading the class with the system class loader, to prevent
+        //       the webapp from overriding J2SE classes
+        try {
+            clazz = j2seClassLoader.loadClass(name);
+            if (clazz != null) {
+                if (resolve)
+                    resolveClass(clazz);
+                return (clazz);
+            }
+        } catch (ClassNotFoundException e) {
+            // Ignore
+        }
+
+
+        // (1) Delegate to our parent if requested
+        if (log.isDebugEnabled())
+            log.debug("  Delegating to parent classloader1 " + parent);
+        try {
+            clazz = Class.forName(name, false, parent);
+            if (clazz != null) {
+                if (log.isDebugEnabled())
+                    log.debug("  Loading class from parent");
+                if (resolve)
+                    resolveClass(clazz);
+                return (clazz);
+            }
+        } catch (ClassNotFoundException e) {
+            // Ignore
+        }
+
         // (2) Search local repositories
         if (log.isDebugEnabled())
             log.debug("  Searching local repositories");
@@ -472,5 +597,42 @@ public class ComponentClassLoader extends URLClassLoader implements Lifecycle {
     @Override
     public String getStateName() {
         return null;
+    }
+    /**
+     * Refresh the system policy file, to pick up eventual changes.
+     */
+    protected void refreshPolicy() {
+
+        try {
+            // The policy file may have been modified to adjust
+            // permissions, so we're reloading it when loading or
+            // reloading a Context
+            Policy policy = Policy.getPolicy();
+            policy.refresh();
+        } catch (AccessControlException e) {
+            // Some policy files may restrict this, even for the core,
+            // so this exception is ignored
+        }
+
+    }
+
+    public String toString() {
+
+        StringBuilder sb = new StringBuilder("WebappClassLoader\r\n");
+        sb.append("  repositories:\r\n");
+        if (repositories != null) {
+            for (int i = 0; i < repositories.length; i++) {
+                sb.append("    ");
+                sb.append(repositories[i]);
+                sb.append("\r\n");
+            }
+        }
+        if (this.parent != null) {
+            sb.append("----------> Parent Classloader:\r\n");
+            sb.append(this.parent.toString());
+            sb.append("\r\n");
+        }
+        return (sb.toString());
+
     }
 }

@@ -1,9 +1,7 @@
 package cn.iie.gaia.loader;
 
-import cn.iie.gaia.Container;
-import cn.iie.gaia.Lifecycle;
-import cn.iie.gaia.LifecycleException;
-import cn.iie.gaia.LifecycleState;
+import cn.iie.gaia.*;
+import cn.iie.gaia.entity.ConfigPropertiesBase;
 import cn.iie.gaia.util.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -32,6 +30,9 @@ public class ComponentLoader extends LifecycleMBeanBase {
     private ComponentClassLoader classLoader = null;
     private ClassLoader parentClassLoader = null;
     private Container container = null;
+
+
+    private ConfigProperties properties = null;
     private String repositories[] = new String[0];
     private String classpath = null;
     private String loaderClass = "cn.iie.gaia.loader.ComponentClassLoader";
@@ -56,14 +57,16 @@ public class ComponentLoader extends LifecycleMBeanBase {
         return repositories.clone();
     }
 
+    public ConfigProperties getProperties() {
+        return properties;
+    }
+
     private void setRepositories() throws IOException {
         // load classes
-        String userDirBase = System.getProperty("user.dir");
-
-        String classesPath = "/COMP-INF/classes";
+        String classesPath = "COMP-INF" + File.separatorChar + "classes";
 
         File classRepository = null;
-        String absoluteClassesPath = userDirBase + "/" + container.getPath() + "/" + classesPath;
+        String absoluteClassesPath = container.getPath() + File.separatorChar + classesPath;
 
         classRepository = new File(absoluteClassesPath);
 
@@ -76,13 +79,13 @@ public class ComponentLoader extends LifecycleMBeanBase {
             throw new IOException(sm.getString("webappLoader.notDirFailure"));
         }
 
-        classLoader.addRepository(absoluteClassesPath + "/", classRepository);
+        classLoader.addRepository(absoluteClassesPath + File.separatorChar, classRepository);
 
         // load libs
-        String libPath = "COMP-INF/lib";
+        String libPath = "COMP-INF" + File.separatorChar + "lib";
         classLoader.setJarPath(libPath);
 
-        String absoluteLibPath = userDirBase + "/" + container.getPath() + "/" + libPath;
+        String absoluteLibPath = container.getPath() + File.separatorChar + libPath;
 
         File libDir = new File(absoluteLibPath);
 
@@ -136,7 +139,10 @@ public class ComponentLoader extends LifecycleMBeanBase {
         ClassLoader loader = getClassLoader();
 
         while(loader != null) {
-            if(!buildClassPath(classpath, loader));
+            if(!buildClassPath(classpath, loader)) {
+                break;
+            }
+            loader = loader.getParent();
         }
 
         this.classpath = classpath.toString();
@@ -184,28 +190,59 @@ public class ComponentLoader extends LifecycleMBeanBase {
         return result;
     }
 
+    /**
+     * Add a new repository to the set of repositories for this class loader.
+     *
+     * @param repository Repository to be added
+     */
+    public void addRepository(String repository) {
+
+        if (log.isDebugEnabled())
+            log.debug(sm.getString("webappLoader.addRepository", repository));
+
+        for (int i = 0; i < repositories.length; i++) {
+            if (repository.equals(repositories[i]))
+                return;
+        }
+        String results[] = new String[repositories.length + 1];
+        for (int i = 0; i < repositories.length; i++)
+            results[i] = repositories[i];
+        results[repositories.length] = repository;
+        repositories = results;
+
+        if (getState().isAvailable() && (classLoader != null)) {
+            classLoader.addRepository(repository);
+            setClassPath();
+        }
+
+    }
     @Override
     protected void startInternal() throws LifecycleException {
 
         try {
             classLoader = createClassLoader();
+
+
             for(int i = 0; i < repositories.length; i++) {
                 classLoader.addRepository(repositories[i]);
             }
 
+
             setRepositories();
             setClassPath();
+            loadConfig();
+            properties.start();
             ((Lifecycle) classLoader).start();
-        } catch (NoSuchMethodException e) {
-            e.printStackTrace();
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (InvocationTargetException e) {
-            e.printStackTrace();
-        } catch (InstantiationException e) {
-            e.printStackTrace();
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
+//        } catch (NoSuchMethodException e) {
+//            e.printStackTrace();
+//        } catch (IllegalAccessException e) {
+//            e.printStackTrace();
+//        } catch (InvocationTargetException e) {
+//            e.printStackTrace();
+//        } catch (InstantiationException e) {
+//            e.printStackTrace();
+//        } catch (ClassNotFoundException e) {
+//            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         } catch (Throwable t) {
@@ -215,15 +252,15 @@ public class ComponentLoader extends LifecycleMBeanBase {
             throw new LifecycleException("start: ", t);
         }
 
-        setState(LifecycleState.STARTING);
+        super.startInternal();
 
     }
 
     @Override
     protected void stopInternal() throws LifecycleException {
 
-        setState(LifecycleState.STOPPING);
 
+        super.stopInternal();
         if(classLoader != null) {
             ((Lifecycle) classLoader).stop();
         }
@@ -233,6 +270,7 @@ public class ComponentLoader extends LifecycleMBeanBase {
 
     private ComponentClassLoader createClassLoader() throws NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException, ClassNotFoundException {
         Class<?> clazz = Class.forName(loaderClass);
+//        Class<?> clazz = ComponentClassLoader.class;
         ComponentClassLoader cl = null;
 
         if(parentClassLoader == null) {
@@ -245,5 +283,10 @@ public class ComponentLoader extends LifecycleMBeanBase {
         cl = (ComponentClassLoader) constr.newInstance(args);
 
         return cl;
+    }
+
+    private void loadConfig() throws LifecycleException {
+        properties = new ConfigPropertiesBase();
+        properties.setContainer(container);
     }
 }

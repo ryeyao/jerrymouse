@@ -1,7 +1,11 @@
-package cn.iie.gaia;
+package cn.iie.gaia.entity;
 
+import cn.iie.gaia.Container;
+import cn.iie.gaia.LifecycleException;
 import cn.iie.gaia.util.LifecycleBase;
+import cn.iie.gaia.util.LifecycleMBeanBase;
 
+import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -11,7 +15,7 @@ import java.util.Map;
  * Date: 4/4/14
  * Time: 2:23 PM
  */
-public abstract class ContainerBase extends LifecycleBase implements Container {
+public abstract class ContainerBase extends LifecycleMBeanBase implements Container {
 
     private String name = null;
     protected Container parent = null;
@@ -47,9 +51,9 @@ public abstract class ContainerBase extends LifecycleBase implements Container {
     @Override
     public String getPath() {
         if(parent == null) {
-            return "/" + name;
+            return name;
         }
-        return parent.getPath() + "/" + name;
+        return parent.getPath() + File.separatorChar + name;
     }
 
     @Override

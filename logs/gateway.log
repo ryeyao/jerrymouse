@@ -242,3 +242,148 @@ Caused by: java.io.EOFException
 2014-04-01 16:01:13,576 INFO w.g.u.ConfigurationFile [main] Loading configuration from file config.properties
 2014-04-01 16:01:13,577 INFO w.g.u.ConfigurationFile [main] Loading configuration from file idmap.ini
 2014-04-01 16:01:13,577 INFO w.g.u.UDPServer [main] cn.iie.jerry.sensor.udp Server listening on port 50002
+2014-04-05 18:04:44,697 ERROR c.i.g.s.Gaia [main] gaia.configFail
+java.io.FileNotFoundException: F:\repositories\wshare-2.0-gateway-1.0\conf\server.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open(Native Method) ~[?:1.7.0_21]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.7.0_21]
+	at cn.iie.gaia.startup.Gaia.load(Gaia.java:74) [gateway/:?]
+	at cn.iie.gaia.startup.Gaia.start(Gaia.java:148) [gateway/:?]
+	at cn.iie.gaia.startup.Bootstrap.start(Bootstrap.java:27) [gateway/:?]
+	at cn.iie.gaia.startup.Bootstrap.main(Bootstrap.java:78) [gateway/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_21]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_21]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_21]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[?:1.7.0_21]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:120) [idea_rt.jar:?]
+2014-04-05 18:04:44,729 ERROR c.i.g.s.Gaia [main] gaia.configFail
+java.lang.NullPointerException
+	at cn.iie.gaia.startup.Gaia.load(Gaia.java:83) [gateway/:?]
+	at cn.iie.gaia.startup.Gaia.start(Gaia.java:148) [gateway/:?]
+	at cn.iie.gaia.startup.Bootstrap.start(Bootstrap.java:27) [gateway/:?]
+	at cn.iie.gaia.startup.Bootstrap.main(Bootstrap.java:78) [gateway/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_21]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_21]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_21]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[?:1.7.0_21]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:120) [idea_rt.jar:?]
+2014-04-05 18:04:44,730 WARN c.i.g.s.GaiaProperties [main] Failed to load gaia.properties
+2014-04-05 18:07:33,099 WARN c.i.g.s.GaiaProperties [main] Failed to load gaia.properties
+2014-04-05 18:10:54,972 INFO c.i.g.s.Gaia [main] Initialization processed in 4 ms
+2014-04-06 15:35:27,715 ERROR c.i.g.e.ConfigPropertiesBase [main] component.properties not found
+2014-04-06 15:35:46,701 ERROR c.i.g.e.ConfigPropertiesBase [main] component.properties not found
+2014-04-06 15:35:51,531 ERROR c.i.g.l.ComponentLoader [main] LifecycleException 
+cn.iie.gaia.LifecycleException: lifecycleBase.invalidTransition
+	at cn.iie.gaia.util.LifecycleBase.invalidTransition(LifecycleBase.java:428) ~[gateway/:?]
+	at cn.iie.gaia.util.LifecycleBase.start(LifecycleBase.java:184) ~[gateway/:?]
+	at cn.iie.gaia.loader.ComponentLoader.startInternal(ComponentLoader.java:205) [gateway/:?]
+	at cn.iie.gaia.util.LifecycleBase.start(LifecycleBase.java:169) [gateway/:?]
+	at cn.iie.gaia.startup.Gaia.loadAllComponentes(Gaia.java:121) [gateway/:?]
+	at cn.iie.gaia.startup.Gaia.load(Gaia.java:91) [gateway/:?]
+	at cn.iie.gaia.startup.Gaia.start(Gaia.java:148) [gateway/:?]
+	at cn.iie.gaia.startup.Bootstrap.start(Bootstrap.java:27) [gateway/:?]
+	at cn.iie.gaia.startup.Bootstrap.main(Bootstrap.java:78) [gateway/:?]
+2014-04-06 15:35:55,947 INFO c.i.g.l.ComponentClassLoader [main] webappClassLoader.stopped
+java.lang.IllegalStateException
+	at cn.iie.gaia.loader.ComponentClassLoader.loadClass(ComponentClassLoader.java:471) [gateway/:?]
+	at cn.iie.gaia.loader.ComponentClassLoader.loadClass(ComponentClassLoader.java:430) [gateway/:?]
+	at cn.iie.gaia.startup.Gaia.loadAllComponentes(Gaia.java:129) [gateway/:?]
+	at cn.iie.gaia.startup.Gaia.load(Gaia.java:91) [gateway/:?]
+	at cn.iie.gaia.startup.Gaia.start(Gaia.java:148) [gateway/:?]
+	at cn.iie.gaia.startup.Bootstrap.start(Bootstrap.java:27) [gateway/:?]
+	at cn.iie.gaia.startup.Bootstrap.main(Bootstrap.java:78) [gateway/:?]
+2014-04-06 15:37:51,741 ERROR c.i.g.e.ConfigPropertiesBase [main] component.properties not found
+2014-04-06 16:13:25,413 INFO c.i.g.u.LifecycleBase [main] lifecycleBase.alreadyStarted
+2014-04-07 21:30:34,117 ERROR c.i.g.l.ComponentLoader [main] LifecycleException 
+java.lang.NullPointerException
+	at cn.iie.gaia.loader.ComponentLoader.setRepositories(ComponentLoader.java:82) ~[gateway/:?]
+	at cn.iie.gaia.loader.ComponentLoader.startInternal(ComponentLoader.java:205) [gateway/:?]
+	at cn.iie.gaia.util.LifecycleBase.start(LifecycleBase.java:169) [gateway/:?]
+	at cn.iie.gaia.startup.Gaia.loadAllComponentes(Gaia.java:130) [gateway/:?]
+	at cn.iie.gaia.startup.Gaia.load(Gaia.java:96) [gateway/:?]
+	at cn.iie.gaia.startup.Gaia.start(Gaia.java:159) [gateway/:?]
+	at cn.iie.gaia.startup.Bootstrap.start(Bootstrap.java:27) [gateway/:?]
+	at cn.iie.gaia.startup.Bootstrap.main(Bootstrap.java:78) [gateway/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_21]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_21]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_21]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[?:1.7.0_21]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:120) [idea_rt.jar:?]
+2014-04-07 21:47:03,142 INFO c.i.g.s.Gaia [main] Initialization processed in 11 ms
+2014-04-07 21:48:26,101 INFO c.i.g.s.Gaia [main] Initialization processed in 11 ms
+2014-04-07 21:49:05,676 INFO c.i.g.s.Gaia [main] Initialization processed in 18418 ms
+2014-04-07 21:49:15,794 INFO c.i.g.s.Gaia [main] Initialization processed in 31 ms
+2014-04-07 21:49:43,319 INFO c.i.g.s.Gaia [main] Initialization processed in 11 ms
+2014-04-07 21:51:27,416 INFO c.i.g.s.Gaia [main] Initialization processed in 13 ms
+2014-04-07 21:52:22,043 INFO c.i.g.s.Gaia [main] Initialization processed in 11 ms
+2014-04-07 21:53:32,643 INFO c.i.g.s.Gaia [main] Initialization processed in 12 ms
+2014-04-07 21:54:49,900 INFO c.i.g.s.Gaia [main] Initialization processed in 11 ms
+2014-04-08 13:50:05,920 ERROR c.i.g.l.ComponentLoader [main] LifecycleException 
+java.lang.IllegalArgumentException: Invalid repository: F:\repositories\wshare-2.0-gateway-1.0/components/camera/COMP-INF/classes
+	at cn.iie.gaia.loader.ComponentClassLoader.addRepository(ComponentClassLoader.java:171) ~[gateway/:?]
+	at cn.iie.gaia.loader.ComponentLoader.startInternal(ComponentLoader.java:227) [gateway/:?]
+	at cn.iie.gaia.util.LifecycleBase.start(LifecycleBase.java:169) [gateway/:?]
+	at cn.iie.gaia.startup.Gaia.loadAllComponentes(Gaia.java:132) [gateway/:?]
+	at cn.iie.gaia.startup.Gaia.load(Gaia.java:96) [gateway/:?]
+	at cn.iie.gaia.startup.Gaia.start(Gaia.java:168) [gateway/:?]
+	at cn.iie.gaia.startup.Bootstrap.start(Bootstrap.java:27) [gateway/:?]
+	at cn.iie.gaia.startup.Bootstrap.main(Bootstrap.java:78) [gateway/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_21]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_21]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_21]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[?:1.7.0_21]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:120) [idea_rt.jar:?]
+Caused by: java.net.MalformedURLException: unknown protocol: f
+	at java.net.URL.<init>(URL.java:592) ~[?:1.7.0_21]
+	at java.net.URL.<init>(URL.java:482) ~[?:1.7.0_21]
+	at java.net.URL.<init>(URL.java:431) ~[?:1.7.0_21]
+	at cn.iie.gaia.loader.ComponentClassLoader.addRepository(ComponentClassLoader.java:166) ~[gateway/:?]
+	... 12 more
+2014-04-08 13:51:36,060 ERROR c.i.g.l.ComponentLoader [main] LifecycleException 
+java.lang.IllegalArgumentException: Invalid repository: F:\repositories\wshare-2.0-gateway-1.0\components\camera/COMP-INF/classes
+	at cn.iie.gaia.loader.ComponentClassLoader.addRepository(ComponentClassLoader.java:171) ~[gateway/:?]
+	at cn.iie.gaia.loader.ComponentLoader.startInternal(ComponentLoader.java:227) [gateway/:?]
+	at cn.iie.gaia.util.LifecycleBase.start(LifecycleBase.java:169) [gateway/:?]
+	at cn.iie.gaia.startup.Gaia.loadAllComponentes(Gaia.java:132) [gateway/:?]
+	at cn.iie.gaia.startup.Gaia.load(Gaia.java:96) [gateway/:?]
+	at cn.iie.gaia.startup.Gaia.start(Gaia.java:168) [gateway/:?]
+	at cn.iie.gaia.startup.Bootstrap.start(Bootstrap.java:27) [gateway/:?]
+	at cn.iie.gaia.startup.Bootstrap.main(Bootstrap.java:78) [gateway/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_21]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_21]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_21]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[?:1.7.0_21]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:120) [idea_rt.jar:?]
+Caused by: java.net.MalformedURLException: unknown protocol: f
+	at java.net.URL.<init>(URL.java:592) ~[?:1.7.0_21]
+	at java.net.URL.<init>(URL.java:482) ~[?:1.7.0_21]
+	at java.net.URL.<init>(URL.java:431) ~[?:1.7.0_21]
+	at cn.iie.gaia.loader.ComponentClassLoader.addRepository(ComponentClassLoader.java:166) ~[gateway/:?]
+	... 12 more
+2014-04-08 14:02:13,384 ERROR c.i.g.l.ComponentLoader [main] LifecycleException 
+java.lang.IllegalArgumentException: Invalid repository: F:\repositories\wshare-2.0-gateway-1.0\components\camera\COMP-INF\classes
+	at cn.iie.gaia.loader.ComponentClassLoader.addRepository(ComponentClassLoader.java:175) ~[gateway/:?]
+	at cn.iie.gaia.loader.ComponentLoader.startInternal(ComponentLoader.java:227) [gateway/:?]
+	at cn.iie.gaia.util.LifecycleBase.start(LifecycleBase.java:169) [gateway/:?]
+	at cn.iie.gaia.startup.Gaia.loadAllComponentes(Gaia.java:132) [gateway/:?]
+	at cn.iie.gaia.startup.Gaia.load(Gaia.java:96) [gateway/:?]
+	at cn.iie.gaia.startup.Gaia.start(Gaia.java:168) [gateway/:?]
+	at cn.iie.gaia.startup.Bootstrap.start(Bootstrap.java:27) [gateway/:?]
+	at cn.iie.gaia.startup.Bootstrap.main(Bootstrap.java:78) [gateway/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_21]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_21]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_21]
+	at java.lang.reflect.Method.invoke(Method.java:601) ~[?:1.7.0_21]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:120) [idea_rt.jar:?]
+Caused by: java.net.MalformedURLException: unknown protocol: f
+	at java.net.URL.<init>(URL.java:592) ~[?:1.7.0_21]
+	at java.net.URL.<init>(URL.java:482) ~[?:1.7.0_21]
+	at java.net.URL.<init>(URL.java:431) ~[?:1.7.0_21]
+	at cn.iie.gaia.loader.ComponentClassLoader.addRepository(ComponentClassLoader.java:171) ~[gateway/:?]
+	... 12 more
+2014-04-08 14:22:49,930 INFO c.i.g.s.Gaia [main] Initialization processed in 13 ms
+2014-04-08 14:25:54,780 INFO c.i.g.s.Gaia [main] Initialization processed in 10 ms
+2014-04-08 14:26:08,279 INFO c.i.g.s.Gaia [main] Initialization processed in 10 ms
+2014-04-08 14:26:46,362 INFO c.i.g.s.Gaia [main] Initialization processed in 10 ms
+2014-04-08 14:29:06,309 INFO c.i.g.s.Gaia [main] Initialization processed in 13 ms
+2014-04-08 15:08:58,552 ERROR c.i.g.s.Gaia [main] null
+2014-04-08 15:08:58,573 INFO c.i.g.s.Gaia [main] Initialization processed in 34 ms
