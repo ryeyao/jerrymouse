@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
-      <module fileurl="file://$PROJECT_DIR$/wshare-2.0-gateway-1.0.iml" filepath="$PROJECT_DIR$/wshare-2.0-gateway-1.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Jerrymouse.iml" filepath="$PROJECT_DIR$/Jerrymouse.iml" />
     </modules>
   </component>
 </project>
