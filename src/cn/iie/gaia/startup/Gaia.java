@@ -5,6 +5,7 @@ import cn.iie.gaia.entity.StandardContainer;
 import cn.iie.gaia.loader.ComponentLoader;
 import cn.iie.gaia.util.ExceptionUtils;
 import cn.iie.gaia.util.StringManager;
+import cn.iie.gaia.util.WorkLoopThread;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.xml.sax.InputSource;
@@ -15,6 +16,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.MalformedURLException;
 import java.util.ArrayList;
+import java.util.TimerTask;
 
 /**
  * Created with IntelliJ IDEA.
@@ -113,10 +115,10 @@ public class Gaia {
         assert rootDir.isDirectory();
 
         for(File compDir : rootDir.listFiles()) {
-            Container compAsDirContainer = new StandardContainer();
-            compAsDirContainer.setName(compDir.getName());
-            compAsDirContainer.setParent(rootContainer);
-            rootContainer.addChild(compAsDirContainer);
+//            Container compAsDirContainer = new StandardContainer();
+//            compAsDirContainer.setName(compDir.getName());
+//            compAsDirContainer.setParent(rootContainer);
+//            rootContainer.addChild(compAsDirContainer);
 
             ComponentLoader compLoader = new ComponentLoader();
             compLoader.setComponentName(compDir.getName());
@@ -133,30 +135,23 @@ public class Gaia {
     }
 
     private void startAllComponents() {
-//        for(Component c: components) {
-//            try {
-//                c.init();
-//                c.start();
-//            } catch (LifecycleException e) {
-//                e.printStackTrace();
-//            }
-//        }
 
-        try {
+//        try {
             for(Component comp: rootContainer.components()) {
-                    comp.init();
-                    comp.start();
+//                    comp.init();
+//                    comp.start();
+                new ComponentWorkLoopThread(comp).start();
             }
 
-            for(Container cont: rootContainer.childs()) {
-                for(Component comp: cont.components()) {
-                    comp.init();
-                    comp.start();
-                }
-            }
-        } catch (LifecycleException e) {
-            e.printStackTrace();
-        }
+//            for(Container cont: rootContainer.childs()) {
+//                for(Component comp: cont.components()) {
+//                    comp.init();
+//                    comp.start();
+//                }
+//            }
+//        } catch (LifecycleException e) {
+//            e.printStackTrace();
+//        }
     }
 
     public void start() {
@@ -249,6 +244,38 @@ public class Gaia {
                 // If JULI is used, shut JULI down *after* the server shuts down
                 // so log messages aren't lost
             }
+        }
+    }
+
+    private class ComponentWorkLoopThread extends WorkLoopThread {
+
+        private Component component= null;
+
+        public ComponentWorkLoopThread(Component component) {
+            this.component = component;
+        }
+
+        @Override
+        public void run() {
+//            ComponentLoader compLoader = new ComponentLoader();
+//            compLoader.setComponentName(componentName);
+//            compLoader.setContainer(rootContainer);
+//
+//            try {
+//                compLoader.start();
+//            } catch (LifecycleException e) {
+//                e.printStackTrace();
+//            }
+            try {
+                component.init();
+                component.start();
+            } catch (LifecycleException e) {
+                e.printStackTrace();
+            }
+        }
+
+        @Override
+        public void loopTask() {
         }
     }
 

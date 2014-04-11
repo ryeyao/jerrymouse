@@ -21,12 +21,16 @@ public abstract class ContainerBase extends LifecycleMBeanBase implements Contai
     protected Container parent = null;
     private ClassLoader parentClassLoader = null;
 
+    private static final Object childsLock = new Object();
+    private static final Object componentsLock = new Object();
     private Map<String, Container> childs = new HashMap<String, Container>();
     private Map<String, Component> components = new HashMap<String, Component>();
 
 
     @Override
     public void setName(String name) {
+        if(this.name != null)
+            return;
         this.name = name;
     }
 
@@ -37,17 +41,23 @@ public abstract class ContainerBase extends LifecycleMBeanBase implements Contai
 
     @Override
     public void setParent(Container parent) {
+        if(this.parent != null)
+            return;
         this.parent = parent;
     }
 
     @Override
     public void addChild(Container child) {
-        childs.put(child.getName(), child);
+        synchronized (childsLock) {
+            childs.put(child.getName(), child);
+        }
     }
 
     @Override
     public void removeChild(Container child) {
-        childs.remove(child.getName());
+        synchronized (childsLock) {
+            childs.remove(child.getName());
+        }
     }
 
     @Override
@@ -57,12 +67,16 @@ public abstract class ContainerBase extends LifecycleMBeanBase implements Contai
 
     @Override
     public void addComponent(Component component) {
-        components.put(component.getName(), component);
+        synchronized (componentsLock) {
+            components.put(component.getName(), component);
+        }
     }
 
     @Override
     public void removeComponent(Component component) {
-        components.remove(component.getName());
+        synchronized (componentsLock) {
+            components.remove(component.getName());
+        }
     }
 
     @Override
@@ -80,6 +94,8 @@ public abstract class ContainerBase extends LifecycleMBeanBase implements Contai
 
     @Override
     public void setParentClassLoader(ClassLoader classLoader) {
+        if(this.parentClassLoader != null)
+            return;
         this.parentClassLoader = classLoader;
     }
 

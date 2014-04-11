@@ -1,4 +1,4 @@
-package cn.iie.jerrymouse.util;
+package cn.iie.gaia.util;
 
 /**
  * Created with IntelliJ IDEA.
@@ -6,17 +6,21 @@ package cn.iie.jerrymouse.util;
  * Date: 4/8/14
  * Time: 5:47 PM
  */
-public abstract class StoppableThread extends Thread {
+public abstract class StoppableLoopThread extends Thread {
 
     /**
      * Do not write eternal loop code inside this method!
      */
-    public abstract void runTask();
+    public abstract void loopTask();
 
     @Override
     public void run() {
         while(!isInterrupted()) {
-            runTask();
+            loopTask();
         }
+    }
+
+    public void shutdown() {
+        this.interrupt();
     }
 }
