@@ -306,6 +306,7 @@ public class ComponentLoader extends LifecycleMBeanBase {
                 return;
             }
             Class<?> c =  classLoader.loadClass(cName);
+
             Object o = c.newInstance();
             if(o instanceof Component) {
                 comp = (Component) o;

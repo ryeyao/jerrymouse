@@ -7,15 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/iie/gaia/util/WorkLoopThread.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/iie/gaia/entity/ContainerBase.java" afterPath="$PROJECT_DIR$/src/cn/iie/gaia/entity/ContainerBase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/iie/gaia/startup/Gaia.java" afterPath="$PROJECT_DIR$/src/cn/iie/gaia/startup/Gaia.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/iie/gaia/loader/ComponentLoader.java" afterPath="$PROJECT_DIR$/src/cn/iie/gaia/loader/ComponentLoader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/start.bat" afterPath="$PROJECT_DIR$/bin/start.bat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="F:\repositories\wshare-2.0-gateway-1.0\src\cn\iie\jerrymouse\util\StoppableThread.java" afterPath="$PROJECT_DIR$/src/cn/iie/gaia/util/StoppableLoopThread.java" />
     </list>
     <ignored path="wshare-2.0-gateway-1.0.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1397199544670" ignored="false" />
+    <file path="/Dummy.txt" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1398133570203" ignored="false" />
     <file path="/log4j2.xml" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1397111815456" ignored="false" />
     <file path="/ConfigurationFile.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1397025977929" ignored="false" />
     <file path="/CameraDataHandler.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396315133679" ignored="false" />
@@ -29,15 +27,15 @@
     <file path="/Implemented Method Body.txt.ft" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1395909130609" ignored="false" />
     <file path="/New Method Body.txt.ft" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1395909143873" ignored="false" />
     <file path="/Overridden Method Body.txt.ft" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1395909147305" ignored="false" />
-    <file path="/Json2ResourceDef.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1395910948806" ignored="false" />
+    <file path="/Json2ResourceDef.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1398132411268" ignored="false" />
     <file path="/config.properties" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1397206057405" ignored="false" />
     <file path="/UDPDataHandler.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1395916436400" ignored="false" />
     <file path="/CameraPreprocessor.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1395914087750" ignored="false" />
     <file path="/GatewayMain.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1395914170757" ignored="false" />
     <file path="/fragment.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1397202234785" ignored="false" />
-    <file path="/Gateway.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1397205800287" ignored="false" />
+    <file path="/Gateway.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1398140020433" ignored="false" />
     <file path="/XML2ResourceDef.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1395972307727" ignored="false" />
-    <file path="/ResourceDef2Json.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1395975346734" ignored="false" />
+    <file path="/ResourceDef2Json.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1398060065602" ignored="false" />
     <file path="/Processor.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396315191790" ignored="false" />
     <file path="/test.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1395997220688" ignored="false" />
     <file path="/a.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396234871200" ignored="false" />
@@ -83,7 +81,7 @@
     <file path="/ComponentBase.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1397109386875" ignored="false" />
     <file path="/ComponentClassLoader.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1397032211862" ignored="false" />
     <file path="/StandardClassLoader.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396703780838" ignored="false" />
-    <file path="/ComponentLoader.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1397097826792" ignored="false" />
+    <file path="/ComponentLoader.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1398044206418" ignored="false" />
     <file path="/GaiaProperties.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396960637977" ignored="false" />
     <file path="/ContainerBase.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1397202795988" ignored="false" />
     <file path="/Container.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1397202553943" ignored="false" />
@@ -127,19 +125,19 @@
     <file path="$PROJECT_DIR$/../Apache/jerrymouse-devices/sensor/src/sensor/udp/UDPClient.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396951165351" ignored="false" />
     <file path="$PROJECT_DIR$/../Apache/jerrymouse-devices/camera/src/camera/CameraPreProcessor.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1397007952825" ignored="false" />
     <file path="$PROJECT_DIR$/../Apache/jerrymouse-devices/camera/src/camera/CameraCMDHandler.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396951151614" ignored="false" />
-    <file path="$PROJECT_DIR$/../Apache/jerrymouse-devices/gateway/src/gateway/Gateway.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1397205801947" ignored="false" />
-    <file path="$PROJECT_DIR$/../Apache/jerrymouse-devices/gateway/src/gateway/util/ResourceDef2Json.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396951029871" ignored="false" />
+    <file path="$PROJECT_DIR$/../Apache/jerrymouse-devices/gateway/src/gateway/Gateway.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1398141038936" ignored="false" />
+    <file path="$PROJECT_DIR$/../Apache/jerrymouse-devices/gateway/src/gateway/util/ResourceDef2Json.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1398135228240" ignored="false" />
     <file path="$PROJECT_DIR$/../Apache/jerrymouse-devices/gateway/src/gateway/util/ConfigurationFile.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1397025991974" ignored="false" />
     <file path="$PROJECT_DIR$/../Apache/jerrymouse-devices/gateway/src/gateway/abstracthandler/PreProcessor.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396951029384" ignored="false" />
-    <file path="$PROJECT_DIR$/../Apache/jerrymouse-devices/gateway/src/gateway/util/Json2ResourceDef.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396951029384" ignored="false" />
+    <file path="$PROJECT_DIR$/../Apache/jerrymouse-devices/gateway/src/gateway/util/Json2ResourceDef.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1398132420483" ignored="false" />
     <file path="$PROJECT_DIR$/../Apache/jerrymouse-devices/gateway/src/gateway/abstracthandler/CommandHandler.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396951029384" ignored="false" />
     <file path="$PROJECT_DIR$/../Apache/jerrymouse-devices/gateway/src/gateway/abstracthandler/PostProcessor.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396951029384" ignored="false" />
-    <file path="$PROJECT_DIR$/../Apache/jerrymouse-devices/gateway/src/gateway/util/XML2ResourceDef.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396951029871" ignored="false" />
+    <file path="$PROJECT_DIR$/../Apache/jerrymouse-devices/gateway/src/gateway/util/XML2ResourceDef.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1398044095273" ignored="false" />
     <file path="$PROJECT_DIR$/../Apache/jerrymouse-devices/src/test/CameraUserTest.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396951399343" ignored="false" />
     <file path="$PROJECT_DIR$/../Apache/jerrymouse-devices/src/camera/CameraClient.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396951399343" ignored="false" />
     <file path="$PROJECT_DIR$/../Apache/jerrymouse-devices/src/camera/ConfigurationFile.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396951398927" ignored="false" />
     <file path="$PROJECT_DIR$/../Apache/jerrymouse-devices/src/test/SensorUserTest.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1396951416542" ignored="false" />
-    <file path="/start.bat" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1397111739879" ignored="false" />
+    <file path="/start.bat" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1398057563658" ignored="false" />
     <file path="/UDPServer.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1397204345435" ignored="false" />
     <file path="$PROJECT_DIR$/../Apache/jerrymouse-devices/.idea/artifacts/gateway_jar.xml" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1397008492414" ignored="false" />
     <file path="$PROJECT_DIR$/../Apache/jerrymouse-devices/.idea/artifacts/gateway.xml" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1397026896777" ignored="false" />
@@ -153,6 +151,12 @@
     <file path="$PROJECT_DIR$/../NBU/.idea/workspace.xml" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1397206161482" ignored="false" />
     <file path="/WorkThread.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1397202293135" ignored="false" />
     <file path="/WorkRunnable.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1397201751605" ignored="false" />
+    <file path="$PROJECT_DIR$/../Apache/jerrymouse-devices/gateway/test/device.cam_1.json" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1398056708972" ignored="false" />
+    <file path="$PROJECT_DIR$/../Apache/jerrymouse-devices/camera/resources/Component.cam_1.json" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1398061611045" ignored="false" />
+    <file path="$PROJECT_DIR$/../NBU/src/ml/DataProcessor.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1398073415294" ignored="false" />
+    <file path="/DataProcessor.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1398073410440" ignored="false" />
+    <file path="$PROJECT_DIR$/../NBU/src/Main.java" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1398069435701" ignored="false" />
+    <file path="$PROJECT_DIR$/../Apache/jerrymouse-devices/sensor/idmap.ini" changelist="7c4a953c-d3bc-43b1-96b2-ddbebd3d890c" time="1398140253386" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +179,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -244,6 +247,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -258,25 +262,7 @@
           <file leaf-file-name="ComponentClassLoader.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/cn/iie/gaia/loader/ComponentClassLoader.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="497" column="31" selection-start="14672" selection-end="14672" vertical-scroll-proportion="1.4562781">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="MANIFEST.MF" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="1" column="14" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="start.bat" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/bin/start.bat">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="1" column="33" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0">
+                <state line="405" column="12" selection-start="11321" selection-end="11321" vertical-scroll-proportion="0.9452355">
                   <folding />
                 </state>
               </provider>
@@ -291,10 +277,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ClassLoader.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="jar://C:/Program Files/Java/jdk1.7.0_21/src.zip!/java/lang/ClassLoader.java">
+          <file leaf-file-name="start.bat" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/bin/start.bat">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="1008" column="25" selection-start="39199" selection-end="39199" vertical-scroll-proportion="0.0">
+                <state line="2" column="65" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -307,7 +293,16 @@
           <file leaf-file-name="ComponentBase.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/cn/iie/gaia/entity/ComponentBase.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="44" column="29" selection-start="965" selection-end="965" vertical-scroll-proportion="0.0">
+                <state line="44" column="28" selection-start="964" selection-end="964" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Container.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/cn/iie/gaia/Container.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="28" column="18" selection-start="714" selection-end="714" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -316,7 +311,7 @@
           <file leaf-file-name="ContainerBase.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/cn/iie/gaia/entity/ContainerBase.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="88" column="27" selection-start="2124" selection-end="2124" vertical-scroll-proportion="0.0">
+                <state line="81" column="12" selection-start="1960" selection-end="1960" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -325,27 +320,16 @@
           <file leaf-file-name="Gaia.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/cn/iie/gaia/startup/Gaia.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="124" column="22" selection-start="3895" selection-end="3895" vertical-scroll-proportion="0.10762332">
+                <state line="269" column="32" selection-start="8354" selection-end="8354" vertical-scroll-proportion="0.47973713">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ComponentLoader.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/cn/iie/gaia/loader/ComponentLoader.java">
+          <file leaf-file-name="Globals.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/cn/iie/gaia/Globals.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="27" column="13" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="WorkLoopThread.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/cn/iie/gaia/util/WorkLoopThread.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="13" column="0" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
+                <state line="28" column="42" selection-start="1047" selection-end="1047" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -374,10 +358,8 @@
         <option value="$PROJECT_DIR$/src/cn/iie/gaia/ConfigProperties.java" />
         <option value="$PROJECT_DIR$/src/cn/iie/gaia/entity/ConfigPropertiesBase.java" />
         <option value="$PROJECT_DIR$/src/cn/iie/gaia/loader/ComponentClassLoader.java" />
-        <option value="$PROJECT_DIR$/src/cn/iie/gaia/loader/ComponentLoader.java" />
         <option value="$PROJECT_DIR$/src/cn/iie/gaia/entity/ComponentBase.java" />
         <option value="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
-        <option value="$PROJECT_DIR$/bin/start.bat" />
         <option value="$PROJECT_DIR$/conf/log4j2.xml" />
         <option value="$PROJECT_DIR$/src/cn/iie/gaia/WorkRunnable.java" />
         <option value="$PROJECT_DIR$/src/cn/iie/jerrymouse/util/StoppableThread.java" />
@@ -387,6 +369,8 @@
         <option value="$PROJECT_DIR$/src/cn/iie/gaia/util/StoppableThread.java" />
         <option value="$PROJECT_DIR$/src/cn/iie/gaia/util/StoppableLoopThread.java" />
         <option value="$PROJECT_DIR$/src/cn/iie/gaia/startup/Gaia.java" />
+        <option value="$PROJECT_DIR$/src/cn/iie/gaia/loader/ComponentLoader.java" />
+        <option value="$PROJECT_DIR$/bin/start.bat" />
       </list>
     </option>
   </component>
@@ -450,7 +434,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -563,63 +546,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jerrymouse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wshare-2.0-gateway-1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wshare-2.0-gateway-1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="gaia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wshare-2.0-gateway-1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wshare-2.0-gateway-1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="iie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gaia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -663,33 +590,58 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cn" />
+              <option name="myItemId" value="sensor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wshare-2.0-gateway-1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wshare-2.0-gateway-1.0" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="iie" />
+              <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gaia" />
+              <option name="myItemId" value="sensor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="entity" />
+              <option name="myItemId" value="COMP-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wshare-2.0-gateway-1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wshare-2.0-gateway-1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15234375" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -702,12 +654,12 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="true" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -883,6 +835,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -909,19 +874,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1022,19 +974,20 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32878152" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.249694" sideWeight="0.67016804" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25153" sideWeight="0.6712185" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="JSON Formatter" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23011015" sideWeight="0.6712185" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32983193" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32878152" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32878152" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1103,46 +1056,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Apache/apache-tomcat-7.0.52-src/java/org/apache/catalina/loader/WebappClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1698" column="0" selection-start="55420" selection-end="55420" vertical-scroll-proportion="0.32858709">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="14" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/start.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="33" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/iie/gaia/util/LifecycleMBeanBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="12" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/iie/gaia/Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="33" selection-start="1130" selection-end="1130" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/iie/gaia/util/LifecycleBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="8" selection-start="2156" selection-end="2156" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="68" column="8" selection-start="2156" selection-end="2156" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_21/src.zip!/java/lang/Thread.java">
@@ -1154,37 +1070,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/iie/gaia/util/StoppableLoopThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="22" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="17" column="22" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/iie/gaia/util/WorkLoopThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/iie/gaia/Container.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="18" selection-start="714" selection-end="714" vertical-scroll-proportion="0.77348065">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/iie/gaia/entity/ComponentBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="29" selection-start="965" selection-end="965" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/iie/gaia/entity/ContainerBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="27" selection-start="2124" selection-end="2124" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="13" column="0" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/conf/log4j2.xml">
@@ -1194,25 +1085,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_21/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1008" column="25" selection-start="39199" selection-end="39199" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/iie/gaia/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="972" selection-end="972" vertical-scroll-proportion="0.44071588" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/iie/gaia/loader/ComponentLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="13" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="305" column="11" selection-start="10268" selection-end="10268" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/iie/gaia/Container.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="18" selection-start="714" selection-end="714" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/iie/gaia/Globals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="42" selection-start="1047" selection-end="1047" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/iie/gaia/entity/ComponentBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="28" selection-start="964" selection-end="964" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/iie/gaia/entity/ContainerBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="12" selection-start="1960" selection-end="1960" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="14" selection-start="36" selection-end="36" vertical-scroll-proportion="0.02699784" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/iie/gaia/startup/Gaia.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="22" selection-start="3895" selection-end="3895" vertical-scroll-proportion="0.10762332">
+        <state line="269" column="32" selection-start="8354" selection-end="8354" vertical-scroll-proportion="0.47973713">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/start.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="65" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/iie/gaia/loader/ComponentClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="497" column="31" selection-start="14672" selection-end="14672" vertical-scroll-proportion="1.4562781">
+        <state line="405" column="12" selection-start="11321" selection-end="11321" vertical-scroll-proportion="0.9452355">
           <folding />
         </state>
       </provider>
@@ -1224,9 +1165,9 @@
         <settings>
           <artifact-editor>
             <show-content>
-              <type id="artifact" />
-              <type id="jpa-descriptors" />
               <type id="library" />
+              <type id="jpa-descriptors" />
+              <type id="artifact" />
               <type id="javaee-facet-resources" />
             </show-content>
           </artifact-editor>
@@ -1255,7 +1196,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>commons-io-2.4-javadoc</last-edited>
+          <last-edited>wsdc</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -1,2 +1,3 @@
-cd F:/repositories/wshare-2.0-gateway-1.0/out/artifacts/Jerrymouse
-java -Dlog4j.configurationFile=F:/repositories/wshare-2.0-gateway-1.0/out/artifacts/Jerrymouse/conf/log4j2.xml -Dgaia.base=F:/repositories/wshare-2.0-gateway-1.0/out/artifacts/Jerrymouse -Dgaia.home=F:/repositories/wshare-2.0-gateway-1.0/out/artifacts/Jerrymouse -jar lib/Bootstrap.jar
+cd %~dp0..\
+SET JERRY_HOME=%cd%
+java -Dlog4j.configurationFile=conf/log4j2.xml -Dgaia.base=%JERRY_HOME% -Dgaia.home=%JERRY_HOME% -jar lib/Bootstrap.jar
