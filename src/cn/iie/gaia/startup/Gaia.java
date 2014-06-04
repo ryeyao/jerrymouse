@@ -16,7 +16,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.MalformedURLException;
 import java.util.ArrayList;
-import java.util.TimerTask;
+import java.util.concurrent.BrokenBarrierException;
+import java.util.concurrent.CyclicBarrier;
 
 /**
  * Created with IntelliJ IDEA.
@@ -31,6 +32,9 @@ public class Gaia {
     protected static final StringManager sm = StringManager.getManager(Constants.Package);
     protected String configFile = "conf/server.properties";
     private Container rootContainer = null;
+
+    private CyclicBarrier initBarrier = null;
+    private CyclicBarrier startBarrier = null;
 
     protected boolean useShutdownHook = true;
     protected Thread shutdownHook = null;
@@ -115,10 +119,6 @@ public class Gaia {
         assert rootDir.isDirectory();
 
         for(File compDir : rootDir.listFiles()) {
-//            Container compAsDirContainer = new StandardContainer();
-//            compAsDirContainer.setName(compDir.getName());
-//            compAsDirContainer.setParent(rootContainer);
-//            rootContainer.addChild(compAsDirContainer);
 
             ComponentLoader compLoader = new ComponentLoader();
             compLoader.setComponentName(compDir.getName());
@@ -136,22 +136,24 @@ public class Gaia {
 
     private void startAllComponents() {
 
-//        try {
-            for(Component comp: rootContainer.components()) {
-//                    comp.init();
-//                    comp.start();
-                new ComponentWorkLoopThread(comp).start();
+        initBarrier = new CyclicBarrier(rootContainer.components().size(), new Runnable() {
+            @Override
+            public void run() {
+                log.info("All components initialized successfully.");
             }
+        });
 
-//            for(Container cont: rootContainer.childs()) {
-//                for(Component comp: cont.components()) {
-//                    comp.init();
-//                    comp.start();
-//                }
-//            }
-//        } catch (LifecycleException e) {
-//            e.printStackTrace();
-//        }
+        startBarrier = new CyclicBarrier(rootContainer.components().size(), new Runnable() {
+            @Override
+            public void run() {
+                log.info("All components started.");
+            }
+        });
+
+        for(Component comp: rootContainer.components()) {
+            new ComponentWorkLoopThread(comp).start();
+        }
+
     }
 
     public void start() {
@@ -247,6 +249,7 @@ public class Gaia {
         }
     }
 
+
     private class ComponentWorkLoopThread extends WorkLoopThread {
 
         private Component component= null;
@@ -257,19 +260,15 @@ public class Gaia {
 
         @Override
         public void run() {
-//            ComponentLoader compLoader = new ComponentLoader();
-//            compLoader.setComponentName(componentName);
-//            compLoader.setContainer(rootContainer);
-//
-//            try {
-//                compLoader.start();
-//            } catch (LifecycleException e) {
-//                e.printStackTrace();
-//            }
             try {
                 component.init();
+                initBarrier.await();
                 component.start();
             } catch (LifecycleException e) {
+                e.printStackTrace();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            } catch (BrokenBarrierException e) {
                 e.printStackTrace();
             }
         }
