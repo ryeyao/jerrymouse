@@ -256,6 +256,7 @@ public class Gaia {
 
         public ComponentWorkLoopThread(Component component) {
             this.component = component;
+            this.setName(component.getName());
         }
 
         @Override
