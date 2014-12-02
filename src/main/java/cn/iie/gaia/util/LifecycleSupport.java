@@ -16,12 +16,12 @@
  */
 
 
-package main.java.cn.iie.gaia.util;
+package cn.iie.gaia.util;
 
 
-import main.java.cn.iie.gaia.Lifecycle;
-import main.java.cn.iie.gaia.LifecycleEvent;
-import main.java.cn.iie.gaia.LifecycleListener;
+import cn.iie.gaia.Lifecycle;
+import cn.iie.gaia.LifecycleEvent;
+import cn.iie.gaia.LifecycleListener;
 
 /**
  * Support class to assist in firing LifecycleEvent notifications to

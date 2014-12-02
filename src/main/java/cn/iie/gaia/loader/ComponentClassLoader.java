@@ -1,10 +1,10 @@
-package main.java.cn.iie.gaia.loader;
+package cn.iie.gaia.loader;
 
-import main.java.cn.iie.gaia.Lifecycle;
-import main.java.cn.iie.gaia.LifecycleException;
-import main.java.cn.iie.gaia.LifecycleListener;
-import main.java.cn.iie.gaia.LifecycleState;
-import main.java.cn.iie.gaia.util.StringManager;
+import cn.iie.gaia.Lifecycle;
+import cn.iie.gaia.LifecycleException;
+import cn.iie.gaia.LifecycleListener;
+import cn.iie.gaia.LifecycleState;
+import cn.iie.gaia.util.StringManager;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

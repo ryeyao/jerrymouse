@@ -1,4 +1,4 @@
-package main.java.cn.iie.gaia.loader;
+package cn.iie.gaia.loader;
 
 import java.net.URL;
 import java.net.URLClassLoader;

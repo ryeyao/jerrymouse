@@ -1,14 +1,14 @@
-package main.java.cn.iie.gaia.startup;
+package cn.iie.gaia.startup;
 
-import main.java.cn.iie.gaia.Container;
-import main.java.cn.iie.gaia.Globals;
-import main.java.cn.iie.gaia.entity.StandardContainer;
-import main.java.cn.iie.gaia.loader.ComponentLoader;
-import main.java.cn.iie.gaia.util.ExceptionUtils;
-import main.java.cn.iie.gaia.util.StringManager;
-import main.java.cn.iie.gaia.util.WorkLoopThread;
-import main.java.cn.iie.gaia.Component;
-import main.java.cn.iie.gaia.LifecycleException;
+import cn.iie.gaia.Container;
+import cn.iie.gaia.Globals;
+import cn.iie.gaia.entity.StandardContainer;
+import cn.iie.gaia.loader.ComponentLoader;
+import cn.iie.gaia.util.ExceptionUtils;
+import cn.iie.gaia.util.StringManager;
+import cn.iie.gaia.util.WorkLoopThread;
+import cn.iie.gaia.Component;
+import cn.iie.gaia.LifecycleException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.xml.sax.InputSource;

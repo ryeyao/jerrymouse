@@ -15,7 +15,7 @@
  *  limitations under the License.
  */
 
-package main.java.cn.iie.gaia.util;
+package cn.iie.gaia.util;
 
 import java.text.MessageFormat;
 import java.util.*;

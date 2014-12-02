@@ -1,4 +1,4 @@
-package main.java.cn.iie.gaia.loader;
+package cn.iie.gaia.loader;
 
 /**
  * Created with IntelliJ IDEA.

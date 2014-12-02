@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package main.java.cn.iie.gaia;
+package cn.iie.gaia;
 
 import java.util.Locale;
 

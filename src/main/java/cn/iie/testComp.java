@@ -1,7 +1,7 @@
-package main.java.cn.iie;
+package cn.iie;
 
-import main.java.cn.iie.gaia.LifecycleException;
-import main.java.cn.iie.gaia.entity.StandardComponent;
+import cn.iie.gaia.LifecycleException;
+import cn.iie.gaia.entity.StandardComponent;
 
 /**
  * Created with IntelliJ IDEA.

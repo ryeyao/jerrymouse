@@ -16,7 +16,7 @@
  */
 
 
-package main.java.cn.iie.gaia.startup;
+package cn.iie.gaia.startup;
 
 
 /**

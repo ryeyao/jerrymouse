@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package main.java.cn.iie.gaia;
+package cn.iie.gaia;
 
 /**
  * The list of valid states for components that implement {@link Lifecycle}.

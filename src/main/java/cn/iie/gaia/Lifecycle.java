@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package main.java.cn.iie.gaia;
+package cn.iie.gaia;
 
 
 /**

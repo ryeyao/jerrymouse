@@ -16,7 +16,7 @@
  */
 
 
-package main.java.cn.iie.gaia;
+package cn.iie.gaia;
 
 
 import java.util.EventObject;

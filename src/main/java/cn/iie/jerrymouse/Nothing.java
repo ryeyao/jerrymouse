@@ -1,4 +1,4 @@
-package main.java.cn.iie.jerrymouse;
+package cn.iie.jerrymouse;
 
 /**
  * Created with IntelliJ IDEA.

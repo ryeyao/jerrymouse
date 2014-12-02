@@ -1,4 +1,4 @@
-package main.java.cn.iie.gaia.entity;
+package cn.iie.gaia.entity;
 
 /**
  * Created with IntelliJ IDEA.

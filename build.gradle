@@ -18,6 +18,6 @@ dependencies {
 
 jar {
     manifest {
-        attributes 'Main-Class': 'main.java.cn.iie.gaia.startup.Bootstrap'
+        attributes 'Main-Class': 'cn.iie.gaia.startup.Bootstrap'
     }
 }

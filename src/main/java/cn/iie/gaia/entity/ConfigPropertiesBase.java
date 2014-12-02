@@ -1,8 +1,8 @@
-package main.java.cn.iie.gaia.entity;
+package cn.iie.gaia.entity;
 
-import main.java.cn.iie.gaia.ConfigProperties;
-import main.java.cn.iie.gaia.LifecycleException;
-import main.java.cn.iie.gaia.util.LifecycleMBeanBase;
+import cn.iie.gaia.ConfigProperties;
+import cn.iie.gaia.LifecycleException;
+import cn.iie.gaia.util.LifecycleMBeanBase;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

@@ -1,6 +1,6 @@
-package main.java.cn.iie.gaia.loader;
+package cn.iie.gaia.loader;
 
-import main.java.cn.iie.gaia.entity.ConfigPropertiesBase;
+import cn.iie.gaia.entity.ConfigPropertiesBase;
 
 /**
  * Created with IntelliJ IDEA.

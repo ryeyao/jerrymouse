@@ -16,9 +16,9 @@
  */
 
 
-package main.java.cn.iie.gaia.startup;
+package cn.iie.gaia.startup;
 
-import main.java.cn.iie.gaia.Globals;
+import cn.iie.gaia.Globals;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

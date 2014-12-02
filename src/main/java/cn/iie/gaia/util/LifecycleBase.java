@@ -15,13 +15,13 @@
  * limitations under the License.
  */
 
-package main.java.cn.iie.gaia.util;
+package cn.iie.gaia.util;
 
 
-import main.java.cn.iie.gaia.Lifecycle;
-import main.java.cn.iie.gaia.LifecycleException;
-import main.java.cn.iie.gaia.LifecycleListener;
-import main.java.cn.iie.gaia.LifecycleState;
+import cn.iie.gaia.Lifecycle;
+import cn.iie.gaia.LifecycleException;
+import cn.iie.gaia.LifecycleListener;
+import cn.iie.gaia.LifecycleState;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

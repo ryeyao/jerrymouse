@@ -1,8 +1,8 @@
-package main.java.cn.iie.gaia.entity;
+package cn.iie.gaia.entity;
 
-import main.java.cn.iie.gaia.Component;
-import main.java.cn.iie.gaia.Container;
-import main.java.cn.iie.gaia.util.LifecycleMBeanBase;
+import cn.iie.gaia.Component;
+import cn.iie.gaia.Container;
+import cn.iie.gaia.util.LifecycleMBeanBase;
 
 import java.io.File;
 import java.util.Collection;
