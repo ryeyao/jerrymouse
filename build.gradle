@@ -1,0 +1,23 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.7
+version = '1.0'
+
+repositories {
+    flatDir {
+        dirs 'lib'
+    }
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.0'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.0'
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'main.java.cn.iie.gaia.startup.Bootstrap'
+    }
+}
