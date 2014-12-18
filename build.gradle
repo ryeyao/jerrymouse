@@ -1,23 +1,40 @@
 apply plugin: 'java'
 
 sourceCompatibility = 1.7
-version = '1.0'
+libsDirName = 'artifact/' + project.name + '/lib/'
+version = '1.5'
 
 repositories {
-    flatDir {
-        dirs 'lib'
-    }
     mavenCentral()
 }
 
 dependencies {
     compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.0'
     compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.0'
+    compile group: 'commons-net', name: 'commons-net', version: '3.3'
+    compile group: 'net.lingala.zip4j', name: 'zip4j', version: '1.3.2'
     testCompile group: 'junit', name: 'junit', version: '4.11'
 }
 
 jar {
     manifest {
-        attributes 'Main-Class': 'cn.iie.gaia.startup.Bootstrap'
+        attributes 'Main-Class': 'org.gaia.startup.Bootstrap'
     }
+
+    doLast {
+        copy {
+            from sourceSets.main.resources.srcDirs[0]
+            into 'build/artifact/' + project.name
+        }
+
+    }
+
+    from {
+        configurations.compile.collect {
+            it.isDirectory() ? it : zipTree(it)
+        }
+    }
+
+    def compDir = new File('build/artifact/' + project.name + '/components')
+    compDir.mkdirs()
 }
