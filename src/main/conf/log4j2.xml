@@ -4,17 +4,17 @@
     <Console name="Console" target="SYSTEM_OUT">
       <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
     </Console>
-    <File name="MyFile" fileName="logs/gateway.log">
+    <File name="DetailLog" fileName="logs/jerrymouse.log">
       <PatternLayout>
         <Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
       </PatternLayout>
     </File>
   </appenders>
   <loggers>
-    <root level="INFO">
+    <root level="ALL">
       <!--<appender-ref ref="MyFile"/>-->
-      <appender-ref ref="Console"/>
-      <appender-ref ref="MyFile"/>
+      <appender-ref ref="Console" level="INFO"/>
+      <appender-ref ref="DetailLog" level="ALL"/>
     </root>
   </loggers>
 </configuration>

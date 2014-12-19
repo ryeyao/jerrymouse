@@ -13,6 +13,10 @@ import java.io.File;
  * Time: 9:25 AM
  */
 public class Bootstrap {
+    static {
+        System.out.println("Current classpath: " + System.getProperty("java.class.path"));
+//        System.out.println("Current lib path: " + System.getProperty("java.library.path"));
+    }
     private static final Logger log = LogManager.getLogger(Bootstrap.class);
 
     private void init() {

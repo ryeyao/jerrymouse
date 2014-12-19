@@ -1,5 +1,6 @@
 package org.omg.gaia.loader;
 
+import org.omg.gaia.*;
 import org.omg.gaia.entity.ConfigPropertiesBase;
 import org.omg.gaia.util.ExceptionUtils;
 import org.omg.gaia.util.LifecycleMBeanBase;
@@ -36,7 +37,7 @@ public class ComponentLoader extends LifecycleMBeanBase {
     private ConfigProperties properties = null;
     private String repositories[] = new String[0];
     private String classpath = null;
-    private String loaderClass = "ComponentClassLoader";
+    private String loaderClass = "org.omg.gaia.loader.ComponentClassLoader";
 
     public ComponentClassLoader getClassLoader() {
         return classLoader;
@@ -156,6 +157,7 @@ public class ComponentLoader extends LifecycleMBeanBase {
         }
 
         this.classpath = classpath.toString();
+        log.debug("classpath: {}", classpath);
     }
 
     private boolean buildClassPath(StringBuilder classpath, ClassLoader loader) {

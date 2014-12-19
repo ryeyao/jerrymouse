@@ -4,6 +4,7 @@ import org.omg.gaia.Container;
 import org.omg.gaia.Globals;
 import org.omg.gaia.entity.StandardContainer;
 import org.omg.gaia.loader.ComponentLoader;
+import org.omg.gaia.loader.Constants;
 import org.omg.gaia.util.ExceptionUtils;
 import org.omg.gaia.util.StringManager;
 import org.omg.gaia.util.WorkLoopThread;
@@ -114,6 +115,8 @@ public class Gaia {
         String componentHome = GaiaProperties.getProperty("component.home");
         rootContainer = new StandardContainer();
         String root = System.getProperty(Globals.GAIA_HOME_PROP) + File.separatorChar + componentHome;
+
+        log.info("Component home: {}", root);
         rootContainer.setName(root);
         rootContainer.setParentClassLoader(Gaia.class.getClassLoader());
 

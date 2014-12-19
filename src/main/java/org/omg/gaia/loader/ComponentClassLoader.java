@@ -144,6 +144,7 @@ public class ComponentClassLoader extends URLClassLoader implements Lifecycle {
     }
 
     public void addRepository(String repository) {
+        log.debug("Add repository: {}", repository);
         if(repository.startsWith("/COMP-INF/lib")
                 || repository.startsWith("/COMP-INF/classes")) {
             return;
@@ -498,7 +499,7 @@ public class ComponentClassLoader extends URLClassLoader implements Lifecycle {
 
         // (2) Search local repositories
         if (log.isDebugEnabled())
-            log.debug("  Searching local repositories");
+            log.debug("  Searching local repositories for class {}", name);
         try {
             clazz = findClass(name);
             if (clazz != null) {

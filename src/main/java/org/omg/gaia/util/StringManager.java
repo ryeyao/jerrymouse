@@ -144,6 +144,7 @@ public class StringManager {
      */
     public String getString(final String key, final Object... args) {
         String value = getString(key);
+
         if (value == null) {
             value = key;
         }
