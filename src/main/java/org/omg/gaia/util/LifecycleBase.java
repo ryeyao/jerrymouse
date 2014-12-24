@@ -18,12 +18,12 @@
 package org.omg.gaia.util;
 
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.omg.gaia.Lifecycle;
 import org.omg.gaia.LifecycleException;
 import org.omg.gaia.LifecycleListener;
 import org.omg.gaia.LifecycleState;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 
 
 /**

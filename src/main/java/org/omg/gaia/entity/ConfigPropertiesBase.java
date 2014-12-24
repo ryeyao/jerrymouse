@@ -1,10 +1,10 @@
 package org.omg.gaia.entity;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.omg.gaia.ConfigProperties;
 import org.omg.gaia.LifecycleException;
 import org.omg.gaia.util.LifecycleMBeanBase;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 
 import java.io.File;
 import java.io.FileInputStream;

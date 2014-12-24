@@ -1,12 +1,9 @@
 package org.omg.gaia.loader;
 
-import org.omg.gaia.Lifecycle;
-import org.omg.gaia.LifecycleException;
-import org.omg.gaia.LifecycleListener;
-import org.omg.gaia.LifecycleState;
-import org.omg.gaia.util.StringManager;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.omg.gaia.*;
+import org.omg.gaia.util.StringManager;
 
 import javax.naming.directory.DirContext;
 import java.io.File;
@@ -145,8 +142,8 @@ public class ComponentClassLoader extends URLClassLoader implements Lifecycle {
 
     public void addRepository(String repository) {
         log.debug("Add repository: {}", repository);
-        if(repository.startsWith("/COMP-INF/lib")
-                || repository.startsWith("/COMP-INF/classes")) {
+        if(repository.startsWith(File.separatorChar + Component.LIB_DIR_NAME)
+                || repository.startsWith(File.separatorChar + Component.CLASS_DIR_NAME)) {
             return;
         }
 

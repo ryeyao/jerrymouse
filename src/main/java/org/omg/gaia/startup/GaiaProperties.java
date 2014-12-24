@@ -18,9 +18,9 @@
 
 package org.omg.gaia.startup;
 
-import org.omg.gaia.Globals;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.omg.gaia.Globals;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -116,7 +116,7 @@ public class GaiaProperties {
         if (is == null) {
             try {
                 is = GaiaProperties.class.getResourceAsStream
-                    ("/main/java/org/gaia/startup/gaia.properties");
+                    ("org/omg/gaia/startup/gaia.properties");
             } catch (Throwable t) {
                 handleThrowable(t);
             }

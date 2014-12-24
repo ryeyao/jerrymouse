@@ -1,12 +1,12 @@
 package org.omg.gaia.loader;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.omg.gaia.*;
 import org.omg.gaia.entity.ConfigPropertiesBase;
 import org.omg.gaia.util.ExceptionUtils;
 import org.omg.gaia.util.LifecycleMBeanBase;
 import org.omg.gaia.util.StringManager;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 
 import java.io.File;
 import java.io.IOException;
@@ -69,7 +69,7 @@ public class ComponentLoader extends LifecycleMBeanBase {
 
     private void setRepositories() throws IOException {
         // load classes
-        String classesPath = "COMP-INF" + File.separatorChar + "classes";
+        String classesPath = Component.CLASS_DIR_NAME;
 
         File classRepository = null;
         String absoluteClassesPath = container.getPath() + File.separatorChar + componentName + File.separatorChar + classesPath;
@@ -89,7 +89,8 @@ public class ComponentLoader extends LifecycleMBeanBase {
         classLoader.addRepository(classRepository.toURI().toString());
 
         // load libs
-        String libPath = "COMP-INF" + File.separatorChar + "lib";
+        String libPath = Component.LIB_DIR_NAME;
+
         classLoader.setJarPath(libPath);
 
         String absoluteLibPath = container.getPath() + File.separatorChar + componentName + File.separatorChar + libPath;

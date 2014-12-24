@@ -1,17 +1,17 @@
 package org.omg.gaia.startup;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.omg.gaia.Component;
 import org.omg.gaia.Container;
 import org.omg.gaia.Globals;
+import org.omg.gaia.LifecycleException;
 import org.omg.gaia.entity.StandardContainer;
 import org.omg.gaia.loader.ComponentLoader;
 import org.omg.gaia.loader.Constants;
 import org.omg.gaia.util.ExceptionUtils;
 import org.omg.gaia.util.StringManager;
 import org.omg.gaia.util.WorkLoopThread;
-import org.omg.gaia.Component;
-import org.omg.gaia.LifecycleException;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.xml.sax.InputSource;
 
 import java.io.File;

@@ -1,8 +1,8 @@
 package org.omg.gaia.startup;
 
-import org.omg.gaia.Globals;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.omg.gaia.Globals;
 
 import java.io.File;
 
