@@ -1,7 +1,7 @@
 package org.omg.gaia.startup;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.slf4j.Logger;
 import org.omg.gaia.Component;
 import org.omg.gaia.Container;
 import org.omg.gaia.Globals;
@@ -31,7 +31,7 @@ import java.util.concurrent.CyclicBarrier;
  */
 public class Gaia {
 
-    private static final Logger log = LogManager.getLogger(Gaia.class);
+    private static final Logger log = LoggerFactory.getLogger(Gaia.class);
     private ArrayList<Component> components = new ArrayList<Component>();
     protected static final StringManager sm = StringManager.getManager(Constants.Package);
     protected String configFile = "conf/server.properties";

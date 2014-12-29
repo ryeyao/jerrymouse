@@ -1,7 +1,7 @@
 package org.omg.jerrymouse.net.udp;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.slf4j.Logger;
 import org.omg.jerrymouse.commons.util.StringUtils;
 import org.omg.jerrymouse.net.BaseDataItem;
 import org.omg.jerrymouse.net.IDataHandler;
@@ -20,7 +20,7 @@ import java.util.LinkedList;
 public class SimpleUDPServer implements IServer {
 
     public static final int MAX_BUFFER_SIZE = 1024;
-    private static final Logger log = LogManager.getLogger(SimpleUDPServer.class);
+    private static final Logger log = LoggerFactory.getLogger(SimpleUDPServer.class);
     private DatagramSocket serverSocket;
     private InetAddress addr = null;
 

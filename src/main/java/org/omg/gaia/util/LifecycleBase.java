@@ -18,8 +18,8 @@
 package org.omg.gaia.util;
 
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.slf4j.Logger;
 import org.omg.gaia.Lifecycle;
 import org.omg.gaia.LifecycleException;
 import org.omg.gaia.LifecycleListener;
@@ -33,7 +33,7 @@ import org.omg.gaia.LifecycleState;
  */
 public abstract class LifecycleBase implements Lifecycle {
 
-    private static final Logger log = LogManager.getLogger(LifecycleBase.class.getName());
+    private static final Logger log = LoggerFactory.getLogger(LifecycleBase.class.getName());
     
     private static StringManager sm =
         StringManager.getManager("org.omg.jerrymouse.lifecycle");

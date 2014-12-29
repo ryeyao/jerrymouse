@@ -1,7 +1,7 @@
 package org.omg.gaia.loader;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.slf4j.Logger;
 import org.omg.gaia.*;
 import org.omg.gaia.util.StringManager;
 
@@ -28,7 +28,7 @@ import java.util.jar.JarFile;
 public class ComponentClassLoader extends URLClassLoader implements Lifecycle {
 
     private static final Logger log=
-            LogManager.getLogger(ComponentClassLoader.class);
+            LoggerFactory.getLogger(ComponentClassLoader.class);
 
     private static final Charset CHARSET_UTF8 = Charset.forName("UTF-8");
     protected static final StringManager sm = StringManager.getManager(Constants.Package);

@@ -1,7 +1,7 @@
 package org.omg.gaia.loader;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.slf4j.Logger;
 import org.omg.gaia.*;
 import org.omg.gaia.entity.ConfigPropertiesBase;
 import org.omg.gaia.util.ExceptionUtils;
@@ -28,7 +28,7 @@ import java.util.jar.JarFile;
 public class ComponentLoader extends LifecycleMBeanBase {
 
     protected static final StringManager sm = StringManager.getManager(Constants.Package);
-    private static final Logger log = LogManager.getLogger(ComponentLoader.class);
+    private static final Logger log = LoggerFactory.getLogger(ComponentLoader.class);
     private ComponentClassLoader classLoader = null;
     private ClassLoader parentClassLoader = null;
     private Container container = null;

@@ -18,8 +18,8 @@
 
 package org.omg.gaia.startup;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.slf4j.Logger;
 import org.omg.gaia.Globals;
 
 import java.io.File;
@@ -42,7 +42,7 @@ public class GaiaProperties {
     // ------------------------------------------------------- Static Variables
 
     private static final Logger log=
-        LogManager.getLogger(GaiaProperties.class);
+        LoggerFactory.getLogger(GaiaProperties.class);
 
     private static Properties properties = null;
 

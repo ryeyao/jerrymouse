@@ -1,7 +1,7 @@
 package org.omg.gaia.entity;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.slf4j.Logger;
 import org.omg.gaia.ConfigProperties;
 import org.omg.gaia.LifecycleException;
 import org.omg.gaia.util.LifecycleMBeanBase;
@@ -19,7 +19,7 @@ import java.util.Properties;
  */
 public class ConfigPropertiesBase extends LifecycleMBeanBase implements ConfigProperties {
 
-    private static final Logger log = LogManager.getLogger(ConfigPropertiesBase.class);
+    private static final Logger log = LoggerFactory.getLogger(ConfigPropertiesBase.class);
     private Properties properties = null;
     private String componentHome = null;
 

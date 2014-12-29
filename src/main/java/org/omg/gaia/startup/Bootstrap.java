@@ -1,7 +1,7 @@
 package org.omg.gaia.startup;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.slf4j.Logger;
 import org.omg.gaia.Globals;
 
 import java.io.File;
@@ -17,7 +17,7 @@ public class Bootstrap {
         System.out.println("Current classpath: " + System.getProperty("java.class.path"));
 //        System.out.println("Current lib path: " + System.getProperty("java.library.path"));
     }
-    private static final Logger log = LogManager.getLogger(Bootstrap.class);
+    private static final Logger log = LoggerFactory.getLogger(Bootstrap.class);
 
     private void init() {
 

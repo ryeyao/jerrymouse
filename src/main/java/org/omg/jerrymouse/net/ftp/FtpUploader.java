@@ -3,8 +3,8 @@ package org.omg.jerrymouse.net.ftp;
 import org.apache.commons.net.ftp.FTP;
 import org.apache.commons.net.ftp.FTPClient;
 import org.apache.commons.net.ftp.FTPConnectionClosedException;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.slf4j.Logger;
 import sun.net.ftp.FtpLoginException;
 
 import java.io.*;
@@ -16,7 +16,7 @@ import java.io.*;
  */
 public class FtpUploader {
 
-    private static final Logger log = LogManager.getLogger(FtpUploader.class);
+    private static final Logger log = LoggerFactory.getLogger(FtpUploader.class);
 
     private String ip = null;
     private int port;
